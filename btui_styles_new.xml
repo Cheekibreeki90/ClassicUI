@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- New BTUI templates sourced from the consolidated texture      -->
+
+
+    <!-- atlas (btui_atlas_tex -&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; custom/Assets/Textures/              -->
+
+
+    <!-- btui_texture_atlas.tga). Pixel coordinates for every region   -->
+
+
+    <!-- pulled from the atlas are tracked in btui_atlas_xy.txt so     -->
+
+
+    <!-- you can hand-edit or add new templates without re-deriving    -->
+
+
+    <!-- them from scratch.                                            -->
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- Source: Atlas &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Tile A&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; stone panel, incl. its own 2px black
+         trim border. Full sprite bounds in atlas: x 0-250, y 0-158
+         (251 x 159). Border trim = 2px on all four sides. -->
+
+
+    <FullResizeImageTemplate>
+        <Name>btui_stone_light</Name>
+        <TopHeight>2</TopHeight>
+        <MiddleHeight>155</MiddleHeight>
+        <BottomHeight>2</BottomHeight>
+        <LeftWidth>2</LeftWidth>
+        <MiddleWidth>247</MiddleWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <TopLeft>
+                <X>0</X>
+                <Y>0</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>2</X>
+                <Y>0</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>249</X>
+                <Y>0</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>0</X>
+                <Y>2</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>2</X>
+                <Y>2</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>249</X>
+                <Y>2</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>0</X>
+                <Y>157</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>2</X>
+                <Y>157</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>249</X>
+                <Y>157</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <!-- Source: Atlas &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Tile B&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; stone panel (darker variant), incl. its
+         own 2px black trim border. Full sprite bounds in atlas: x 0-249,
+         y 160-297 (250 x 138). Border trim = 2px on all four sides. -->
+
+
+    <FullResizeImageTemplate>
+        <Name>btui_stone_dark</Name>
+        <TopHeight>2</TopHeight>
+        <MiddleHeight>134</MiddleHeight>
+        <BottomHeight>2</BottomHeight>
+        <LeftWidth>2</LeftWidth>
+        <MiddleWidth>246</MiddleWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <TopLeft>
+                <X>0</X>
+                <Y>160</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>2</X>
+                <Y>160</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>248</X>
+                <Y>160</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>0</X>
+                <Y>162</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>2</X>
+                <Y>162</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>248</X>
+                <Y>162</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>0</X>
+                <Y>296</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>2</X>
+                <Y>296</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>248</X>
+                <Y>296</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <!-- Source: Atlas large stone tile (light variant), 2px gray trim
+         border. Full sprite bounds in atlas: x 253-380, y 90-217
+         (128 x 128). Border trim = 2px on all four sides. -->
+
+
+    <FullResizeImageTemplate>
+        <Name>btui_stone_light2</Name>
+        <TopHeight>2</TopHeight>
+        <MiddleHeight>124</MiddleHeight>
+        <BottomHeight>2</BottomHeight>
+        <LeftWidth>2</LeftWidth>
+        <MiddleWidth>124</MiddleWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <TopLeft>
+                <X>253</X>
+                <Y>90</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>255</X>
+                <Y>90</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>379</X>
+                <Y>90</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>253</X>
+                <Y>92</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>255</X>
+                <Y>92</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>379</X>
+                <Y>92</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>253</X>
+                <Y>216</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>255</X>
+                <Y>216</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>379</X>
+                <Y>216</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <!-- Source: Atlas large stone tile (dark variant), 2px gray trim
+         border. Full sprite bounds in atlas: x 382-509, y 90-217
+         (128 x 128). Border trim = 2px on all four sides. -->
+
+
+    <FullResizeImageTemplate>
+        <Name>btui_stone_dark2</Name>
+        <TopHeight>2</TopHeight>
+        <MiddleHeight>124</MiddleHeight>
+        <BottomHeight>2</BottomHeight>
+        <LeftWidth>2</LeftWidth>
+        <MiddleWidth>124</MiddleWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <TopLeft>
+                <X>382</X>
+                <Y>90</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>384</X>
+                <Y>90</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>508</X>
+                <Y>90</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>382</X>
+                <Y>92</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>384</X>
+                <Y>92</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>508</X>
+                <Y>92</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>382</X>
+                <Y>216</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>384</X>
+                <Y>216</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>508</X>
+                <Y>216</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <!-- Source: Atlas &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Swatch A&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; (aka btui_panel_light) - border is baked
+         into the texture itself (no black trim gutter like Tiles A/B).
+         Sprite bounds run edge-to-edge to the transparent gutter:
+         x 253-330, y 0-77 (78 x 78). Border re-measured as a uniform
+         1px slice after the atlas retexture (was 5px). -->
+
+
+    <FullResizeImageTemplate>
+        <Name>btui_panel_light</Name>
+        <TopHeight>1</TopHeight>
+        <MiddleHeight>76</MiddleHeight>
+        <BottomHeight>1</BottomHeight>
+        <LeftWidth>1</LeftWidth>
+        <MiddleWidth>76</MiddleWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <TopLeft>
+                <X>253</X>
+                <Y>0</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>254</X>
+                <Y>0</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>330</X>
+                <Y>0</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>253</X>
+                <Y>1</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>254</X>
+                <Y>1</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>330</X>
+                <Y>1</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>253</X>
+                <Y>77</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>254</X>
+                <Y>77</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>330</X>
+                <Y>77</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <!-- Source: Atlas &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;Swatch B&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; (aka btui_panel_dark) - same construction
+         as btui_panel_light: border baked into the texture, edge-to-edge
+         to the transparent gutter. Sprite bounds: x 333-409, y 0-77
+         (77 x 78). Re-measured 1px/1x1 slicing after the atlas retexture
+         (was 5px), matching the light variant's new border. -->
+
+
+    <FullResizeImageTemplate>
+        <Name>btui_panel_dark</Name>
+        <TopHeight>1</TopHeight>
+        <MiddleHeight>76</MiddleHeight>
+        <BottomHeight>1</BottomHeight>
+        <LeftWidth>1</LeftWidth>
+        <MiddleWidth>75</MiddleWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <TopLeft>
+                <X>333</X>
+                <Y>0</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>334</X>
+                <Y>0</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>409</X>
+                <Y>0</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>333</X>
+                <Y>1</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>334</X>
+                <Y>1</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>409</X>
+                <Y>1</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>333</X>
+                <Y>77</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>334</X>
+                <Y>77</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>409</X>
+                <Y>77</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <!-- Window control icons - 3 rows of 4 states each, 12x12px cells,
+         14px pitch (12px icon + 2px gap). State order confirmed as
+         Normal, Highlight, Pressed, Disabled left-to-right.
+         PressedHighlit reuses Pressed's coords (matches the existing
+         window_move/window_close convention in uistyles.xml). -->
+
+
+    <!-- Move icon (&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;+&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;), row at y=220 -->
+
+
+    <ButtonTemplate>
+        <Name>btui_window_move</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>none</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>253</X>
+                <Y>220</Y>
+            </Normal>
+            <Pressed>
+                <X>281</X>
+                <Y>220</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>267</X>
+                <Y>220</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>281</X>
+                <Y>220</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>295</X>
+                <Y>220</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <!-- Close icon (&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;X&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;), row at y=234 -->
+
+
+    <ButtonTemplate>
+        <Name>btui_window_close</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>none</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>253</X>
+                <Y>234</Y>
+            </Normal>
+            <Pressed>
+                <X>281</X>
+                <Y>234</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>267</X>
+                <Y>234</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>281</X>
+                <Y>234</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>295</X>
+                <Y>234</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <!-- Resize icon (diagonal arrow), row at y=248 -->
+
+
+    <ButtonTemplate>
+        <Name>btui_window_resize</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>none</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>253</X>
+                <Y>248</Y>
+            </Normal>
+            <Pressed>
+                <X>281</X>
+                <Y>248</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>267</X>
+                <Y>248</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>281</X>
+                <Y>248</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>295</X>
+                <Y>248</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <!-- Left arrow &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; - single sprite, no separate state art, all
+         5 state fields point at the same coordinate. -->
+
+
+    <ButtonTemplate>
+        <Name>btui_arrow_left</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>none</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>309</X>
+                <Y>220</Y>
+            </Normal>
+            <Pressed>
+                <X>309</X>
+                <Y>220</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>309</X>
+                <Y>220</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>309</X>
+                <Y>220</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>309</X>
+                <Y>220</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <!-- Right arrow &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; - single sprite, no separate state art, all
+         5 state fields point at the same coordinate. -->
+
+
+    <ButtonTemplate>
+        <Name>btui_arrow_right</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>none</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>309</X>
+                <Y>234</Y>
+            </Normal>
+            <Pressed>
+                <X>309</X>
+                <Y>234</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>309</X>
+                <Y>234</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>309</X>
+                <Y>234</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>309</X>
+                <Y>234</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- Horizontally-resizable button (left column of the &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;bars&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;      -->
+
+
+    <!-- block, x0-75). Right-hand column (x78-140) is a duplicate     -->
+
+
+    <!-- and is not used. 4 states stacked vertically at 18px pitch    -->
+
+
+    <!-- (16px row + 2px gutter), same convention as the existing      -->
+
+
+    <!-- btui_hr_button_* templates in btui_styles.xml. Highlight row  -->
+
+
+    <!-- has a 1px gold border baked into the art; other rows have a   -->
+
+
+    <!-- 1px black border. Uses DAoC's HorizontalResizeButtonTemplate, -->
+
+
+    <!-- which references 4 separate HorizontalResizeImageTemplate     -->
+
+
+    <!-- definitions by name (one per state) rather than embedding     -->
+
+
+    <!-- coordinates directly. -->
+
+
+    <!-- ============================================================ -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>btui_button_normal</Name>
+        <Height>16</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>74</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>300</Y>
+            </Left>
+            <Repeat>
+                <X>1</X>
+                <Y>300</Y>
+            </Repeat>
+            <Right>
+                <X>75</X>
+                <Y>300</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>btui_button_hl</Name>
+        <Height>16</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>74</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>318</Y>
+            </Left>
+            <Repeat>
+                <X>1</X>
+                <Y>318</Y>
+            </Repeat>
+            <Right>
+                <X>75</X>
+                <Y>318</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>btui_button_pressed</Name>
+        <Height>16</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>74</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>336</Y>
+            </Left>
+            <Repeat>
+                <X>1</X>
+                <Y>336</Y>
+            </Repeat>
+            <Right>
+                <X>75</X>
+                <Y>336</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>btui_button_disabled</Name>
+        <Height>16</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>74</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>354</Y>
+            </Left>
+            <Repeat>
+                <X>1</X>
+                <Y>354</Y>
+            </Repeat>
+            <Right>
+                <X>75</X>
+                <Y>354</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeButtonTemplate>
+        <Name>btui_button</Name>
+        <Height>16</Height>
+        <Font>
+            <Name>elv11</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Normal>btui_button_normal</Normal>
+        <Pressed>btui_button_pressed</Pressed>
+        <NormalHighlit>btui_button_hl</NormalHighlit>
+        <PressedHighlit>btui_button_pressed</PressedHighlit>
+        <Disabled>btui_button_disabled</Disabled>
+</HorizontalResizeButtonTemplate>
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- Full-width resizable button (y373-406 block). Right half      -->
+
+
+    <!-- (x101-201) is a pixel-identical duplicate of the left half    -->
+
+
+    <!-- and is not used. Only Normal and Highlight art exist in the   -->
+
+
+    <!-- atlas - Pressed reuses Normal, Disabled falls back to none.   -->
+
+
+    <!-- ============================================================ -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>btui_button_wide_normal</Name>
+        <Height>16</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>98</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>372</Y>
+            </Left>
+            <Repeat>
+                <X>1</X>
+                <Y>372</Y>
+            </Repeat>
+            <Right>
+                <X>99</X>
+                <Y>372</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>btui_button_wide_hl</Name>
+        <Height>16</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>98</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>390</Y>
+            </Left>
+            <Repeat>
+                <X>1</X>
+                <Y>390</Y>
+            </Repeat>
+            <Right>
+                <X>99</X>
+                <Y>390</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeButtonTemplate>
+        <Name>btui_button_wide</Name>
+        <Height>16</Height>
+        <Font>
+            <Name>elv11</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Normal>btui_button_wide_normal</Normal>
+        <Pressed>btui_button_wide_normal</Pressed>
+        <NormalHighlit>btui_button_wide_hl</NormalHighlit>
+        <PressedHighlit>btui_button_wide_normal</PressedHighlit>
+        <Disabled>none</Disabled>
+</HorizontalResizeButtonTemplate>
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- New 62x16 button art at x142-203. All 4 states have their own  -->
+
+
+    <!-- dedicated art (Normal/Pressed/Highlight/Disabled), per your    -->
+
+
+    <!-- state order. Reused below for the matching combo (btui_atlas_ -->
+
+
+    <!-- combo2) and tab (btui_atlas_tab2) templates.                  -->
+
+
+    <!-- ============================================================ -->
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_button2</Name>
+        <Size>
+            <X>62</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>142</X>
+                <Y>300</Y>
+            </Normal>
+            <Pressed>
+                <X>142</X>
+                <Y>318</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>142</X>
+                <Y>336</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>142</X>
+                <Y>318</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>142</X>
+                <Y>354</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- Combo boxes, reusing the same atlas art as btui_button /       -->
+
+
+    <!-- btui_button_wide. A ComboBoxTemplate needs a fixed-size        -->
+
+
+    <!-- ButtonTemplate for its label field (not the resizable          -->
+
+
+    <!-- HorizontalResizeButtonTemplate), so these sample the same      -->
+
+
+    <!-- row start coordinates as a plain single-image button - the     -->
+
+
+    <!-- exact pattern the existing btui_combo/btui_combo_w templates   -->
+
+
+    <!-- already use in btui_styles.xml. Named with an &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;_atlas_&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; infix  -->
+
+
+    <!-- to avoid colliding with those existing btui_combo* names.      -->
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- 76px combo, matches btui_button sizing -->
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_combo_label</Name>
+        <Size>
+            <X>76</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>300</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>336</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>318</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>336</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>354</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <MenuTemplate>
+        <Name>btui_atlas_combo_menu</Name>
+        <Width>76</Width>
+        <Height>16</Height>
+        <LabelLength>128</LabelLength>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>300</Y>
+            </Normal>
+            <Highlit>
+                <X>0</X>
+                <Y>318</Y>
+            </Highlit>
+        </Texture>
+        <MaxVisibleItems>15</MaxVisibleItems>
+    </MenuTemplate>
+
+
+    <ComboBoxTemplate>
+        <Name>btui_atlas_combo</Name>
+        <Menuoffset>
+            <X>-5</X>
+            <Y>1</Y>
+        </Menuoffset>
+        <DownButtonTemplate>none</DownButtonTemplate>
+        <LabelButtonTemplate>btui_atlas_combo_label</LabelButtonTemplate>
+        <MenuTemplate>btui_atlas_combo_menu</MenuTemplate>
+    </ComboBoxTemplate>
+
+
+    <!-- 100px combo, matches btui_button_wide sizing. Wide button has no
+         separate Pressed art, so Pressed/PressedHighlit/Disabled all
+         reuse Normal, same fallback used for btui_button_wide itself. -->
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_combo_label_wide</Name>
+        <Size>
+            <X>100</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>372</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>372</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>390</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>372</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>372</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <MenuTemplate>
+        <Name>btui_atlas_combo_menu_wide</Name>
+        <Width>100</Width>
+        <Height>16</Height>
+        <LabelLength>96</LabelLength>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>372</Y>
+            </Normal>
+            <Highlit>
+                <X>0</X>
+                <Y>390</Y>
+            </Highlit>
+        </Texture>
+        <MaxVisibleItems>15</MaxVisibleItems>
+    </MenuTemplate>
+
+
+    <ComboBoxTemplate>
+        <Name>btui_atlas_combo_wide</Name>
+        <Menuoffset>
+            <X>1</X>
+            <Y>1</Y>
+        </Menuoffset>
+        <DownButtonTemplate>none</DownButtonTemplate>
+        <LabelButtonTemplate>btui_atlas_combo_label_wide</LabelButtonTemplate>
+        <MenuTemplate>btui_atlas_combo_menu_wide</MenuTemplate>
+    </ComboBoxTemplate>
+
+
+    <!-- 62px combo, matches the new btui_atlas_button2 art (x142-203).
+         Unlike the 76w/100w combos above, this art has a dedicated
+         Highlight AND Pressed state, so PressedHighlit reuses Pressed
+         (same fallback convention as btui_button). -->
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_combo_label2</Name>
+        <Size>
+            <X>62</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>142</X>
+                <Y>300</Y>
+            </Normal>
+            <Pressed>
+                <X>142</X>
+                <Y>318</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>142</X>
+                <Y>336</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>142</X>
+                <Y>318</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>142</X>
+                <Y>354</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <MenuTemplate>
+        <Name>btui_atlas_combo_menu2</Name>
+        <Width>62</Width>
+        <Height>16</Height>
+        <LabelLength>64</LabelLength>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>142</X>
+                <Y>300</Y>
+            </Normal>
+            <Highlit>
+                <X>142</X>
+                <Y>336</Y>
+            </Highlit>
+        </Texture>
+        <MaxVisibleItems>15</MaxVisibleItems>
+    </MenuTemplate>
+
+
+    <ComboBoxTemplate>
+        <Name>btui_atlas_combo2</Name>
+        <Menuoffset>
+            <X>-5</X>
+            <Y>1</Y>
+        </Menuoffset>
+        <DownButtonTemplate>none</DownButtonTemplate>
+        <LabelButtonTemplate>btui_atlas_combo_label2</LabelButtonTemplate>
+        <MenuTemplate>btui_atlas_combo_menu2</MenuTemplate>
+    </ComboBoxTemplate>
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- Tabs, reusing the same atlas art as btui_button /               -->
+
+
+    <!-- btui_button_wide for the tab buttons themselves. TabsTemplate  -->
+
+
+    <!-- needs a fixed-size ButtonTemplate (TabButtonTemplate) plus a   -->
+
+
+    <!-- FullResizeImageTemplate for the content area behind the tabs   -->
+
+
+    <!-- (ControlAreaFullResizeImageTemplate) - using btui_stone_light  -->
+
+
+    <!-- per your choice. Offsets match the existing btui_tab           -->
+
+
+    <!-- convention in training_window.xml (-1,-1). Named with an       -->
+
+
+    <!-- &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;_atlas_&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; infix to avoid colliding with btui_button_tab /      -->
+
+
+    <!-- btui_tab already in btui_styles.xml. -->
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- 76px tab button, matches btui_button sizing -->
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_tab_button</Name>
+        <Size>
+            <X>76</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>300</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>336</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>318</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>336</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>354</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <TabsTemplate>
+        <Name>btui_atlas_tab</Name>
+        <ControlAreaFullResizeImageTemplate>btui_stone_dark</ControlAreaFullResizeImageTemplate>
+        <TabButtonTemplate>btui_atlas_tab_button</TabButtonTemplate>
+        <TabXOffset>-1</TabXOffset>
+        <TabYOffset>-1</TabYOffset>
+    </TabsTemplate>
+
+
+    <!-- 100px tab button, matches btui_button_wide sizing. Wide button
+         has no separate Pressed art, so Pressed/PressedHighlit/Disabled
+         all reuse Normal, same fallback used elsewhere for the wide
+         button family. -->
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_tab_button_wide</Name>
+        <Size>
+            <X>100</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>372</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>372</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>390</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>372</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>372</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <TabsTemplate>
+        <Name>btui_atlas_tab_wide</Name>
+        <ControlAreaFullResizeImageTemplate>btui_stone_light</ControlAreaFullResizeImageTemplate>
+        <TabButtonTemplate>btui_atlas_tab_button_wide</TabButtonTemplate>
+        <TabXOffset>-1</TabXOffset>
+        <TabYOffset>-1</TabYOffset>
+    </TabsTemplate>
+
+
+    <!-- 62px tab, matches the new btui_atlas_button2 art (x142-203). -->
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_tab_button2</Name>
+        <Size>
+            <X>62</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>142</X>
+                <Y>300</Y>
+            </Normal>
+            <Pressed>
+                <X>142</X>
+                <Y>318</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>142</X>
+                <Y>336</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>142</X>
+                <Y>318</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>142</X>
+                <Y>354</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <TabsTemplate>
+        <Name>btui_atlas_tab2</Name>
+        <ControlAreaFullResizeImageTemplate>btui_stone_dark</ControlAreaFullResizeImageTemplate>
+        <TabButtonTemplate>btui_atlas_tab_button2</TabButtonTemplate>
+        <TabXOffset>-1</TabXOffset>
+        <TabYOffset>-1</TabYOffset>
+    </TabsTemplate>
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- Containers built against the _witt_* gap list. These reuse    -->
+
+
+    <!-- btui_stone_light for their background (matching the tab      -->
+
+
+    <!-- background choice) and the EXISTING btui_vscroll scrollbar    -->
+
+
+    <!-- template (already defined in btui_styles.xml, its own         -->
+
+
+    <!-- dedicated art) rather than inventing new scrollbar art from   -->
+
+
+    <!-- pieces that weren't designed for it. -->
+
+
+    <!-- ============================================================ -->
+
+
+    <EditBoxTemplate>
+        <Name>btui_atlas_editbox</Name>
+        <LinePadding>0</LinePadding>
+        <BackgroundTemplate>btui_stone_light</BackgroundTemplate>
+        <TextOffset>
+            <X>3</X>
+            <Y>3</Y>
+        </TextOffset>
+        <Font>
+            <Name>elv11</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+        <ScrollbarOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarSizeOffset>
+    </EditBoxTemplate>
+
+
+    <ListBoxTemplate>
+        <Name>btui_atlas_listbox</Name>
+        <LinePadding>1</LinePadding>
+        <CellPadding>3</CellPadding>
+        <LabelLength>128</LabelLength>
+        <ScrollbarTemplate>btui_vscroll</ScrollbarTemplate>
+        <DrawScroll>true</DrawScroll>
+        <ScrollbarTopOffset>4</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>4</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>btui_stone_light</BackgroundTemplate>
+        <IconTemplate></IconTemplate>
+        <TextFont>
+            <Name>elv11</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>4</TextTopOffset>
+            <TextBottomOffset>4</TextBottomOffset>
+            <TextLeftOffset>4</TextLeftOffset>
+            <TextRightOffset>4</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>0</X>
+                <Y>0</Y>
+            </IconSize>
+    </ListBoxTemplate>
+
+
+    <TextAreaTemplate>
+        <Name>btui_atlas_textarea</Name>
+        <BackgroundTemplate>btui_stone_dark</BackgroundTemplate>
+        <ScrollbarTemplate>btui_vscroll</ScrollbarTemplate>
+        <LinePadding>0</LinePadding>
+        <TextOffset>
+            <X>10</X>
+            <Y>10</Y>
+        </TextOffset>
+        <ScrollbarOffset>
+            <X>-2</X>
+            <Y>0</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarSizeOffset>
+        <Font>
+            <Name>ysabeau11</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+    </TextAreaTemplate>
+
+
+    <ChatControlTemplate>
+        <Name>btui_chat1</Name>
+        <FontName>ysabeauofficebold</FontName>
+        <BackgroundTemplate>btui_stone_dark</BackgroundTemplate>
+        <ScrollbarTemplate>btui_vscroll</ScrollbarTemplate>
+    </ChatControlTemplate>
+
+
+    <ChatControlTemplate>
+        <Name>btui_chat2</Name>
+        <FontName>ysabeauofficebold</FontName>
+        <BackgroundTemplate>_witt_bg_50</BackgroundTemplate>
+        <ScrollbarTemplate>btui_vscroll</ScrollbarTemplate>
+    </ChatControlTemplate>
+
+
+    <ChatControlTemplate>
+        <Name>btui_chat3</Name>
+        <FontName>ysabeauofficebold</FontName>
+        <BackgroundTemplate>dlg_background_transparent</BackgroundTemplate>
+        <ScrollbarTemplate>btui_vscroll</ScrollbarTemplate>
+    </ChatControlTemplate>
+
+
+    <ButtonTemplate>
+        <Name>btui_atlas_button_action</Name>
+        <Size>
+            <X>62</X>
+            <Y>16</Y>
+        </Size>
+        <Font>
+            <Name>elvbold10</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Normal>
+                <X>77</X>
+                <Y>300</Y>
+            </Normal>
+            <Pressed>
+                <X>77</X>
+                <Y>336</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>77</X>
+                <Y>318</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>77</X>
+                <Y>336</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>77</X>
+                <Y>354</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <!-- ============================================================ -->
+
+
+    <!-- Vertical slider, new art. Indicator is a flat 14x14 bevel     -->
+
+
+    <!-- icon (matches the ImageAreaTemplate pattern used by the       -->
+
+
+    <!-- existing Vslider_indicator/hslider_indicator in styles.xml -   -->
+
+
+    <!-- no separate button states, just one static image). Track is  -->
+
+
+    <!-- a thin 2px-wide groove, uniform top-to-bottom with no visible -->
+
+
+    <!-- end caps, so Top/Repeat/Bottom all sample the same row - same -->
+
+
+    <!-- &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;flat filler&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; convention already used for btui_vscroll_gutter -->
+
+
+    <!-- in btui_styles.xml. -->
+
+
+    <!-- ============================================================ -->
+
+
+    <ImageAreaTemplate>
+        <Name>btui_atlas_slider_indicator</Name>
+        <TextureName>btui_atlas_tex</TextureName>
+        <Size>
+            <X>14</X>
+            <Y>14</Y>
+        </Size>
+        <TopLeft>
+            <X>334</X>
+            <Y>220</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>btui_atlas_vslider_track</Name>
+        <Width>2</Width>
+        <TopHeight>1</TopHeight>
+        <RepeatHeight>1</RepeatHeight>
+        <BottomHeight>1</BottomHeight>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Top>
+                <X>335</X>
+                <Y>250</Y>
+            </Top>
+            <Repeat>
+                <X>335</X>
+                <Y>250</Y>
+            </Repeat>
+            <Bottom>
+                <X>335</X>
+                <Y>250</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <VerticalSliderTemplate>
+        <Name>btui_atlas_vslider</Name>
+        <ImageAreaTemplate>btui_atlas_slider_indicator</ImageAreaTemplate>
+        <BackgroundVResizeTemplate>btui_atlas_vslider_track</BackgroundVResizeTemplate>
+        <Width>14</Width>
+    </VerticalSliderTemplate>
+
+
+    <!-- Horizontal slider, reusing the same indicator as the vertical
+         slider above. Track is a thin 3px-tall groove (x334-353,
+         y235-237), uniform full length with no visible end caps -
+         Left/Repeat/Right all sample the same column, mirroring the
+         vertical track's &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;flat filler&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; convention. -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>btui_atlas_hslider_track</Name>
+        <Height>3</Height>
+        <LeftWidth>1</LeftWidth>
+        <RepeatWidth>1</RepeatWidth>
+        <RightWidth>1</RightWidth>
+        <Texture>
+            <TextureName>btui_atlas_tex</TextureName>
+            <Left>
+                <X>340</X>
+                <Y>235</Y>
+            </Left>
+            <Repeat>
+                <X>340</X>
+                <Y>235</Y>
+            </Repeat>
+            <Right>
+                <X>340</X>
+                <Y>235</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalSliderTemplate>
+        <Name>btui_atlas_hslider</Name>
+        <ImageAreaTemplate>btui_atlas_slider_indicator</ImageAreaTemplate>
+        <BackgroundHResizeTemplate>btui_atlas_hslider_track</BackgroundHResizeTemplate>
+        <Height>14</Height>
+    </HorizontalSliderTemplate>
+
+
+    <!-- Source: Atlas &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;B&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; logo mark, bottom-right corner. Static image,
+         semi-transparent art baked into the texture itself. Sprite
+         bounds: x 456-499, y 457-505 (44 x 49). -->
+
+
+    <ImageAreaTemplate>
+        <Name>btui_atlas_logo</Name>
+        <TextureName>btui_atlas_tex</TextureName>
+        <Size>
+            <X>44</X>
+            <Y>49</Y>
+        </Size>
+        <TopLeft>
+            <X>456</X>
+            <Y>457</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+</Root_Element>

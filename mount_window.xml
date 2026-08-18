@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mount</Name>
+        <WindowId>Mount</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>235</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>206</Width>
+        <Height>320</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <Width>206</Width>
+            <Height>320</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>verdanaboldgg11px</FontName>
+            <Width>206</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Adapter>mount_name</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <DynamicImageDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>23</Y>
+            </Position>
+            <TextureName>none</TextureName>
+            <Dimensions>
+                <X>200</X>
+                <Y>150</Y>
+            </Dimensions>
+            <TextureCoords>
+                <X>0</X>
+                <Y>0</Y>
+            </TextureCoords>
+        </DynamicImageDef>
+
+
+        <!-- Socket Background -->
+
+
+        <!-- Active Socket -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>17</X>
+                <Y>187</Y>
+            </Position>
+            <TemplateName>.classic_reward_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>17</X>
+                <Y>187</Y>
+            </Position>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>218</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>48</Width>
+            <Height>16</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Active</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!-- Armor Socket -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>87</X>
+                <Y>187</Y>
+            </Position>
+            <TemplateName>.classic_reward_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>87</X>
+                <Y>187</Y>
+            </Position>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>79</X>
+                <Y>218</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>48</Width>
+            <Height>16</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Armor</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!-- Barding Socket -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>157</X>
+                <Y>187</Y>
+            </Position>
+            <TemplateName>.classic_reward_large</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>157</X>
+                <Y>187</Y>
+            </Position>
+            <Icontemplatename>plain_icon_large</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>149</X>
+                <Y>218</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>48</Width>
+            <Height>16</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Barding</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <!-- Inventory Background -->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>235</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>_c_dlg_sm_notitle</TemplateName>
+            <Width>206</Width>
+            <Height>85</Height>
+        </FullResizeImageDef>
+
+
+        <!-- Inventory slot 1 -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>4</X>
+                <Y>240</Y>
+            </Position>
+            <TemplateName>.classic_reward_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>240</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>23</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot One</Data>
+            <Adapter>mount_saddlebag_slot_1</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 2 -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>4</X>
+                <Y>258</Y>
+            </Position>
+            <TemplateName>.classic_reward_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>258</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>23</X>
+                <Y>260</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Two</Data>
+            <Adapter>mount_saddlebag_slot_2</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 3 -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>4</X>
+                <Y>278</Y>
+            </Position>
+            <TemplateName>.classic_reward_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>278</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>23</X>
+                <Y>280</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Three</Data>
+            <Adapter>mount_saddlebag_slot_3</Adapter>
+        </LabelDef>
+
+
+        <!-- Inventory slot 4 -->
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>4</X>
+                <Y>298</Y>
+            </Position>
+            <TemplateName>.classic_reward_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <DockableIconDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>298</Y>
+            </Position>
+            <Icontemplatename>plain_icon_small</Icontemplatename>
+        </DockableIconDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>23</X>
+                <Y>300</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Inventory Slot Four</Data>
+            <Adapter>mount_saddlebag_slot_4</Adapter>
+        </LabelDef>
+
+
+        <!-- Encumberance -->
+
+
+        <LabelDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>170</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>206</Width>
+            <Height>16</Height>
+            <MaxCharacters>25</MaxCharacters>
+            <Data>Enc</Data>
+            <Adapter>mount_encumbrance</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>188</X>
+                <Y>241</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>188</X>
+                <Y>261</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>188</X>
+                <Y>281</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>188</X>
+                <Y>301</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_bag</TemplateName>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>hookpoint_store</Name>
+        <WindowId>Merchant</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>261</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>261</Width>
+        <Height>296</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--background elements-->
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <Width>261</Width>
+            <Height>296</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>verdanaboldgg11px</FontName>
+            <Width>261</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>HOOKPOINT STORE</Data>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>238</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>none</TemplateName>
+            <Width>261</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>18</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Width>255</Width>
+            <Height>160</Height>
+            <TemplateName>_c_listbox_bg</TemplateName>
+            <AdapterName>hookpoint_store_list</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>257</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Coin</Label>
+            <OnClickEvent>HookpointStoreCoin</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>70</X>
+                <Y>257</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>BP</Label>
+            <OnClickEvent>HookpointStoreBP</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>134</X>
+                <Y>257</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>GBP</Label>
+            <OnClickEvent>HookpointStoreGBP</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>257</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Contract</Label>
+            <OnClickEvent>HookpointStoreContract</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Buy Button-->
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>7</X>
+                <Y>278</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Buy with &lt;type&gt;</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>198</X>
+                <Y>277</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Buy</Label>
+            <OnClickEvent>HookpointStoreBuy</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Guild Bounty Points-->
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>156</X>
+                <Y>179</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>80</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>33</X>
+                <Y>181</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>125</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Guild Bounty Points</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>161</X>
+                <Y>181</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>guild_bp</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--Personal Bounty Points-->
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>156</X>
+                <Y>197</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>80</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>199</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Personal Bounty Points</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>161</X>
+                <Y>199</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>bounty_points</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--Coins-->
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>5</X>
+                <Y>229</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>40</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>57</X>
+                <Y>229</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>40</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>163</X>
+                <Y>229</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>40</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>110</X>
+                <Y>229</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>40</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>216</X>
+                <Y>229</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>40</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>9</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>M:999</Data>
+            <Adapter>merchant_mithril</Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>16</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mithril_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>62</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>P:999</Data>
+            <Adapter>merchant_platinum</Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>70</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>platinum_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>111</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>G:999</Data>
+            <Adapter>merchant_gold</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>122</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>gold_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>161</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>S:999</Data>
+            <Adapter>merchant_silver</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>174</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>silver_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>216</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>C:999</Data>
+            <Adapter>merchant_copper</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>229</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>copper_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <Label>CLOSE</Label>
+            <OnClickEvent>ButtonClose</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

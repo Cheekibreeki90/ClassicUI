@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!-- Blackthorn Window -->
+
+
+    <WindowTemplate>
+        <Name>custom12_window</Name>
+        <WindowId>custom12_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>380</Width>
+        <Height>426</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>10</MinWidth>
+        <MinHeight>10</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>.classic_bg</TemplateName>
+            <Width>380</Width>
+            <Height>426</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>.classic_bg</TemplateName>
+            <Width>380</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>btfont</FontName>
+            <Width>380</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Blackthorn</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>ysabeau13</FontName>
+            <Width>50</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>WIP...</Data>
+        </LabelDef>
+
+
+        <!--Commands-->
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>.classic_bg</TemplateName>
+            <Width>380</Width>
+            <Height>19</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>135</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>btfont</FontName>
+            <Width>380</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Commands</Data>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>btui_window_close</TemplateName>
+            <Label>close</Label>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>
