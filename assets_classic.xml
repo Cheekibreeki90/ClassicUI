@@ -60,14 +60,14 @@
 
 
     <Texture>
-        <Name>shared_pieces_classic</Name>
-        <File>custom/assets/textures/isles/shared_pieces.tga</File>
+        <Name>page4_classic</Name>
+        <File>custom/assets/textures/classic/classic_pieces_4.tga</File>
     </Texture>
 
 
     <Texture>
-        <Name>compass_classic</Name>
-        <File>custom/assets/textures/isles/compass.bmp</File>
+        <Name>shared_pieces_classic</Name>
+        <File>custom/assets/textures/classic/shared_pieces.tga</File>
     </Texture>
 
 

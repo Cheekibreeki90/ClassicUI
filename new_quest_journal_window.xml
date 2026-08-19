@@ -51,16 +51,16 @@
         <Name>new_quest_journal</Name>
         <WindowId>Quest</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>false</MoveButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>390</TitleWidth>
-        <TitleHeight>2</TitleHeight>
-        <Width>390</Width>
-        <Height>211</Height>
+        <TitleHeight>18</TitleHeight>
+        <Width>398</Width>
+        <Height>228</Height>
         <ResizeableWidth>6</ResizeableWidth>
         <ResizeableHeight>2</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -72,53 +72,58 @@
 
         <FullResizeImageDef>
             <Position>
-                <X>-1</X>
+                <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
+                <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
-            <Width>392</Width>
-            <Height>213</Height>
+            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <Width>398</Width>
+            <Height>228</Height>
         </FullResizeImageDef>
 
 
-        <LabelDef>
+        <ImageAreaDef>
+            <Position>
+                <X>1</X>
+                <Y>8</Y>
+            </Position>
+            <TemplateName>_c_quest_flair_right</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
             <Position>
                 <X>0</X>
-                <Y>4</Y>
+                <Y>6</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <Color>
-                <R>255</R>
-                <G>215</G>
-                <B>32</B>
-                <A>255</A>
-            </Color>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>390</Width>
-            <Height>15</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>QUEST JOURNAL</Data>
-            <TextCentered>true</TextCentered>
-        </LabelDef>
+            <TemplateName>_c_quest_journal</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>266</X>
+                <Y>6</Y>
+            </Position>
+            <TemplateName>_c_quest_flair_left</TemplateName>
+        </ImageAreaDef>
 
 
         <TreeControlDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>0</X>
-                <Y>18</Y>
+                <X>6</X>
+                <Y>30</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
+                <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_treecontrol</TemplateName>
+            <TemplateName>_c_tree_control</TemplateName>
             <AdapterName>new_quest_journal_entries</AdapterName>
             <Width>390</Width>
             <Height>176</Height>
@@ -132,23 +137,68 @@
         <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>2</X>
-                <Y>2</Y>
+                <X>7</X>
+                <Y>5</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Remove</Label>
             <OnClickEvent>RemoveQuest</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <Label>MOVE</Label>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <Label>CLOSE</Label>
+            <OnClickEvent>ButtonClose</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_resize_bottom_right</TemplateName>
+            <Label>RESIZE BOTTOM RIGHT</Label>
+            <OnClickEvent>TwoWayResizeBottomRight</OnClickEvent>
         </ButtonDef>
 
 
         <LabelDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>70</X>
-                <Y>0</Y>
+                <X>73</X>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -159,7 +209,7 @@
                 <B>255</B>
                 <A>192</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial11</FontName>
             <Width>318</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>

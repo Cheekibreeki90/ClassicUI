@@ -183,7 +183,7 @@
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>38</X>
+                <X>19</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -191,19 +191,6 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>b_button_inf</TemplateName>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1009</ControlId>
-            <Position>
-                <X>19</X>
-                <Y>1</Y>
-            </Position>
-            <Alignment>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>b_button_qst</TemplateName>
         </ButtonDef>
 
 
@@ -383,7 +370,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_combo_small</TemplateName>
+            <TemplateName>_c_combo_normal</TemplateName>
         </ComboBoxDef>
 
 
@@ -396,7 +383,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_combo_large</TemplateName>
+            <TemplateName>_c_combo_large</TemplateName>
         </ComboBoxDef>
 
 

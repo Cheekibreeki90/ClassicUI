@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
 <!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
@@ -33,7 +33,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>btui_stone_dark</TemplateName>
+            <TemplateName>_c_dlg_sm_notitle</TemplateName>
             <Width>61</Width>
             <Height>119</Height>
         </FullResizeImageDef>
@@ -73,10 +73,10 @@
                 <X>32</X>
                 <Y>1</Y>
             </Position>
-            <ToolTipID>1</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>1</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
@@ -123,10 +123,10 @@
                 <X>32</X>
                 <Y>11</Y>
             </Position>
-            <ToolTipID>3</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>3</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
@@ -173,10 +173,10 @@
                 <X>32</X>
                 <Y>21</Y>
             </Position>
-            <ToolTipID>2</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>2</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
@@ -223,10 +223,10 @@
                 <X>32</X>
                 <Y>31</Y>
             </Position>
-            <ToolTipID>4</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>4</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
@@ -273,10 +273,10 @@
                 <X>32</X>
                 <Y>44</Y>
             </Position>
-            <ToolTipID>5</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>5</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
@@ -323,10 +323,10 @@
                 <X>32</X>
                 <Y>54</Y>
             </Position>
-            <ToolTipID>7</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>7</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
@@ -373,10 +373,10 @@
                 <X>32</X>
                 <Y>64</Y>
             </Position>
-            <ToolTipID>6</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>6</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
@@ -423,10 +423,10 @@
                 <X>32</X>
                 <Y>74</Y>
             </Position>
-            <ToolTipID>8</ToolTipID>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <ToolTipID>8</ToolTipID>
             <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>

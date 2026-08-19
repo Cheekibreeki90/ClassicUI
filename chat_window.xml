@@ -49,8 +49,8 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>0</TitleWidth>
-        <TitleHeight>0</TitleHeight>
+        <TitleWidth>350</TitleWidth>
+        <TitleHeight>18</TitleHeight>
         <Width>350</Width>
         <Height>200</Height>
         <ResizeableWidth>0</ResizeableWidth>
@@ -77,7 +77,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_chat_bg</TemplateName>
+            <TemplateName>none</TemplateName>
             <Width>350</Width>
             <Height>185</Height>
         </FullResizeImageDef>
@@ -98,7 +98,7 @@
                 <X>8</X>
                 <Y>6</Y>
             </TextOffset>
-            <Width>340</Width>
+            <Width>350</Width>
             <Height>84</Height>
             <BufferName>chat</BufferName>
         </ChatControlDef>
@@ -164,7 +164,7 @@
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
                 <X>0</X>
-                <Y>15</Y>
+                <Y>11</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>

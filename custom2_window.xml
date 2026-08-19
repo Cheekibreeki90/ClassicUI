@@ -5,8 +5,6 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-<!-- @@ Powerbar Window -->
-
     <WindowTemplate>
         <Name>custom2_window</Name>
         <WindowId>custom2_window</WindowId>

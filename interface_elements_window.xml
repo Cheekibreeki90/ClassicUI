@@ -103,10 +103,10 @@
                 <A>255</A>
             </Color>
             <FontName>verdanaboldgg11px</FontName>
-            <Width>86</Width>
+            <Width>160</Width>
             <Height>20</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Data>Essentials</Data>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Summary &amp; Group</Data>
         </LabelDef>
 
 
@@ -243,8 +243,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>HP</Label>
-            <OnClickEvent>ToggleCustom0</OnClickEvent>
+            <Label>CLASSIC</Label>
+            <OnClickEvent>ToggleSummary</OnClickEvent>
         </ButtonDef>
 
 
@@ -257,7 +257,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>END</Label>
+            <Label>BYSAN</Label>
             <OnClickEvent>ToggleCustom1</OnClickEvent>
         </ButtonDef>
 
@@ -271,8 +271,6 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>POWER</Label>
-            <OnClickEvent>ToggleCustom2</OnClickEvent>
         </ButtonDef>
 
 
@@ -285,8 +283,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>TARGET</Label>
-            <OnClickEvent>ToggleFloatTarget</OnClickEvent>
+            <Label>MINI GRP</Label>
+            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
         </ButtonDef>
 
 
@@ -327,7 +325,6 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>STATUS</Label>
             <OnClickEvent>ToggleCustom10</OnClickEvent>
         </ButtonDef>
 
@@ -579,8 +576,6 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_small</TemplateName>
-            <Label>SMALL HH</Label>
-            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
         </ButtonDef>
 
 
@@ -704,9 +699,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_button_small</TemplateName>
-            <Label>SUMMARY</Label>
-            <OnClickEvent>ToggleSummary</OnClickEvent>
+            <TemplateName>_c_button_large</TemplateName>
         </ButtonDef>
 
 

@@ -9,7 +9,7 @@
         <Name>merchant</Name>
         <WindowId>Merchant</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>false</MoveButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
@@ -269,6 +269,9 @@
                 <X>5</X>
                 <Y>263</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -279,6 +282,9 @@
                 <X>52</X>
                 <Y>262</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -289,6 +295,9 @@
                 <X>96</X>
                 <Y>262</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -299,6 +308,9 @@
                 <X>141</X>
                 <Y>263</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -309,6 +321,9 @@
                 <X>187</X>
                 <Y>263</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -317,7 +332,7 @@
         <LabelDef>
             <Position>
                 <X>7</X>
-                <Y>19</Y>
+                <Y>18</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -439,9 +454,6 @@
         </LabelDef>
 
 
-        <!-- hr image thing was here.. deleted-->
-
-
         <LabelDef>
             <Position>
                 <X>23</X>
@@ -509,7 +521,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>elv11</FontName>
+            <FontName>arial11</FontName>
             <Width>24</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>

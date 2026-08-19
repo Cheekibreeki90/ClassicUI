@@ -331,6 +331,9 @@
                 <X>5</X>
                 <Y>229</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -341,6 +344,9 @@
                 <X>57</X>
                 <Y>229</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -351,6 +357,9 @@
                 <X>163</X>
                 <Y>229</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -361,6 +370,9 @@
                 <X>110</X>
                 <Y>229</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -371,6 +383,9 @@
                 <X>216</X>
                 <Y>229</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>

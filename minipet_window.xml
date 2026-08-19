@@ -56,7 +56,7 @@
             </Alignment>
             <TemplateName>_c_red_status</TemplateName>
             <AdapterName>mini_pet_life</AdapterName>
-            <Width>180</Width>
+            <Width>172</Width>
         </StatusBarDef>
 
 
@@ -115,10 +115,11 @@
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Label></Label>
             <OnClickEvent>PetTarget</OnClickEvent>
-            <Width>186</Width>
+            <Width>172</Width>
             <Height>15</Height>
         </InvisibleButtonDef>
 
@@ -336,10 +337,6 @@
             <AdapterName>mini_pet_effect3</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -355,10 +352,6 @@
             <AdapterName>mini_pet_effect4</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -374,10 +367,6 @@
             <AdapterName>mini_pet_effect5</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
-            <OnClickEvent></OnClickEvent>
-            <StateAdapterName></StateAdapterName>
-            <LabelAdapterName></LabelAdapterName>
-            <HideLabel>1</HideLabel>
         </IconDef>
 
 

@@ -34,7 +34,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_c_dlg_sm_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>209</Width>
             <Height>146</Height>
         </FullResizeImageDef>
@@ -44,7 +44,7 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>5</X>
-                <Y>1</Y>
+                <Y>2</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -52,7 +52,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>button_large</FontName>
             <Width>175</Width>
             <Height>26</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -68,12 +68,12 @@
                 <Y>15</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>102</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -89,12 +89,12 @@
                 <Y>27</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>102</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -110,12 +110,12 @@
                 <Y>39</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>102</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -131,12 +131,12 @@
                 <Y>51</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>136</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -152,12 +152,12 @@
                 <Y>63</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>136</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -173,12 +173,12 @@
                 <Y>75</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>136</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -194,12 +194,12 @@
                 <Y>88</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>136</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

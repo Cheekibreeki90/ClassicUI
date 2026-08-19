@@ -5,7 +5,8 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-<!-- Realm Info Window -->
+    <!-- Realm Info Window -->
+
 
     <WindowTemplate>
         <Name>custom8_window</Name>

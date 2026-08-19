@@ -34,7 +34,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_dlg_lg_notitle</TemplateName>
             <Width>278</Width>
             <Height>359</Height>
         </FullResizeImageDef>
@@ -47,8 +47,8 @@
             </Position>
             <Color>
                 <R>255</R>
-                <G>204</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>verdanaboldgg11px</FontName>
@@ -69,7 +69,7 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>.classic_textarea</TemplateName>
+            <TemplateName>_c_generic_textarea</TemplateName>
             <AdapterName>new_quest_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -85,8 +85,8 @@
             </Position>
             <Color>
                 <R>255</R>
-                <G>204</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>verdanaboldgg11px</FontName>
@@ -329,12 +329,12 @@
                 <Y>221</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>ysabeau12</FontName>
+            <FontName>arial11</FontName>
             <Width>100</Width>
             <Height>17</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -350,9 +350,9 @@
                 <X>87</X>
                 <Y>236</Y>
             </Position>
-            <TemplateName>_witt_statusbar_xp_blue</TemplateName>
+            <TemplateName>_c_exp_bubbles</TemplateName>
             <AdapterName>new_quest_exp_coarse</AdapterName>
-            <Width>100</Width>
+            <Width>90</Width>
         </StatusBarDef>
 
 
@@ -362,9 +362,9 @@
                 <X>87</X>
                 <Y>246</Y>
             </Position>
-            <TemplateName>_witt_statusbar_tiny_blue</TemplateName>
+            <TemplateName>_c_blue_status</TemplateName>
             <AdapterName>new_quest_exp_fine</AdapterName>
-            <Width>99</Width>
+            <Width>90</Width>
         </StatusBarDef>
 
 
@@ -373,14 +373,14 @@
                 <X>191</X>
                 <Y>234</Y>
             </Position>
-            <FontName>elv11</FontName>
+            <FontName>arial11</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
             <Adapter>new_quest_exp_coarse</Adapter>
@@ -392,14 +392,14 @@
                 <X>207</X>
                 <Y>234</Y>
             </Position>
-            <FontName>elv11</FontName>
+            <FontName>arial11</FontName>
             <Width>150</Width>
             <Height>15</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
             <Adapter>new_quest_exp_fine</Adapter>
@@ -416,12 +416,12 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
-            <FontName>elv11</FontName>
+            <FontName>arial11</FontName>
             <Width>10</Width>
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -433,6 +433,26 @@
 
 
         <!-- Coin images -->
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>76</X>
+                <Y>268</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>40</Width>
+        </HorizontalResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>32</X>
+                <Y>268</Y>
+            </Position>
+            <TemplateName>_c_dialog_inset</TemplateName>
+            <Width>40</Width>
+        </HorizontalResizeImageDef>
 
 
         <ImageAreaDef>
@@ -486,7 +506,7 @@
         <LabelDef>
             <Position>
                 <X>34</X>
-                <Y>266</Y>
+                <Y>269</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -494,7 +514,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial11</FontName>
             <Width>36</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -506,7 +526,7 @@
         <LabelDef>
             <Position>
                 <X>79</X>
-                <Y>266</Y>
+                <Y>269</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -514,7 +534,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial11</FontName>
             <Width>36</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -526,7 +546,7 @@
         <LabelDef>
             <Position>
                 <X>127</X>
-                <Y>266</Y>
+                <Y>269</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -534,7 +554,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial11</FontName>
             <Width>36</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -547,7 +567,7 @@
         <LabelDef>
             <Position>
                 <X>172</X>
-                <Y>266</Y>
+                <Y>269</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -555,7 +575,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial11</FontName>
             <Width>36</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -568,7 +588,7 @@
         <LabelDef>
             <Position>
                 <X>214</X>
-                <Y>266</Y>
+                <Y>269</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -576,7 +596,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial11</FontName>
             <Width>36</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
@@ -596,8 +616,8 @@
             </Position>
             <Color>
                 <R>255</R>
-                <G>204</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>verdanaboldgg11px</FontName>
@@ -893,6 +913,35 @@
             <TemplateName>.classic_button_normal</TemplateName>
             <Label>DECLINE</Label>
             <OnClickEvent>NewQuestDecline</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <Label>MOVE</Label>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <Label>CLOSE</Label>
+            <OnClickEvent>ButtonClose</OnClickEvent>
         </ButtonDef>
 
 
