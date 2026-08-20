@@ -34,7 +34,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_c_dlg_sm_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>706</Width>
             <Height>24</Height>
         </FullResizeImageDef>
@@ -43,13 +43,13 @@
         <StatusIconDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>234</X>
+                <X>233</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>performance_icon_large</TemplateName>
+            <TemplateName>_c_perf_packet_small</TemplateName>
             <AdapterName>performance_meter</AdapterName>
         </StatusIconDef>
 
@@ -57,13 +57,13 @@
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>264</X>
+                <X>254</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>lag_icon_large</TemplateName>
+            <TemplateName>_c_perf_ping_small</TemplateName>
             <AdapterName>lag_meter</AdapterName>
         </StatusIconDef>
 
@@ -71,13 +71,13 @@
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>294</X>
+                <X>275</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>framerate_icon_large</TemplateName>
+            <TemplateName>_c_perf_fps_small</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
 
@@ -271,13 +271,13 @@
 
         <LabelDef>
             <Position>
-                <X>323</X>
+                <X>300</X>
                 <Y>5</Y>
             </Position>
             <Color>
-                <R>254</R>
+                <R>82</R>
                 <G>217</G>
-                <B>10</B>
+                <B>94</B>
                 <A>255</A>
             </Color>
             <FontName>arial11</FontName>
@@ -290,7 +290,7 @@
 
         <LabelDef>
             <Position>
-                <X>374</X>
+                <X>360</X>
                 <Y>5</Y>
             </Position>
             <Alignment>

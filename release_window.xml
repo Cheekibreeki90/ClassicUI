@@ -33,7 +33,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>206</Width>
             <Height>64</Height>
         </FullResizeImageDef>
@@ -99,7 +99,7 @@
                 <X>3</X>
                 <Y>16</Y>
             </Position>
-            <TemplateName>_witt_statusbar_medium_red</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>release_timer_time</AdapterName>
             <Width>200</Width>
         </StatusBarDef>
@@ -115,8 +115,8 @@
             </Alignment>
             <Color>
                 <R>255</R>
-                <G>204</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>verdanaboldgg11px</FontName>

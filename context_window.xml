@@ -507,7 +507,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>114</Width>
             <Height>107</Height>
         </FullResizeImageDef>
@@ -669,7 +669,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>114</Width>
             <Height>90</Height>
         </FullResizeImageDef>
@@ -866,7 +866,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>114</Width>
             <Height>39</Height>
         </FullResizeImageDef>
@@ -1083,7 +1083,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>44</Width>
             <Height>175</Height>
         </FullResizeImageDef>

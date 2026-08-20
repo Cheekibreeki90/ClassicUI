@@ -28,6 +28,18 @@
         <ContextTemplateName></ContextTemplateName>
 
 
+        <FullResizeImageDef>
+            <ControlId>bg</ControlId>
+            <Position>
+                <X>-3</X>
+                <Y>-3</Y>
+            </Position>
+            <TemplateName>_c_window_small</TemplateName>
+            <Width>64</Width>
+            <Height>90</Height>
+        </FullResizeImageDef>
+
+
         <!--Left Column Buttons-->
 
 

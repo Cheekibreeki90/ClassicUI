@@ -34,7 +34,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>166</Width>
             <Height>118</Height>
         </FullResizeImageDef>
@@ -43,15 +43,15 @@
         <LabelDef>
             <Position>
                 <X>0</X>
-                <Y>4</Y>
+                <Y>2</Y>
             </Position>
             <Color>
-                <R>204</R>
-                <G>204</G>
-                <B>204</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>font13</FontName>
+            <FontName>button_large</FontName>
             <Width>166</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>

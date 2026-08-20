@@ -87,7 +87,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_stone_light</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>380</Width>
             <Height>298</Height>
         </FullResizeImageDef>
@@ -105,7 +105,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.1</Data>
@@ -123,7 +123,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.2</Data>
@@ -141,7 +141,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.3</Data>
@@ -159,7 +159,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.4</Data>
@@ -177,7 +177,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.5</Data>
@@ -195,7 +195,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.6</Data>
@@ -213,7 +213,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.7</Data>
@@ -231,7 +231,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.8</Data>
@@ -249,7 +249,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.9</Data>
@@ -267,7 +267,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML0.10</Data>
@@ -285,7 +285,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>ML EXP</Data>
@@ -328,7 +328,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>All</Label>
         </ButtonDef>
 
@@ -342,7 +342,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Fighter</Label>
         </ButtonDef>
 
@@ -356,7 +356,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Mage</Label>
         </ButtonDef>
 
@@ -370,7 +370,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Rogue</Label>
         </ButtonDef>
 
@@ -384,7 +384,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Healer</Label>
         </ButtonDef>
 
@@ -398,7 +398,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>None</Label>
         </ButtonDef>
 
@@ -1229,7 +1229,7 @@
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Search</Label>
         </ButtonDef>
 
@@ -1388,7 +1388,7 @@
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Clear</Label>
         </ButtonDef>
 
@@ -1403,7 +1403,7 @@
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>btui_atlas_button_action</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Submit</Label>
         </ButtonDef>
 
@@ -1417,7 +1417,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Looking For Players</Data>
@@ -1429,13 +1429,13 @@
         <CheckBoxDef>
             <ControlId>1018</ControlId>
             <Position>
-                <X>136</X>
+                <X>156</X>
                 <Y>6</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Not Looking</Data>
@@ -1453,7 +1453,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Battlegroup</Data>
@@ -1496,7 +1496,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_combo_w</TemplateName>
+            <TemplateName>_c_combo_grey</TemplateName>
         </ComboBoxDef>
 
 
@@ -1531,7 +1531,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_combo_w</TemplateName>
+            <TemplateName>_c_combo_grey</TemplateName>
         </ComboBoxDef>
 
 

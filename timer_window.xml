@@ -36,7 +36,7 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
-            <TemplateName>_c_dlg_sm_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>197</Width>
             <Height>29</Height>
         </FullResizeImageDef>
@@ -60,12 +60,12 @@
         <ScalarLabelDef>
             <Position>
                 <X>0</X>
-                <Y>3</Y>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>32</Width>
             <Height>13</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -83,7 +83,7 @@
         <LabelDef>
             <Position>
                 <X>4</X>
-                <Y>2</Y>
+                <Y>1</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -91,7 +91,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>156</Width>
             <Height>13</Height>
             <MaxCharacters>100</MaxCharacters>

@@ -7,7 +7,7 @@
 
     <Texture>
         <Name>warmap_alb</Name>
-        <File>isles/albmap_OF.tga</File>
+        <File>custom/albmap.tga</File>
     </Texture>
 
 
@@ -81,11 +81,70 @@
     </ImageAreaTemplate>
 
 
+    <ButtonTemplate>
+        <Name>g_rwsymbol_alb</Name>
+        <Size>
+            <X>64</X>
+            <Y>64</Y>
+        </Size>
+        <Font>
+            <Name>arial9</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>realm_symbols</TextureName>
+            <Normal>
+                <X>1</X>
+                <Y>65</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>64</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>1</X>
+                <Y>65</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>64</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>1</X>
+                <Y>65</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
     <WindowTemplate>
         <Name>realmwar_alb</Name>
         <WindowId></WindowId>
-        <CloseButton>true</CloseButton>
-        <MoveButton>true</MoveButton>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
@@ -94,7 +153,7 @@
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>330</Width>
-        <Height>413</Height>
+        <Height>416</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -104,19 +163,81 @@
         <ContextTemplateName></ContextTemplateName>
 
 
+        <!--Images-->
+
+
         <FullResizeImageDef>
+            <ControlId>background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
+                <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>dlg_lg_title_noresize</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>330</Width>
-            <Height>413</Height>
+            <Height>416</Height>
         </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>info_bg</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>299</Y>
+            </Position>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
+            <Width>124</Width>
+            <Height>114</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>132</X>
+                <Y>279</Y>
+            </Position>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
+            <Width>131</Width>
+            <Height>131</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>132</X>
+                <Y>151</Y>
+            </Position>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
+            <Width>131</Width>
+            <Height>131</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>4</X>
+                <Y>55</Y>
+            </Position>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
+            <Width>131</Width>
+            <Height>131</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>196</X>
+                <Y>23</Y>
+            </Position>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
+            <Width>131</Width>
+            <Height>131</Height>
+        </FullResizeImageDef>
+
+
+        <!--Control ID's are used for placing active map elements-->
 
 
         <ImageAreaDef>
@@ -125,7 +246,10 @@
                 <X>133</X>
                 <Y>152</Y>
             </Position>
-            <TemplateName>warmap_pennine</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>warmap_snowdonia</TemplateName>
         </ImageAreaDef>
 
 
@@ -135,6 +259,9 @@
                 <X>197</X>
                 <Y>24</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>warmap_hadrians</TemplateName>
         </ImageAreaDef>
 
@@ -145,7 +272,10 @@
                 <X>133</X>
                 <Y>280</Y>
             </Position>
-            <TemplateName>warmap_sauvage</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>warmap_pennine</TemplateName>
         </ImageAreaDef>
 
 
@@ -153,34 +283,34 @@
             <ControlId>1003</ControlId>
             <Position>
                 <X>5</X>
-                <Y>58</Y>
+                <Y>56</Y>
             </Position>
-            <TemplateName>warmap_snowdonia</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>warmap_sauvage</TemplateName>
         </ImageAreaDef>
 
 
-        <ImageAreaDef>
-            <Position>
-                <X>32</X>
-                <Y>200</Y>
-            </Position>
-            <TemplateName>alb_symbol</TemplateName>
-        </ImageAreaDef>
+        <!--Mini Info-->
 
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>316</Y>
+                <X>12</X>
+                <Y>301</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
-            <Width>128</Width>
+            <FontName>button_large</FontName>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Keep Name</Data>
@@ -191,17 +321,20 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>332</Y>
+                <X>12</X>
+                <Y>319</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>128</Width>
+            <FontName>button_small</FontName>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Realm</Data>
@@ -212,17 +345,20 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>348</Y>
+                <X>12</X>
+                <Y>337</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>128</Width>
+            <FontName>button_small</FontName>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Claimed by:</Data>
@@ -233,17 +369,20 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>364</Y>
+                <X>12</X>
+                <Y>356</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>128</Width>
+            <FontName>button_small</FontName>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Claiming Guild</Data>
@@ -254,17 +393,20 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>380</Y>
+                <X>12</X>
+                <Y>375</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>128</Width>
+            <FontName>button_small</FontName>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>Under Siege</Data>
@@ -275,17 +417,20 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>396</Y>
+                <X>12</X>
+                <Y>394</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
-            <Width>128</Width>
+            <FontName>button_small</FontName>
+            <Width>100</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
             <Data>More Stuff Here</Data>
@@ -294,17 +439,26 @@
         </LabelDef>
 
 
+        <!--Realm Checks-->
+
+
+        <!--These are run by ControlID-->
+
+
         <CheckBoxDef>
-            <ControlId>2000</ControlId>
+            <ControlId>2002</ControlId>
             <Position>
-                <X>15</X>
-                <Y>2</Y>
+                <X>2</X>
+                <Y>7</Y>
             </Position>
-            <TemplateName>realmwar_tab</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>Hibernia</Data>
-            <LabelWidth>56</LabelWidth>
+            <Data>Albion</Data>
+            <LabelWidth>100</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -312,78 +466,46 @@
         <CheckBoxDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>75</X>
-                <Y>2</Y>
+                <X>59</X>
+                <Y>7</Y>
             </Position>
-            <TemplateName>realmwar_tab</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Midgard</Data>
-            <LabelWidth>56</LabelWidth>
+            <LabelWidth>100</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>2002</ControlId>
+            <ControlId>2000</ControlId>
             <Position>
-                <X>130</X>
-                <Y>2</Y>
+                <X>126</X>
+                <Y>7</Y>
             </Position>
-            <TemplateName>realmwar_tab</TemplateName>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>Albion</Data>
-            <LabelWidth>56</LabelWidth>
+            <Data>Hibernia</Data>
+            <LabelWidth>100</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
-        <ButtonDef>
-            <ControlId>2010</ControlId>
-            <Position>
-                <X>5</X>
-                <Y>294</Y>
-            </Position>
-            <TemplateName>button_large</TemplateName>
-            <Label>KEY</Label>
-            <OnClickEvent>ToggleWarmapKey</OnClickEvent>
-        </ButtonDef>
+        <!--Buttons-->
 
 
-        <ButtonDef>
-            <ControlId>2011</ControlId>
-            <Position>
-                <X>70</X>
-                <Y>294</Y>
-            </Position>
-            <TemplateName>button_large</TemplateName>
-            <Label>UPDATE</Label>
-            <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
-        </ButtonDef>
+        <!--Active map elements here.  Note that order is important.-->
 
 
-        <ButtonDef>
-            <ControlId>2012</ControlId>
-            <Position>
-                <X>70</X>
-                <Y>275</Y>
-            </Position>
-            <TemplateName>button_large</TemplateName>
-            <Label>TELEPORT</Label>
-            <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>5</X>
-                <Y>275</Y>
-            </Position>
-            <TemplateName>button_large</TemplateName>
-            <Label>BONUSES</Label>
-            <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
-        </ButtonDef>
+        <!--Discs-->
 
 
         <ImageAreaDef>
@@ -392,6 +514,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -402,6 +527,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -412,6 +540,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -422,6 +553,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -432,6 +566,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -442,6 +579,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -452,6 +592,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -462,6 +605,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_selection</TemplateName>
         </ImageAreaDef>
 
@@ -472,6 +618,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
@@ -482,28 +631,14 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_destination</TemplateName>
         </ImageAreaDef>
 
 
-        <ImageAreaDef>
-            <ControlId>1111</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>realmwar_destination</TemplateName>
-        </ImageAreaDef>
-
-
-        <ImageAreaDef>
-            <ControlId>1112</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>realmwar_destination</TemplateName>
-        </ImageAreaDef>
+        <!--Fires-->
 
 
         <ImageAreaDef>
@@ -512,6 +647,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -522,6 +660,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -532,6 +673,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -542,6 +686,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -552,6 +699,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -562,6 +712,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -572,6 +725,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -582,6 +738,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -592,6 +751,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -602,6 +764,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -612,6 +777,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -622,6 +790,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -632,6 +803,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -642,6 +816,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -652,6 +829,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -662,6 +842,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -672,6 +855,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -682,6 +868,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -692,6 +881,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -702,6 +894,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -712,6 +907,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -722,6 +920,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -732,6 +933,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -742,6 +946,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -752,6 +959,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -762,6 +972,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -772,6 +985,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -782,6 +998,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -792,6 +1011,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -802,6 +1024,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -812,6 +1037,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -822,6 +1050,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -832,6 +1063,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -842,6 +1076,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -852,6 +1089,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -862,6 +1102,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
 
@@ -872,8 +1115,14 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_siege</TemplateName>
         </ImageAreaDef>
+
+
+        <!--Small Battles-->
 
 
         <StatusIconDef>
@@ -882,6 +1131,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -893,6 +1145,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -904,6 +1159,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -915,6 +1173,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -926,6 +1187,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -937,6 +1201,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -948,6 +1215,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -959,6 +1229,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -970,6 +1243,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -981,9 +1257,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Medium Battles-->
 
 
         <StatusIconDef>
@@ -992,6 +1274,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1003,6 +1288,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1014,6 +1302,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1025,6 +1316,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1036,6 +1330,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1047,6 +1344,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1058,6 +1358,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1069,6 +1372,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1080,6 +1386,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1091,9 +1400,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Large Battles-->
 
 
         <StatusIconDef>
@@ -1102,6 +1417,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1113,6 +1431,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1124,6 +1445,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1135,6 +1459,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1146,6 +1473,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1157,6 +1487,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1168,6 +1501,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1179,6 +1515,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1190,6 +1529,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1201,9 +1543,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_battle_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Small Reports-->
 
 
         <StatusIconDef>
@@ -1212,6 +1560,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1223,6 +1574,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1234,6 +1588,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1245,6 +1602,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1256,6 +1616,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1267,6 +1630,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1278,6 +1644,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1289,6 +1658,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1300,6 +1672,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1311,9 +1686,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Medium Reports-->
 
 
         <StatusIconDef>
@@ -1322,6 +1703,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1333,6 +1717,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1344,6 +1731,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1355,6 +1745,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1366,6 +1759,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1377,6 +1773,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1388,6 +1787,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1399,6 +1801,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1410,6 +1815,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1421,9 +1829,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_medium</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Large Reports-->
 
 
         <StatusIconDef>
@@ -1432,6 +1846,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1443,6 +1860,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1454,6 +1874,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1465,6 +1888,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1476,6 +1902,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1487,6 +1916,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1498,6 +1930,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1509,6 +1944,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1520,6 +1958,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1531,9 +1972,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_scouting_large</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Towers-->
 
 
         <StatusIconDef>
@@ -1542,6 +1989,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1553,6 +2003,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1564,6 +2017,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1575,6 +2031,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1586,6 +2045,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1597,6 +2059,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1608,6 +2073,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1619,6 +2087,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1630,6 +2101,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1641,6 +2115,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1652,6 +2129,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1663,6 +2143,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1674,6 +2157,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1685,6 +2171,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1696,6 +2185,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1707,6 +2199,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1718,6 +2213,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1729,6 +2227,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1740,6 +2241,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1751,6 +2255,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1762,6 +2269,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1773,6 +2283,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1784,6 +2297,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1795,6 +2311,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1806,6 +2325,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1817,6 +2339,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1828,6 +2353,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1839,9 +2367,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_tower</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Keeps-->
 
 
         <StatusIconDef>
@@ -1850,6 +2384,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1861,6 +2398,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1872,6 +2412,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1883,6 +2426,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1894,6 +2440,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1905,6 +2454,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1916,6 +2468,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1927,6 +2482,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>relic_symbol</TemplateName>
         </ImageAreaDef>
 
@@ -1937,6 +2495,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>relic_symbol</TemplateName>
         </ImageAreaDef>
 
@@ -1947,6 +2508,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1958,9 +2522,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_keep</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Milegates-->
 
 
         <StatusIconDef>
@@ -1969,6 +2539,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_milegate</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1980,6 +2553,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_milegate</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -1991,6 +2567,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_milegate</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
@@ -2002,9 +2581,15 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>realmwar_milegate</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
+
+
+        <!--Player Position-->
 
 
         <ImageAreaDef>
@@ -2013,8 +2598,14 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>player_location</TemplateName>
         </ImageAreaDef>
+
+
+        <!--Tower Hotspots-->
 
 
         <InvisibleButtonDef>
@@ -2023,6 +2614,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect0</OnClickEvent>
             <Width>16</Width>
@@ -2036,6 +2630,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect1</OnClickEvent>
             <Width>16</Width>
@@ -2049,6 +2646,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect2</OnClickEvent>
             <Width>16</Width>
@@ -2062,6 +2662,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect3</OnClickEvent>
             <Width>16</Width>
@@ -2075,6 +2678,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect4</OnClickEvent>
             <Width>16</Width>
@@ -2088,6 +2694,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect5</OnClickEvent>
             <Width>16</Width>
@@ -2101,6 +2710,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect6</OnClickEvent>
             <Width>16</Width>
@@ -2114,6 +2726,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect7</OnClickEvent>
             <Width>16</Width>
@@ -2127,6 +2742,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect8</OnClickEvent>
             <Width>16</Width>
@@ -2140,6 +2758,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect9</OnClickEvent>
             <Width>16</Width>
@@ -2153,6 +2774,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect10</OnClickEvent>
             <Width>16</Width>
@@ -2166,6 +2790,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect11</OnClickEvent>
             <Width>16</Width>
@@ -2179,6 +2806,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect12</OnClickEvent>
             <Width>16</Width>
@@ -2192,6 +2822,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect13</OnClickEvent>
             <Width>16</Width>
@@ -2205,6 +2838,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect14</OnClickEvent>
             <Width>16</Width>
@@ -2218,6 +2854,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect15</OnClickEvent>
             <Width>16</Width>
@@ -2231,6 +2870,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect16</OnClickEvent>
             <Width>16</Width>
@@ -2244,6 +2886,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect17</OnClickEvent>
             <Width>16</Width>
@@ -2257,6 +2902,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect18</OnClickEvent>
             <Width>16</Width>
@@ -2270,6 +2918,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect19</OnClickEvent>
             <Width>16</Width>
@@ -2283,6 +2934,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect20</OnClickEvent>
             <Width>16</Width>
@@ -2296,6 +2950,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect21</OnClickEvent>
             <Width>16</Width>
@@ -2309,6 +2966,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect22</OnClickEvent>
             <Width>16</Width>
@@ -2322,6 +2982,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect23</OnClickEvent>
             <Width>16</Width>
@@ -2335,6 +2998,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect24</OnClickEvent>
             <Width>16</Width>
@@ -2348,6 +3014,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect25</OnClickEvent>
             <Width>16</Width>
@@ -2361,6 +3030,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect26</OnClickEvent>
             <Width>16</Width>
@@ -2374,11 +3046,17 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapTowerSelect27</OnClickEvent>
             <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
+
+
+        <!--Keep Hotspots-->
 
 
         <InvisibleButtonDef>
@@ -2387,6 +3065,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect0</OnClickEvent>
             <Width>16</Width>
@@ -2400,6 +3081,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect1</OnClickEvent>
             <Width>16</Width>
@@ -2413,6 +3097,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect2</OnClickEvent>
             <Width>16</Width>
@@ -2426,6 +3113,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect3</OnClickEvent>
             <Width>16</Width>
@@ -2439,6 +3129,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect4</OnClickEvent>
             <Width>16</Width>
@@ -2452,6 +3145,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect5</OnClickEvent>
             <Width>16</Width>
@@ -2465,6 +3161,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapKeepSelect6</OnClickEvent>
             <Width>16</Width>
@@ -2478,6 +3177,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapPowerRelicSelect</OnClickEvent>
             <Width>16</Width>
@@ -2491,6 +3193,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapStrengthRelicSelect</OnClickEvent>
             <Width>16</Width>
@@ -2504,6 +3209,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapPowerBorderSelect</OnClickEvent>
             <Width>16</Width>
@@ -2517,6 +3225,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapStrengthBorderSelect</OnClickEvent>
             <Width>16</Width>
@@ -2530,6 +3241,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapPowerRelicTownSelect</OnClickEvent>
             <Width>16</Width>
@@ -2543,11 +3257,96 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <Label></Label>
             <OnClickEvent>WarmapStrengthRelicTownSelect</OnClickEvent>
             <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>4</X>
+                <Y>281</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>UPDATE</Label>
+            <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2012</ControlId>
+            <Position>
+                <X>68</X>
+                <Y>281</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>TELEPORT</Label>
+            <OnClickEvent>WarmapTeleportRequest</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>234</X>
+                <Y>4</Y>
+            </Position>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>KEY</Label>
+            <OnClickEvent>ToggleWarmapKey</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2011</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <Label>Close</Label>
+            <OnClickEvent>ShowWarmap</OnClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1111</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>realmwar_destination</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1112</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>realmwar_destination</TemplateName>
+        </ImageAreaDef>
 
 
     </WindowTemplate>

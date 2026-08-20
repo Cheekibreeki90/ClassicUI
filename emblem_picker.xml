@@ -36,7 +36,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_dlg_lg_notitle</TemplateName>
             <Width>230</Width>
             <Height>292</Height>
         </FullResizeImageDef>

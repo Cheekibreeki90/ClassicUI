@@ -57,9 +57,21 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_lg_title_noresize</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>266</Width>
-            <Height>310</Height>
+            <Height>416</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>info_bg</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>305</Y>
+            </Position>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
+            <Width>124</Width>
+            <Height>108</Height>
         </FullResizeImageDef>
 
 
@@ -75,16 +87,16 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>285</Y>
+                <X>12</X>
+                <Y>308</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -96,8 +108,8 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>301</Y>
+                <X>12</X>
+                <Y>325</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -105,7 +117,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -117,8 +129,8 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>317</Y>
+                <X>12</X>
+                <Y>342</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -126,7 +138,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -138,8 +150,8 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>333</Y>
+                <X>12</X>
+                <Y>358</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -147,7 +159,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -159,8 +171,8 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>349</Y>
+                <X>12</X>
+                <Y>375</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -168,7 +180,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -180,8 +192,8 @@
 
         <LabelDef>
             <Position>
-                <X>5</X>
-                <Y>365</Y>
+                <X>12</X>
+                <Y>392</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -189,7 +201,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>128</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -202,10 +214,10 @@
         <CheckBoxDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>15</X>
-                <Y>2</Y>
+                <X>10</X>
+                <Y>7</Y>
             </Position>
-            <TemplateName>realmwar_tab</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Hibernia</Data>
@@ -217,10 +229,10 @@
         <CheckBoxDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>75</X>
-                <Y>2</Y>
+                <X>73</X>
+                <Y>7</Y>
             </Position>
-            <TemplateName>realmwar_tab</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Midgard</Data>
@@ -232,10 +244,10 @@
         <CheckBoxDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>130</X>
-                <Y>2</Y>
+                <X>137</X>
+                <Y>7</Y>
             </Position>
-            <TemplateName>realmwar_tab</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Albion</Data>
@@ -248,9 +260,9 @@
             <ControlId>2003</ControlId>
             <Position>
                 <X>190</X>
-                <Y>2</Y>
+                <Y>7</Y>
             </Position>
-            <TemplateName>realmwar_tab</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Agramon</Data>
@@ -265,7 +277,7 @@
                 <X>5</X>
                 <Y>25</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>KEY</Label>
             <OnClickEvent>ToggleWarmapKey</OnClickEvent>
         </ButtonDef>
@@ -277,7 +289,7 @@
                 <X>70</X>
                 <Y>25</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>UPDATE</Label>
             <OnClickEvent>WarmapUpdateBattles</OnClickEvent>
         </ButtonDef>
@@ -288,7 +300,7 @@
                 <X>135</X>
                 <Y>25</Y>
             </Position>
-            <TemplateName>button_large</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>BONUSES</Label>
             <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
         </ButtonDef>
@@ -302,6 +314,20 @@
             </Position>
             <TemplateName>player_location</TemplateName>
         </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>CLOSE</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+        </ButtonDef>
 
 
     </WindowTemplate>

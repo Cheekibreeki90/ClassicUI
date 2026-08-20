@@ -33,7 +33,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>300</Width>
             <Height>199</Height>
         </FullResizeImageDef>

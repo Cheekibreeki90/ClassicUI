@@ -9,15 +9,15 @@
         <Name>stats_index</Name>
         <WindowId>StatsIndex</WindowId>
         <CloseButton>false</CloseButton>
-        <MoveButton>false</MoveButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>202</TitleWidth>
-        <TitleHeight>5</TitleHeight>
-        <Width>202</Width>
+        <TitleWidth>192</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>192</Width>
         <Height>32</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -36,41 +36,16 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_dlg_sm_notitle</TemplateName>
-            <Width>202</Width>
+            <TemplateName>_c_window_small</TemplateName>
+            <Width>192</Width>
             <Height>32</Height>
         </FullResizeImageDef>
-
-
-        <InvisibleButtonDef>
-            <Position>
-                <X>171</X>
-                <Y>1</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Label></Label>
-            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
-            <Width>28</Width>
-            <Height>28</Height>
-        </InvisibleButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>171</X>
-                <Y>2</Y>
-            </Position>
-            <TemplateName>_stats_manager</TemplateName>
-            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
-        </ButtonDef>
 
 
         <CheckBoxDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>34</X>
+                <X>41</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -89,7 +64,7 @@
         <CheckBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>6</X>
+                <X>13</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -108,7 +83,7 @@
         <CheckBoxDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>62</X>
+                <X>69</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -127,7 +102,7 @@
         <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>90</X>
+                <X>97</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -146,7 +121,7 @@
         <CheckBoxDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>118</X>
+                <X>125</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -165,7 +140,7 @@
         <CheckBoxDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>146</X>
+                <X>153</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -179,6 +154,31 @@
             <LabelWidth>0</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_minimize</TemplateName>
+            <OnClickEvent>ButtonMinimize</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>MOVE</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_c_window_move</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>

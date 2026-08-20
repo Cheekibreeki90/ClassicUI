@@ -38,7 +38,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>280</Width>
             <Height>448</Height>
         </FullResizeImageDef>
@@ -70,21 +70,19 @@
         <TextAreaDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>12</X>
+                <X>6</X>
                 <Y>19</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_generic_textarea</TemplateName>
+            <TemplateName>_c_generic_textarea_dark</TemplateName>
             <AdapterName>info_text</AdapterName>
             <HasHotspots>true</HasHotspots>
             <HotspotDelineator>[]</HotspotDelineator>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>256</Width>
-            <Height>410</Height>
+            <Width>268</Width>
+            <Height>398</Height>
         </TextAreaDef>
 
 

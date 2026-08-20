@@ -38,7 +38,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>101</Width>
             <Height>43</Height>
         </FullResizeImageDef>
@@ -75,7 +75,7 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>REPAIR</Label>
             <OnClickEvent>KeepStatusRepair</OnClickEvent>
         </ButtonDef>

@@ -34,7 +34,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>86</Width>
             <Height>182</Height>
         </FullResizeImageDef>

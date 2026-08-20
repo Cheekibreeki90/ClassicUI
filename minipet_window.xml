@@ -8,17 +8,17 @@
     <WindowTemplate>
         <Name>mini_pet</Name>
         <WindowId>MiniPet</WindowId>
-        <CloseButton>false</CloseButton>
-        <MoveButton>false</MoveButton>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>0</TitleWidth>
-        <TitleHeight>0</TitleHeight>
-        <Width>188</Width>
-        <Height>120</Height>
+        <TitleWidth>128</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>128</Width>
+        <Height>128</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -39,39 +39,42 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_dlg_sm_notitle</TemplateName>
-            <Width>188</Width>
-            <Height>120</Height>
+            <TemplateName>_c_window_small</TemplateName>
+            <Width>128</Width>
+            <Height>128</Height>
         </FullResizeImageDef>
 
 
-        <StatusBarDef>
+        <LabelDef>
             <Position>
-                <X>1</X>
-                <Y>18</Y>
+                <X>16</X>
+                <Y>-1</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <TemplateName>_c_red_status</TemplateName>
-            <AdapterName>mini_pet_life</AdapterName>
-            <Width>172</Width>
-        </StatusBarDef>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Adapter>mini_pet_title</Adapter>
+        </LabelDef>
 
 
         <ScalarLabelDef>
-            <ControlId>pet life percentage</ControlId>
             <Position>
-                <X>10</X>
-                <Y>4</Y>
+                <X>111</X>
+                <Y>14</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>100</Width>
-            <Height>25</Height>
+            <FontName>button_large</FontName>
+            <Width>24</Width>
+            <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
@@ -84,42 +87,32 @@
         </ScalarLabelDef>
 
 
-        <LabelDef>
+        <StatusBarDef>
             <Position>
-                <X>32</X>
-                <Y>4</Y>
+                <X>4</X>
+                <Y>18</Y>
             </Position>
             <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
+                <TopLeft>true</TopLeft>
             </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>160</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
-            <Adapter>mini_pet_title</Adapter>
-            <TextCentered>true</TextCentered>
-        </LabelDef>
+            <TemplateName>_c_red_status</TemplateName>
+            <AdapterName>mini_pet_life</AdapterName>
+            <Width>100</Width>
+        </StatusBarDef>
 
 
         <InvisibleButtonDef>
             <ControlId>1009</ControlId>
             <Position>
-                <X>0</X>
-                <Y>16</Y>
+                <X>15</X>
+                <Y>9</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
-                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Label></Label>
             <OnClickEvent>PetTarget</OnClickEvent>
-            <Width>172</Width>
+            <Width>100</Width>
             <Height>15</Height>
         </InvisibleButtonDef>
 
@@ -127,8 +120,8 @@
         <CheckBoxDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>12</X>
-                <Y>57</Y>
+                <X>4</X>
+                <Y>26</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -145,8 +138,8 @@
         <CheckBoxDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>63</X>
-                <Y>57</Y>
+                <X>4</X>
+                <Y>39</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -163,8 +156,8 @@
         <CheckBoxDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>125</X>
-                <Y>58</Y>
+                <X>4</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -181,8 +174,8 @@
         <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>2</X>
-                <Y>77</Y>
+                <X>66</X>
+                <Y>26</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -199,8 +192,8 @@
         <CheckBoxDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>97</X>
-                <Y>76</Y>
+                <X>66</X>
+                <Y>39</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -217,8 +210,8 @@
         <CheckBoxDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>138</X>
-                <Y>76</Y>
+                <X>66</X>
+                <Y>65</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -235,8 +228,8 @@
         <CheckBoxDef>
             <ControlId>1006</ControlId>
             <Position>
-                <X>53</X>
-                <Y>76</Y>
+                <X>66</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -253,14 +246,14 @@
         <ButtonDef>
             <ControlId>1007</ControlId>
             <Position>
-                <X>22</X>
-                <Y>33</Y>
+                <X>3</X>
+                <Y>109</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>Attack</Label>
+            <Label>ATTACK</Label>
             <OnClickEvent>PetAttack</OnClickEvent>
         </ButtonDef>
 
@@ -268,22 +261,22 @@
         <ButtonDef>
             <ControlId>1008</ControlId>
             <Position>
-                <X>106</X>
-                <Y>33</Y>
+                <X>67</X>
+                <Y>109</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>Release</Label>
+            <Label>RELEASE</Label>
             <OnClickEvent>PetRelease</OnClickEvent>
         </ButtonDef>
 
 
         <IconDef>
             <Position>
-                <X>33</X>
-                <Y>94</Y>
+                <X>5</X>
+                <Y>91</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -297,8 +290,8 @@
 
         <IconDef>
             <Position>
-                <X>53</X>
-                <Y>94</Y>
+                <X>22</X>
+                <Y>91</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -312,8 +305,8 @@
 
         <IconDef>
             <Position>
-                <X>73</X>
-                <Y>94</Y>
+                <X>39</X>
+                <Y>91</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -327,8 +320,8 @@
 
         <IconDef>
             <Position>
-                <X>93</X>
-                <Y>94</Y>
+                <X>56</X>
+                <Y>91</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -342,8 +335,8 @@
 
         <IconDef>
             <Position>
-                <X>113</X>
-                <Y>94</Y>
+                <X>73</X>
+                <Y>91</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -357,8 +350,8 @@
 
         <IconDef>
             <Position>
-                <X>133</X>
-                <Y>94</Y>
+                <X>90</X>
+                <Y>91</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -368,6 +361,59 @@
             <IconId>0</IconId>
             <Data></Data>
         </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>107</X>
+                <Y>91</Y>
+            </Position>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect6</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <IconDef>
+            <Position>
+                <X>5</X>
+                <Y>74</Y>
+            </Position>
+            <TemplateName>plain_icon_small</TemplateName>
+            <AdapterName>mini_pet_effect7</AdapterName>
+            <IconId>0</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <Label>CLOSE</Label>
+            <OnClickEvent>ButtonClose</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <Label>MOVE</Label>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>

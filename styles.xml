@@ -21004,4 +21004,242 @@
     </ButtonTemplate>
 
 
+    <TreeControlTemplate>
+        <Name>_c_quest_tree</Name>
+        <BackgroundTemplate>_c_dlg_interior_thick</BackgroundTemplate>
+        <ScrollbarTemplate>_c_vscroll_stats</ScrollbarTemplate>
+        <CheckBoxTemplate>_c_generic_check</CheckBoxTemplate>
+        <IconTemplate>_c_plain_icon_small</IconTemplate>
+        <FontName>arial11</FontName>
+        <FontColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+        </FontColor>
+        <LinePadding>2</LinePadding>
+        <OffsetX>6</OffsetX>
+        <OffsetY>6</OffsetY>
+        <TextOffset>4</TextOffset>
+    </TreeControlTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_c_perf_packet_large</Name>
+        <TextureName>page4_classic</TextureName>
+        <TextureStart>
+            <X>395</X>
+            <Y>452</Y>
+        </TextureStart>
+        <Width>32</Width>
+        <Height>32</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_c_perf_packet_small</Name>
+        <TextureName>page4_classic</TextureName>
+        <TextureStart>
+            <X>494</X>
+            <Y>452</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_c_perf_ping_large</Name>
+        <TextureName>page4_classic</TextureName>
+        <TextureStart>
+            <X>427</X>
+            <Y>452</Y>
+        </TextureStart>
+        <Width>32</Width>
+        <Height>32</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_c_perf_ping_small</Name>
+        <TextureName>page4_classic</TextureName>
+        <TextureStart>
+            <X>494</X>
+            <Y>452</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_c_perf_fps_large</Name>
+        <TextureName>page4_classic</TextureName>
+        <TextureStart>
+            <X>459</X>
+            <Y>452</Y>
+        </TextureStart>
+        <Width>32</Width>
+        <Height>32</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_c_perf_fps_small</Name>
+        <TextureName>page4_classic</TextureName>
+        <TextureStart>
+            <X>526</X>
+            <Y>452</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <TextAreaTemplate>
+        <Name>_c_map_textarea</Name>
+        <BackgroundTemplate>_c_window_small</BackgroundTemplate>
+        <ScrollbarTemplate>_c_vscroll_no_gutter</ScrollbarTemplate>
+        <LinePadding>1</LinePadding>
+        <TextOffset>
+            <X>8</X>
+            <Y>8</Y>
+        </TextOffset>
+        <ScrollbarOffset>
+            <X>-3</X>
+            <Y>0</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarSizeOffset>
+        <Font>
+            <Name>button_large</Name>
+            <ColorNormal>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>0</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+    </TextAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>_c_group_player_card</Name>
+        <TextureName>page2_classic</TextureName>
+        <Size>
+            <X>186</X>
+            <Y>34</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>55</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <FullResizeImageTemplate>
+        <Name>_c_dlg_interior_dark</Name>
+        <TopHeight>28</TopHeight>
+        <MiddleHeight>387</MiddleHeight>
+        <BottomHeight>2</BottomHeight>
+        <LeftWidth>40</LeftWidth>
+        <MiddleWidth>142</MiddleWidth>
+        <RightWidth>2</RightWidth>
+        <Texture>
+            <TextureName>page4_classic</TextureName>
+            <TopLeft>
+                <X>781</X>
+                <Y>484</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>821</X>
+                <Y>484</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>971</X>
+                <Y>484</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>781</X>
+                <Y>512</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>821</X>
+                <Y>512</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>971</X>
+                <Y>512</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>781</X>
+                <Y>899</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>821</X>
+                <Y>899</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>971</X>
+                <Y>899</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <TextAreaTemplate>
+        <Name>_c_generic_textarea_dark</Name>
+        <BackgroundTemplate>_c_dlg_interior_dark</BackgroundTemplate>
+        <ScrollbarTemplate>_c_generic_vscroll</ScrollbarTemplate>
+        <LinePadding>1</LinePadding>
+        <TextOffset>
+            <X>6</X>
+            <Y>12</Y>
+        </TextOffset>
+        <ScrollbarOffset>
+            <X>2</X>
+            <Y>0</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarSizeOffset>
+        <Font>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>0</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+    </TextAreaTemplate>
+
+
 </Root_Element>

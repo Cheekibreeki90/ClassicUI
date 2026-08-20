@@ -137,7 +137,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>264</Width>
             <Height>282</Height>
         </FullResizeImageDef>
@@ -390,17 +390,17 @@
         <TextAreaDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>0</X>
-                <Y>276</Y>
+                <X>-4</X>
+                <Y>279</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_generic_textarea</TemplateName>
+            <TemplateName>_c_map_textarea</TemplateName>
             <AdapterName>map_info</AdapterName>
             <HasHotSpots>false</HasHotSpots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>256</Width>
+            <Width>264</Width>
             <Height>78</Height>
         </TextAreaDef>
 

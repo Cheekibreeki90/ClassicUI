@@ -38,10 +38,86 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>206</Width>
             <Height>145</Height>
         </FullResizeImageDef>
+
+
+        <StatusBarDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_c_green_status</TemplateName>
+            <AdapterName>siege_timer</AdapterName>
+            <Width>180</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>0</X>
+                <Y>50</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_c_red_status</TemplateName>
+            <AdapterName>siege_hits</AdapterName>
+            <Width>180</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>15</X>
+                <Y>33</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>150</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Siege Condition</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>17</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>100</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Siege Timer</Data>
+            <Adapter>siege_timer_label</Adapter>
+        </LabelDef>
 
 
         <ButtonDef>
@@ -53,7 +129,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Aim</Label>
             <OnClickEvent>SiegeAim</OnClickEvent>
         </ButtonDef>
@@ -68,7 +144,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Fire</Label>
             <OnClickEvent>SiegeFire</OnClickEvent>
         </ButtonDef>
@@ -83,7 +159,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Move</Label>
             <OnClickEvent>SiegeMove</OnClickEvent>
         </ButtonDef>
@@ -98,7 +174,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Release</Label>
             <OnClickEvent>SiegeRelease</OnClickEvent>
         </ButtonDef>
@@ -112,7 +188,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Repair</Label>
             <OnClickEvent>SiegeRepair</OnClickEvent>
         </ButtonDef>
@@ -127,84 +203,10 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Salvage</Label>
             <OnClickEvent>SiegeSalvage</OnClickEvent>
         </ButtonDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>5</X>
-                <Y>3</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>100</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>Siege Timer</Data>
-            <Adapter>siege_timer_label</Adapter>
-        </LabelDef>
-
-
-        <StatusBarDef>
-            <ControlId>1001</ControlId>
-            <Position>
-                <X>4</X>
-                <Y>18</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statusbar_medium_green</TemplateName>
-            <AdapterName>siege_timer</AdapterName>
-            <Width>200</Width>
-        </StatusBarDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>6</X>
-                <Y>33</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>150</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>Siege Condition</Data>
-        </LabelDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>4</X>
-                <Y>48</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_witt_statusbar_medium_red</TemplateName>
-            <AdapterName>siege_hits</AdapterName>
-            <Width>200</Width>
-        </StatusBarDef>
 
 
         <ListBoxDef>
@@ -218,7 +220,7 @@
             </Alignment>
             <Width>135</Width>
             <Height>84</Height>
-            <TemplateName>.classic_listbox</TemplateName>
+            <TemplateName>_c_listbox_bg</TemplateName>
             <AdapterName>siege_ammo</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -228,6 +230,35 @@
             <OnHeaderClickEvent></OnHeaderClickEvent>
             <OnClickEvent></OnClickEvent>
         </ListBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>CLOSE</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <OnClickEvent>ButtonClose</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>MOVE</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>

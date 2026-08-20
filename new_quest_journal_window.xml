@@ -77,8 +77,10 @@
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>398</Width>
             <Height>228</Height>
         </FullResizeImageDef>
@@ -122,8 +124,10 @@
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_tree_control</TemplateName>
+            <TemplateName>_c_quest_tree</TemplateName>
             <AdapterName>new_quest_journal_entries</AdapterName>
             <Width>390</Width>
             <Height>176</Height>
@@ -209,7 +213,7 @@
                 <B>255</B>
                 <A>192</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>318</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>

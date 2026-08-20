@@ -578,7 +578,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_lg_title_noresize</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>140</Width>
             <Height>250</Height>
         </FullResizeImageDef>
@@ -996,6 +996,35 @@
             <MaxCharacters>128</MaxCharacters>
             <Data>Current Position</Data>
         </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>CLOSE</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <OnClickEvent>ButtonClose</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>MOVE</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>

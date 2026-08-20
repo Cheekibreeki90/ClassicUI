@@ -73,8 +73,8 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>87</Width>
-        <Height>16</Height>
+        <Width>101</Width>
+        <Height>36</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -82,17 +82,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>.classic_bg</TemplateName>
-            <Width>87</Width>
-            <Height>16</Height>
-        </FullResizeImageDef>
 
 
         <!--large icons-->
@@ -104,7 +93,7 @@
                 <X>3</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>performance_icon_large</TemplateName>
+            <TemplateName>_c_perf_packet_large</TemplateName>
             <AdapterName>performance_meter</AdapterName>
         </StatusIconDef>
 
@@ -112,10 +101,10 @@
         <StatusIconDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>34</X>
+                <X>35</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>lag_icon_large</TemplateName>
+            <TemplateName>_c_perf_ping_large</TemplateName>
             <AdapterName>lag_meter</AdapterName>
         </StatusIconDef>
 
@@ -123,10 +112,10 @@
         <StatusIconDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>70</X>
+                <X>67</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>framerate_icon_large</TemplateName>
+            <TemplateName>_c_perf_fps_large</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
 
@@ -140,7 +129,7 @@
                 <X>3</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>performance_icon_large</TemplateName>
+            <TemplateName>_c_perf_packet_small</TemplateName>
             <AdapterName>performance_meter</AdapterName>
         </StatusIconDef>
 
@@ -148,10 +137,10 @@
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>32</X>
+                <X>19</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>lag_icon_large</TemplateName>
+            <TemplateName>_c_perf_ping_small</TemplateName>
             <AdapterName>lag_meter</AdapterName>
         </StatusIconDef>
 
@@ -159,23 +148,23 @@
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>62</X>
+                <X>35</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>framerate_icon_large</TemplateName>
+            <TemplateName>_c_perf_fps_small</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
 
 
         <InvisibleButtonDef>
             <Position>
-                <X>0</X>
-                <Y>0</Y>
+                <X>4</X>
+                <Y>2</Y>
             </Position>
             <Label></Label>
             <OnClickEvent>Relic</OnClickEvent>
             <Width>87</Width>
-            <Height>14</Height>
+            <Height>32</Height>
         </InvisibleButtonDef>
 
 

@@ -36,7 +36,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>192</Width>
             <Height>368</Height>
         </FullResizeImageDef>
@@ -45,52 +45,50 @@
         <!--group member 0-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
-                <Y>45</Y>
+                <Y>44</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>57</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health0</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>57</Y>
+                <X>4</X>
+                <Y>68</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance0</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>57</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power0</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <LabelDef>
             <Position>
                 <X>26</X>
-                <Y>46</Y>
+                <Y>42</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -101,7 +99,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -113,7 +111,7 @@
         <LabelDef>
             <Position>
                 <X>132</X>
-                <Y>46</Y>
+                <Y>42</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -124,7 +122,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -136,12 +134,12 @@
             <ControlId>2000</ControlId>
             <Position>
                 <X>9</X>
-                <Y>46</Y>
+                <Y>42</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -157,8 +155,8 @@
 
         <IconDef>
             <Position>
-                <X>8</X>
-                <Y>65</Y>
+                <X>79</X>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -172,8 +170,8 @@
 
         <IconDef>
             <Position>
-                <X>26</X>
-                <Y>65</Y>
+                <X>97</X>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -187,8 +185,8 @@
 
         <IconDef>
             <Position>
-                <X>44</X>
-                <Y>65</Y>
+                <X>115</X>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -197,13 +195,17 @@
             <AdapterName>group_0icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>62</X>
-                <Y>65</Y>
+                <X>133</X>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -212,13 +214,17 @@
             <AdapterName>group_0icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>80</X>
-                <Y>65</Y>
+                <X>151</X>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -232,8 +238,8 @@
 
         <IconDef>
             <Position>
-                <X>98</X>
-                <Y>65</Y>
+                <X>169</X>
+                <Y>58</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -245,70 +251,10 @@
         </IconDef>
 
 
-        <IconDef>
-            <Position>
-                <X>116</X>
-                <Y>65</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_0icon6</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>134</X>
-                <Y>65</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_0icon7</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>152</X>
-                <Y>65</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_0icon8</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>170</X>
-                <Y>65</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_0icon9</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
         <InvisibleButtonDef>
             <Position>
                 <X>3</X>
-                <Y>45</Y>
+                <Y>43</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -323,7 +269,7 @@
         <!--group member 1-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
                 <Y>85</Y>
@@ -331,44 +277,42 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health1</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>97</Y>
+                <X>5</X>
+                <Y>109</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance1</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>97</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power1</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <LabelDef>
             <Position>
                 <X>26</X>
-                <Y>86</Y>
+                <Y>83</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -379,7 +323,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -391,7 +335,7 @@
         <LabelDef>
             <Position>
                 <X>132</X>
-                <Y>86</Y>
+                <Y>83</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -402,7 +346,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -414,12 +358,12 @@
             <ControlId>2001</ControlId>
             <Position>
                 <X>9</X>
-                <Y>86</Y>
+                <Y>83</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -435,8 +379,8 @@
 
         <IconDef>
             <Position>
-                <X>7</X>
-                <Y>105</Y>
+                <X>79</X>
+                <Y>99</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -445,13 +389,17 @@
             <AdapterName>group_1icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>25</X>
-                <Y>105</Y>
+                <X>115</X>
+                <Y>99</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -460,13 +408,17 @@
             <AdapterName>group_1icon1</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>43</X>
-                <Y>105</Y>
+                <X>97</X>
+                <Y>99</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -475,13 +427,17 @@
             <AdapterName>group_1icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>61</X>
-                <Y>105</Y>
+                <X>133</X>
+                <Y>99</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -490,13 +446,17 @@
             <AdapterName>group_1icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>79</X>
-                <Y>105</Y>
+                <X>151</X>
+                <Y>99</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -505,13 +465,17 @@
             <AdapterName>group_1icon4</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>97</X>
-                <Y>105</Y>
+                <X>169</X>
+                <Y>99</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -520,73 +484,17 @@
             <AdapterName>group_1icon5</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>115</X>
-                <Y>105</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_1icon6</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>133</X>
-                <Y>105</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_1icon7</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>151</X>
-                <Y>105</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_1icon8</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>169</X>
-                <Y>105</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_1icon9</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <InvisibleButtonDef>
             <Position>
                 <X>3</X>
-                <Y>85</Y>
+                <Y>84</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -601,52 +509,47 @@
         <!--group member 2-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
                 <Y>125</Y>
             </Position>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>139</Y>
+            </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health2</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>137</Y>
+                <X>5</X>
+                <Y>149</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance2</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>137</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power2</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <LabelDef>
             <Position>
                 <X>26</X>
-                <Y>126</Y>
+                <Y>123</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -657,7 +560,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -669,7 +572,7 @@
         <LabelDef>
             <Position>
                 <X>132</X>
-                <Y>126</Y>
+                <Y>123</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -680,7 +583,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -692,12 +595,12 @@
             <ControlId>2002</ControlId>
             <Position>
                 <X>9</X>
-                <Y>126</Y>
+                <Y>123</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -713,8 +616,8 @@
 
         <IconDef>
             <Position>
-                <X>7</X>
-                <Y>145</Y>
+                <X>79</X>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -723,13 +626,17 @@
             <AdapterName>group_2icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>25</X>
-                <Y>145</Y>
+                <X>97</X>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -738,13 +645,17 @@
             <AdapterName>group_2icon1</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>43</X>
-                <Y>145</Y>
+                <X>115</X>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -753,13 +664,17 @@
             <AdapterName>group_2icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>61</X>
-                <Y>145</Y>
+                <X>133</X>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -768,13 +683,17 @@
             <AdapterName>group_2icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>79</X>
-                <Y>145</Y>
+                <X>151</X>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -783,13 +702,17 @@
             <AdapterName>group_2icon4</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>97</X>
-                <Y>145</Y>
+                <X>169</X>
+                <Y>140</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -798,73 +721,17 @@
             <AdapterName>group_2icon5</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>115</X>
-                <Y>145</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_2icon6</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>133</X>
-                <Y>145</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_2icon7</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>151</X>
-                <Y>145</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_2icon8</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>169</X>
-                <Y>145</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_2icon9</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <InvisibleButtonDef>
             <Position>
                 <X>3</X>
-                <Y>125</Y>
+                <Y>122</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -879,52 +746,47 @@
         <!--group member 3-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
                 <Y>165</Y>
             </Position>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>179</Y>
+            </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health3</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>177</Y>
+                <X>5</X>
+                <Y>189</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance3</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>177</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power3</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <LabelDef>
             <Position>
                 <X>26</X>
-                <Y>166</Y>
+                <Y>163</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -935,7 +797,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -947,7 +809,7 @@
         <LabelDef>
             <Position>
                 <X>132</X>
-                <Y>166</Y>
+                <Y>163</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -958,7 +820,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -970,12 +832,12 @@
             <ControlId>2003</ControlId>
             <Position>
                 <X>9</X>
-                <Y>166</Y>
+                <Y>163</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -991,8 +853,8 @@
 
         <IconDef>
             <Position>
-                <X>7</X>
-                <Y>185</Y>
+                <X>79</X>
+                <Y>181</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1001,13 +863,17 @@
             <AdapterName>group_3icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>25</X>
-                <Y>185</Y>
+                <X>97</X>
+                <Y>181</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1016,13 +882,17 @@
             <AdapterName>group_3icon1</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>43</X>
-                <Y>185</Y>
+                <X>115</X>
+                <Y>181</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1031,13 +901,17 @@
             <AdapterName>group_3icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>61</X>
-                <Y>185</Y>
+                <X>133</X>
+                <Y>181</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1046,13 +920,17 @@
             <AdapterName>group_3icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>79</X>
-                <Y>185</Y>
+                <X>151</X>
+                <Y>181</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1061,13 +939,17 @@
             <AdapterName>group_3icon4</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>97</X>
-                <Y>185</Y>
+                <X>169</X>
+                <Y>181</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1076,73 +958,17 @@
             <AdapterName>group_3icon5</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>115</X>
-                <Y>185</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_3icon6</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>133</X>
-                <Y>185</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_3icon7</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>151</X>
-                <Y>185</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_3icon8</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>169</X>
-                <Y>185</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_3icon9</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <InvisibleButtonDef>
             <Position>
-                <X>3</X>
-                <Y>165</Y>
+                <X>4</X>
+                <Y>163</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1157,45 +983,40 @@
         <!--group member 4-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
-                <Y>205</Y>
+                <Y>207</Y>
+            </Position>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>221</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health4</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>217</Y>
+                <X>5</X>
+                <Y>231</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance4</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>217</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power4</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
@@ -1213,7 +1034,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1236,7 +1057,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1253,7 +1074,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -1269,8 +1090,8 @@
 
         <IconDef>
             <Position>
-                <X>7</X>
-                <Y>225</Y>
+                <X>79</X>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1279,13 +1100,17 @@
             <AdapterName>group_4icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>25</X>
-                <Y>225</Y>
+                <X>97</X>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1294,13 +1119,17 @@
             <AdapterName>group_4icon1</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>43</X>
-                <Y>225</Y>
+                <X>115</X>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1309,13 +1138,17 @@
             <AdapterName>group_4icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>61</X>
-                <Y>225</Y>
+                <X>133</X>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1324,13 +1157,17 @@
             <AdapterName>group_4icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>79</X>
-                <Y>225</Y>
+                <X>151</X>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1339,13 +1176,17 @@
             <AdapterName>group_4icon4</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>97</X>
-                <Y>225</Y>
+                <X>169</X>
+                <Y>222</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1354,66 +1195,10 @@
             <AdapterName>group_4icon5</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>115</X>
-                <Y>225</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_4icon6</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>133</X>
-                <Y>225</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_4icon7</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>151</X>
-                <Y>225</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_4icon8</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>169</X>
-                <Y>225</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_4icon9</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -1435,45 +1220,40 @@
         <!--group member 5-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
-                <Y>245</Y>
+                <Y>248</Y>
+            </Position>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>262</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health5</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>257</Y>
+                <X>5</X>
+                <Y>272</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance5</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>257</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power5</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
@@ -1491,7 +1271,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1514,7 +1294,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1531,7 +1311,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -1547,8 +1327,8 @@
 
         <IconDef>
             <Position>
-                <X>7</X>
-                <Y>265</Y>
+                <X>79</X>
+                <Y>263</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1557,13 +1337,17 @@
             <AdapterName>group_5icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>25</X>
-                <Y>265</Y>
+                <X>97</X>
+                <Y>263</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1572,13 +1356,17 @@
             <AdapterName>group_5icon1</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>43</X>
-                <Y>265</Y>
+                <X>115</X>
+                <Y>263</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1587,13 +1375,17 @@
             <AdapterName>group_5icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>61</X>
-                <Y>265</Y>
+                <X>133</X>
+                <Y>263</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1602,13 +1394,17 @@
             <AdapterName>group_5icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>79</X>
-                <Y>265</Y>
+                <X>151</X>
+                <Y>263</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1617,13 +1413,17 @@
             <AdapterName>group_5icon4</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>97</X>
-                <Y>265</Y>
+                <X>169</X>
+                <Y>263</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1632,73 +1432,17 @@
             <AdapterName>group_5icon5</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>115</X>
-                <Y>265</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_5icon6</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>133</X>
-                <Y>265</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_5icon7</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>151</X>
-                <Y>265</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_5icon8</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>169</X>
-                <Y>265</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_5icon9</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <InvisibleButtonDef>
             <Position>
                 <X>3</X>
-                <Y>245</Y>
+                <Y>246</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1713,52 +1457,47 @@
         <!--group member 6-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
-                <Y>285</Y>
+                <Y>290</Y>
+            </Position>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health6</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>297</Y>
+                <X>5</X>
+                <Y>314</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance6</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>297</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power6</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <LabelDef>
             <Position>
                 <X>26</X>
-                <Y>286</Y>
+                <Y>288</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1769,7 +1508,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1781,7 +1520,7 @@
         <LabelDef>
             <Position>
                 <X>132</X>
-                <Y>286</Y>
+                <Y>288</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1792,7 +1531,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1804,12 +1543,12 @@
             <ControlId>2006</ControlId>
             <Position>
                 <X>9</X>
-                <Y>286</Y>
+                <Y>288</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -1825,8 +1564,8 @@
 
         <IconDef>
             <Position>
-                <X>7</X>
-                <Y>305</Y>
+                <X>79</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1835,13 +1574,17 @@
             <AdapterName>group_6icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>25</X>
-                <Y>305</Y>
+                <X>97</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1850,13 +1593,17 @@
             <AdapterName>group_6icon1</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>43</X>
-                <Y>305</Y>
+                <X>115</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1865,13 +1612,17 @@
             <AdapterName>group_6icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>61</X>
-                <Y>305</Y>
+                <X>133</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1880,13 +1631,17 @@
             <AdapterName>group_6icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>79</X>
-                <Y>305</Y>
+                <X>151</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1895,13 +1650,17 @@
             <AdapterName>group_6icon4</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <IconDef>
             <Position>
-                <X>97</X>
-                <Y>305</Y>
+                <X>169</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1910,73 +1669,17 @@
             <AdapterName>group_6icon5</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>115</X>
-                <Y>305</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_6icon6</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>133</X>
-                <Y>305</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_6icon7</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>151</X>
-                <Y>305</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_6icon8</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>169</X>
-                <Y>305</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_6icon9</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <InvisibleButtonDef>
             <Position>
                 <X>3</X>
-                <Y>285</Y>
+                <Y>288</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1991,52 +1694,47 @@
         <!--group member 7-->
 
 
-        <StatusBarDef>
+        <ImageAreaDef>
             <Position>
                 <X>3</X>
-                <Y>325</Y>
+                <Y>331</Y>
+            </Position>
+            <TemplateName>_c_group_player_card</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>345</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_health_smallred</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health7</AdapterName>
-            <Width>187</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <StatusBarDef>
             <Position>
-                <X>3</X>
-                <Y>337</Y>
+                <X>5</X>
+                <Y>355</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>b_bar_endo_smallgreen</TemplateName>
-            <AdapterName>group_endurance7</AdapterName>
-            <Width>94</Width>
-        </StatusBarDef>
-
-
-        <StatusBarDef>
-            <Position>
-                <X>96</X>
-                <Y>337</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>b_bar_power_smallyellow</TemplateName>
+            <TemplateName>_c_yellow_status_small</TemplateName>
             <AdapterName>group_power7</AdapterName>
-            <Width>94</Width>
+            <Width>72</Width>
         </StatusBarDef>
 
 
         <LabelDef>
             <Position>
                 <X>26</X>
-                <Y>326</Y>
+                <Y>329</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2047,7 +1745,7 @@
                 <B>229</B>
                 <A>200</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>77</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -2059,7 +1757,7 @@
         <LabelDef>
             <Position>
                 <X>132</X>
-                <Y>326</Y>
+                <Y>329</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2070,7 +1768,7 @@
                 <B>229</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>50</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -2082,12 +1780,12 @@
             <ControlId>2007</ControlId>
             <Position>
                 <X>9</X>
-                <Y>326</Y>
+                <Y>329</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
+            <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
             <MaxCharacters>16</MaxCharacters>
@@ -2103,7 +1801,7 @@
 
         <IconDef>
             <Position>
-                <X>7</X>
+                <X>79</X>
                 <Y>345</Y>
             </Position>
             <Alignment>
@@ -2113,66 +1811,10 @@
             <AdapterName>group_7icon0</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>25</X>
-                <Y>345</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon1</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>43</X>
-                <Y>345</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon2</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>61</X>
-                <Y>345</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon3</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>79</X>
-                <Y>345</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon4</AdapterName>
-            <IconId>-1</IconId>
-            <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -2185,9 +1827,13 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon5</AdapterName>
+            <AdapterName>group_7icon1</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -2200,9 +1846,13 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon6</AdapterName>
+            <AdapterName>group_7icon2</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -2215,9 +1865,13 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon7</AdapterName>
+            <AdapterName>group_7icon3</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -2230,9 +1884,13 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon8</AdapterName>
+            <AdapterName>group_7icon4</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
@@ -2245,16 +1903,20 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>group_7icon9</AdapterName>
+            <AdapterName>group_7icon5</AdapterName>
             <IconId>-1</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 
         <InvisibleButtonDef>
             <Position>
                 <X>3</X>
-                <Y>325</Y>
+                <Y>329</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -2268,7 +1930,7 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
+                <X>4</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -2297,7 +1959,7 @@
 
         <ButtonDef>
             <Position>
-                <X>132</X>
+                <X>130</X>
                 <Y>3</Y>
             </Position>
             <Alignment>
@@ -2311,7 +1973,7 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
+                <X>4</X>
                 <Y>22</Y>
             </Position>
             <Alignment>
@@ -2341,7 +2003,7 @@
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
-                <X>132</X>
+                <X>130</X>
                 <Y>22</Y>
             </Position>
             <Alignment>

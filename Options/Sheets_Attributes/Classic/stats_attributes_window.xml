@@ -566,7 +566,7 @@
                 <X>3</X>
                 <Y>121</Y>
             </Position>
-            <TemplateName>_c_dlg_interior_turquoise</TemplateName>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
             <Width>185</Width>
             <Height>80</Height>
         </FullResizeImageDef>
@@ -1002,9 +1002,9 @@
                 <Y>206</Y>
             </Position>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
                 <A>200</A>
             </Color>
             <FontName>button_large</FontName>
@@ -1041,6 +1041,7 @@
 
 
         <ButtonDef>
+            <ControlId>1002</ControlId>
             <Position>
                 <X>126</X>
                 <Y>395</Y>

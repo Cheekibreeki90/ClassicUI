@@ -15,10 +15,10 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>64</TitleWidth>
+        <TitleWidth>128</TitleWidth>
         <TitleHeight>18</TitleHeight>
-        <Width>108</Width>
-        <Height>76</Height>
+        <Width>128</Width>
+        <Height>96</Height>
         <ResizeableWidth>5</ResizeableWidth>
         <ResizeableHeight>5</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -38,9 +38,9 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_dlg_sm_notitle</TemplateName>
-            <Width>108</Width>
-            <Height>76</Height>
+            <TemplateName>_c_window_small</TemplateName>
+            <Width>126</Width>
+            <Height>96</Height>
         </FullResizeImageDef>
 
 
@@ -58,8 +58,8 @@
             <AdapterName>mini_friends_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>100</Width>
-            <Height>65</Height>
+            <Width>118</Width>
+            <Height>88</Height>
         </TextAreaDef>
 
 

@@ -36,7 +36,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>192</Width>
             <Height>416</Height>
         </FullResizeImageDef>
@@ -174,7 +174,7 @@
             <ControlId>1003</ControlId>
             <Position>
                 <X>100</X>
-                <Y>9</Y>
+                <Y>6</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -185,7 +185,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>96</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
@@ -197,7 +197,7 @@
         <LabelDef>
             <Position>
                 <X>10</X>
-                <Y>9</Y>
+                <Y>7</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -208,7 +208,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>100</Width>
             <Height>30</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -219,7 +219,7 @@
         <LabelDef>
             <Position>
                 <X>12</X>
-                <Y>139</Y>
+                <Y>137</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -230,7 +230,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>100</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -241,7 +241,7 @@
         <LabelDef>
             <Position>
                 <X>12</X>
-                <Y>278</Y>
+                <Y>276</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -252,7 +252,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial11</FontName>
+            <FontName>button_large</FontName>
             <Width>100</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>

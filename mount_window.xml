@@ -38,7 +38,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>206</Width>
             <Height>320</Height>
         </FullResizeImageDef>

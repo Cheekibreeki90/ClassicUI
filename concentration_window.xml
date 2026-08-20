@@ -35,6 +35,7 @@
                 <Y>0</Y>
             </Position>
             <Alignment>
+                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>

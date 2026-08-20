@@ -17,7 +17,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>403</Width>
+        <Width>400</Width>
         <Height>221</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -36,8 +36,8 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
-            <Width>403</Width>
+            <TemplateName>_c_window_small</TemplateName>
+            <Width>400</Width>
             <Height>221</Height>
         </FullResizeImageDef>
 

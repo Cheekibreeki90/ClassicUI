@@ -26,7 +26,7 @@
 ;
 ; Albion
 ;
-[region001]
+[region239]
 zone_count=10
 zone_width=38
 zone_height=38
@@ -408,7 +408,7 @@ zone10_desc=Once pristine forests on the mountain slopes, the Glen was the pinna
 ;
 ; Midgard
 ;
-[region100]
+[region240]
 zone_count=10
 zone_width=38
 zone_height=38
@@ -837,28 +837,28 @@ zone0_left=0
 zone0_desc=Defend your realm’s honor!  This region is for levels 20-24 only.  The center keep can be claimed once per level for experience
 
 ; braemar
-[region239]
-zone_count=1
-zone0_number=239
-zone0_top=0
-zone0_left=0
-zone0_desc=Defend your realm’s honor!  This region is for levels 25-29 only.  The center keep can be claimed once per level for experience
+;[region239]
+;zone_count=1
+;zone0_number=239
+;zone0_top=0
+;zone0_left=0
+;zone0_desc=Defend your realm’s honor!  This region is for levels 25-29 only.  The center keep can be claimed once per level for experience
 
 ; wilton
-[region240]
-zone_count=1
-zone0_number=240
-zone0_top=0
-zone0_left=0
-zone0_desc=Defend your realm’s honor!  This region is for levels 30-34 only.  The center keep can be claimed once per level for experience
+;[region240]
+;zone_count=1
+;zone0_number=240
+;zone0_top=0
+;zone0_left=0
+;zone0_desc=Defend your realm’s honor!  This region is for levels 30-34 only.  The center keep can be claimed once per level for experience
 
 ; molvik
-[region241]
-zone_count=1
-zone0_number=241
-zone0_top=0
-zone0_left=0
-zone0_desc=Defend your realm’s honor!  This region is for levels 35-39 only.  The center keep can be claimed once per level for experience
+;[region241]
+;zone_count=1
+;zone0_number=241
+;zone0_top=0
+;zone0_left=0
+;zone0_desc=Defend your realm’s honor!  This region is for levels 35-39 only.  The center keep can be claimed once per level for experience
 
 ; leirvik
 [region242]
@@ -932,7 +932,7 @@ zone6_desc=Located off of the northern coast of World’s End is the long forgotte
 ;
 ; Hibernia
 ;
-[region200]
+[region241]
 zone_count=10
 zone_width=43
 zone_height=43
