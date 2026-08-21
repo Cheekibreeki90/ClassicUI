@@ -88,9 +88,12 @@
 
         <ImageAreaDef>
             <Position>
-                <X>1</X>
-                <Y>8</Y>
+                <X>6</X>
+                <Y>6</Y>
             </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
             <TemplateName>_c_quest_flair_right</TemplateName>
         </ImageAreaDef>
 
@@ -109,9 +112,12 @@
 
         <ImageAreaDef>
             <Position>
-                <X>266</X>
+                <X>6</X>
                 <Y>6</Y>
             </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
             <TemplateName>_c_quest_flair_left</TemplateName>
         </ImageAreaDef>
 
