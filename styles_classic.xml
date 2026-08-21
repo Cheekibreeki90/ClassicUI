@@ -569,7 +569,7 @@
                 <R>128</R>
                 <G>128</G>
                 <B>128</B>
-                <A>255</A>
+                <A>0</A>
             </ColorDisabled>
         </Font>
         <Texture>
@@ -592,7 +592,7 @@
             </PressedHighlit>
             <Disabled>
                 <X>131</X>
-                <Y>116</Y>
+                <Y>134</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>

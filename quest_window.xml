@@ -80,7 +80,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>512</Width>
             <Height>256</Height>
         </FullResizeImageDef>
@@ -96,7 +96,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>.classic_textarea</TemplateName>
+            <TemplateName>_c_generic_textarea_dark</TemplateName>
             <AdapterName>quest_text</AdapterName>
             <HasHotspots>true</HasHotspots>
             <HotspotDelineator>{</HotspotDelineator>
@@ -117,8 +117,8 @@
             </Alignment>
             <Color>
                 <R>255</R>
-                <G>204</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>verdanaboldgg12px</FontName>
@@ -138,7 +138,7 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>Remove</Label>
             <OnClickEvent>RemoveQuest</OnClickEvent>
         </ButtonDef>
@@ -159,7 +159,7 @@
                 <B>192</B>
                 <A>192</A>
             </Color>
-            <FontName>arial9</FontName>
+            <FontName>arial11</FontName>
             <Width>300</Width>
             <Height>18</Height>
             <MaxCharacters>256</MaxCharacters>

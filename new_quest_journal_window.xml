@@ -131,9 +131,9 @@
             <AdapterName>new_quest_journal_entries</AdapterName>
             <Width>390</Width>
             <Height>176</Height>
-            <Column1Width>350</Column1Width>
+            <Column1Width>900</Column1Width>
             <Column1Offset>10</Column1Offset>
-            <Column2Width>350</Column2Width>
+            <Column2Width>900</Column2Width>
             <Column2Offset>125</Column2Offset>
         </TreeControlDef>
 

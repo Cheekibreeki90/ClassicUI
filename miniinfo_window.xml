@@ -43,7 +43,7 @@
         <LabelDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>5</X>
+                <X>17</X>
                 <Y>2</Y>
             </Position>
             <Color>
@@ -191,7 +191,7 @@
             <ControlId>1007</ControlId>
             <Position>
                 <X>5</X>
-                <Y>88</Y>
+                <Y>87</Y>
             </Position>
             <Color>
                 <R>204</R>
@@ -225,7 +225,7 @@
             <ControlId>1100</ControlId>
             <Position>
                 <X>148</X>
-                <Y>33</Y>
+                <Y>48</Y>
             </Position>
             <TemplateName>_c_button_large</TemplateName>
             <Label>Info</Label>
@@ -237,7 +237,7 @@
             <ControlId>1101</ControlId>
             <Position>
                 <X>148</X>
-                <Y>50</Y>
+                <Y>30</Y>
             </Position>
             <TemplateName>_c_button_large</TemplateName>
             <Label>Repair</Label>
@@ -249,7 +249,7 @@
             <ControlId>1102</ControlId>
             <Position>
                 <X>148</X>
-                <Y>67</Y>
+                <Y>66</Y>
             </Position>
             <TemplateName>_c_button_large</TemplateName>
             <Label>Craft</Label>
@@ -277,7 +277,7 @@
             </Position>
             <Width>209</Width>
             <Height>44</Height>
-            <TemplateName>_c_listbox_bg</TemplateName>
+            <TemplateName>_c_listbox_dark_bg</TemplateName>
             <AdapterName>mini_info_use_list</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -301,6 +301,19 @@
             </Alignment>
             <TemplateName>_c_window_close</TemplateName>
             <OnClickEvent>ButtonClose</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
         </ButtonDef>
 
 

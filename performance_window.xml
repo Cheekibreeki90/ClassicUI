@@ -156,18 +156,6 @@
         </StatusIconDef>
 
 
-        <InvisibleButtonDef>
-            <Position>
-                <X>4</X>
-                <Y>2</Y>
-            </Position>
-            <Label></Label>
-            <OnClickEvent>Relic</OnClickEvent>
-            <Width>87</Width>
-            <Height>32</Height>
-        </InvisibleButtonDef>
-
-
     </WindowTemplate>
 
 

@@ -43,7 +43,7 @@
         <StatusIconDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>233</X>
+                <X>198</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
@@ -57,7 +57,7 @@
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>254</X>
+                <X>215</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
@@ -71,7 +71,7 @@
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
-                <X>275</X>
+                <X>232</X>
                 <Y>4</Y>
             </Position>
             <Alignment>
@@ -84,7 +84,7 @@
 
         <LabelDef>
             <Position>
-                <X>200</X>
+                <X>165</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -107,7 +107,7 @@
 
         <LabelDef>
             <Position>
-                <X>158</X>
+                <X>120</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -130,7 +130,7 @@
 
         <LabelDef>
             <Position>
-                <X>109</X>
+                <X>71</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -153,7 +153,7 @@
 
         <LabelDef>
             <Position>
-                <X>60</X>
+                <X>22</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -174,33 +174,10 @@
         </LabelDef>
 
 
-        <LabelDef>
-            <Position>
-                <X>18</X>
-                <Y>5</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial11</FontName>
-            <Width>27</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>M:999</Data>
-            <Adapter>merchant_mithril</Adapter>
-        </LabelDef>
-
-
         <ImageAreaDef>
             <Position>
-                <X>185</X>
-                <Y>9</Y>
+                <X>152</X>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -211,8 +188,8 @@
 
         <ImageAreaDef>
             <Position>
-                <X>143</X>
-                <Y>9</Y>
+                <X>107</X>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -223,8 +200,8 @@
 
         <ImageAreaDef>
             <Position>
-                <X>94</X>
-                <Y>9</Y>
+                <X>57</X>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -235,8 +212,8 @@
 
         <ImageAreaDef>
             <Position>
-                <X>45</X>
-                <Y>9</Y>
+                <X>8</X>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -245,19 +222,10 @@
         </ImageAreaDef>
 
 
-        <ImageAreaDef>
-            <Position>
-                <X>3</X>
-                <Y>9</Y>
-            </Position>
-            <TemplateName>mithril_decal</TemplateName>
-        </ImageAreaDef>
-
-
         <InvisibleButtonDef>
             <Position>
-                <X>0</X>
-                <Y>3</Y>
+                <X>1</X>
+                <Y>36</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -271,7 +239,7 @@
 
         <LabelDef>
             <Position>
-                <X>300</X>
+                <X>258</X>
                 <Y>5</Y>
             </Position>
             <Color>
@@ -290,7 +258,7 @@
 
         <LabelDef>
             <Position>
-                <X>360</X>
+                <X>311</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -319,7 +287,7 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>.classic_hr_button_white</TemplateName>
-            <Label>Blackthorn</Label>
+            <Label>UI Options</Label>
             <Width>70</Width>
             <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
         </HorizontalResizeButtonDef>
@@ -334,7 +302,7 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>.classic_hr_button_white</TemplateName>
-            <Label>Realm Map</Label>
+            <Label>Realm War</Label>
             <Width>70</Width>
             <OnClickEvent>ShowWarMap</OnClickEvent>
         </HorizontalResizeButtonDef>

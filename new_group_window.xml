@@ -51,7 +51,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>red_status</TemplateName>
+            <TemplateName>_c_red_status</TemplateName>
             <AdapterName>group_health0</AdapterName>
             <Width>100</Width>
         </StatusBarDef>

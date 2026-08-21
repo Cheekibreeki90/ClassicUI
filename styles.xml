@@ -21242,4 +21242,50 @@
     </TextAreaTemplate>
 
 
+    <ListBoxTemplate>
+        <Name>_c_listbox_dark_bg</Name>
+        <LinePadding>2</LinePadding>
+        <CellPadding>6</CellPadding>
+        <LabelLength>100</LabelLength>
+        <ScrollbarTemplate>_c_generic_vscroll</ScrollbarTemplate>
+        <DrawScroll>true</DrawScroll>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>_c_dlg_interior_dark</BackgroundTemplate>
+        <IconTemplate>_c_plain_icon_small</IconTemplate>
+        <TextFont>
+            <Name>button_small</Name>
+            <ColorNormal>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>0</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>102</R>
+                <G>102</G>
+                <B>102</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>1</TextTopOffset>
+            <TextBottomOffset>0</TextBottomOffset>
+            <TextLeftOffset>0</TextLeftOffset>
+            <TextRightOffset>0</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>16</X>
+                <Y>16</Y>
+            </IconSize>
+    </ListBoxTemplate>
+
+
 </Root_Element>
