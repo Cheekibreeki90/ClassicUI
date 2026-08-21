@@ -20,8 +20,8 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>61</Width>
-        <Height>99</Height>
+        <Width>76</Width>
+        <Height>148</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -37,16 +37,16 @@
                 <Y>0</Y>
             </Position>
             <TemplateName>_c_window_small</TemplateName>
-            <Width>61</Width>
-            <Height>99</Height>
+            <Width>76</Width>
+            <Height>148</Height>
         </FullResizeImageDef>
 
 
         <LabelDef>
             <ControlId>Thr</ControlId>
             <Position>
-                <X>2</X>
-                <Y>1</Y>
+                <X>4</X>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -57,7 +57,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>35</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -70,8 +70,8 @@
         <LabelDef>
             <ControlId>thr_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>1</Y>
+                <X>36</X>
+                <Y>2</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -83,7 +83,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -95,8 +95,8 @@
         <LabelDef>
             <ControlId>Cru</ControlId>
             <Position>
-                <X>2</X>
-                <Y>11</Y>
+                <X>4</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -107,7 +107,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -120,8 +120,8 @@
         <LabelDef>
             <ControlId>cru_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>11</Y>
+                <X>36</X>
+                <Y>17</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -133,7 +133,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -145,8 +145,8 @@
         <LabelDef>
             <ControlId>Sla</ControlId>
             <Position>
-                <X>2</X>
-                <Y>21</Y>
+                <X>4</X>
+                <Y>32</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -157,7 +157,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -170,8 +170,8 @@
         <LabelDef>
             <ControlId>sla_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>21</Y>
+                <X>36</X>
+                <Y>32</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -183,7 +183,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -195,8 +195,8 @@
         <LabelDef>
             <ControlId>Hea</ControlId>
             <Position>
-                <X>2</X>
-                <Y>34</Y>
+                <X>4</X>
+                <Y>51</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -207,7 +207,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -220,8 +220,8 @@
         <LabelDef>
             <ControlId>hea_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>34</Y>
+                <X>36</X>
+                <Y>51</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -233,7 +233,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -245,8 +245,8 @@
         <LabelDef>
             <ControlId>Col</ControlId>
             <Position>
-                <X>2</X>
-                <Y>44</Y>
+                <X>4</X>
+                <Y>66</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -257,7 +257,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -270,8 +270,8 @@
         <LabelDef>
             <ControlId>col_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>44</Y>
+                <X>36</X>
+                <Y>66</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -283,7 +283,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -295,8 +295,8 @@
         <LabelDef>
             <ControlId>mat</ControlId>
             <Position>
-                <X>2</X>
-                <Y>54</Y>
+                <X>4</X>
+                <Y>81</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -307,7 +307,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -320,8 +320,8 @@
         <LabelDef>
             <ControlId>mat_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>54</Y>
+                <X>36</X>
+                <Y>81</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -333,7 +333,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -345,8 +345,8 @@
         <LabelDef>
             <ControlId>ene</ControlId>
             <Position>
-                <X>2</X>
-                <Y>67</Y>
+                <X>4</X>
+                <Y>100</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -357,7 +357,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -370,8 +370,8 @@
         <LabelDef>
             <ControlId>ene_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>67</Y>
+                <X>36</X>
+                <Y>100</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -383,7 +383,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -395,8 +395,8 @@
         <LabelDef>
             <ControlId>spi</ControlId>
             <Position>
-                <X>2</X>
-                <Y>77</Y>
+                <X>4</X>
+                <Y>115</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -407,7 +407,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -420,8 +420,8 @@
         <LabelDef>
             <ControlId>spi_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>77</Y>
+                <X>36</X>
+                <Y>115</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -433,7 +433,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -445,8 +445,8 @@
         <LabelDef>
             <ControlId>Bod</ControlId>
             <Position>
-                <X>2</X>
-                <Y>87</Y>
+                <X>4</X>
+                <Y>130</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -457,7 +457,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -470,8 +470,8 @@
         <LabelDef>
             <ControlId>bod_data</ControlId>
             <Position>
-                <X>27</X>
-                <Y>87</Y>
+                <X>36</X>
+                <Y>130</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -483,7 +483,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>arial9b</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
