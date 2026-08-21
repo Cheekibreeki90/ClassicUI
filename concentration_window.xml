@@ -16,7 +16,7 @@
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>128</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleHeight>0</TitleHeight>
         <Width>128</Width>
         <Height>96</Height>
         <ResizeableWidth>2</ResizeableWidth>

@@ -75,6 +75,8 @@
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>_c_generic_textarea_dark</TemplateName>
             <AdapterName>info_text</AdapterName>
