@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- Resource declarations for the ochui-derived group window assets -->
+<!-- Source files: ui/custom/Assets/OchUI/ -->
+<!-- Referenced by name (FontName/TextureName) from styles_ochui.xml / custom4_window.xml -->
+
+
+    <!--Polices-->
+
+    <!-- arial9 intentionally NOT redefined here - it already exists in assets.xml -->
+    <!-- (pointing at custom/Assets/Fonts/arial09_cl.tga); redefining it here would -->
+    <!-- silently repoint every use of "arial9" across the whole custom UI. -->
+
+
+    <Font>
+        <Name>arial11</Name>
+        <File>custom/Assets/OchUI/Arial11b.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>verd11</Name>
+        <File>custom/Assets/OchUI/ghost_verdana11_shadowed_normalized_ochi.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>Ochui_negatif_groupe</Name>
+        <File>custom/Assets/OchUI/Ochui_negatif_symbole_14.tga</File>
+    </Font>
+
+
+    <!-- Textures -->
+
+
+    <Texture>
+        <Name>groupetext7</Name>
+        <File>custom/Assets/OchUI/groupe7.tga</File>
+    </Texture>
+
+
+</Root_Element>

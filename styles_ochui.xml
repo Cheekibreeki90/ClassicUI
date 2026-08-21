@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+
+    <!-- Fonts (arial9, arial11, verd11, Ochui_negatif_groupe) and the groupetext7 -->
+    <!-- Texture used below are now declared once in assets_ochui.xml. Make sure -->
+    <!-- assets_ochui.xml is <Include>d before this file. -->
+
+
+    <!-- Group member portrait/status border -->
+
+
+    <StatusIconTemplate>
+        <Name>bordure_groupe7</Name>
+        <TextureName>groupetext7</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>89</Y>
+        </TextureStart>
+        <Width>87</Width>
+        <Height>52</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>false</Horizontal>
+    </StatusIconTemplate>
+
+
+    <!-- Select-member button -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>groupe_bouton_select_32_normal</Name>
+        <Height>61</Height>
+        <LeftWidth>5</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>5</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>118</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>118</X>
+                <Y>0</Y>
+            </Repeat>
+            <Right>
+                <X>118</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>groupe_bouton_select_32_pressed</Name>
+        <Height>61</Height>
+        <LeftWidth>5</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>5</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>100</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>106</X>
+                <Y>0</Y>
+            </Repeat>
+            <Right>
+                <X>112</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>groupe_bouton_select_32_normalhighlight</Name>
+        <Height>61</Height>
+        <LeftWidth>5</LeftWidth>
+        <RepeatWidth>5</RepeatWidth>
+        <RightWidth>5</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>82</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>88</X>
+                <Y>0</Y>
+            </Repeat>
+            <Right>
+                <X>94</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeButtonTemplate>
+        <Name>groupe_bouton_select_32</Name>
+        <Height>61</Height>
+        <Font>
+            <Name></Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Normal>groupe_bouton_select_32_normal</Normal>
+        <Pressed>groupe_bouton_select_32_pressed</Pressed>
+        <NormalHighlit>groupe_bouton_select_32_normalhighlight</NormalHighlit>
+        <PressedHighlit>groupe_bouton_select_32_pressed</PressedHighlit>
+        <Disabled>groupe_bouton_select_32_normal</Disabled>
+    </HorizontalResizeButtonTemplate>
+
+
+    <!-- Mana status bar (yellow) -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>jaune_plein_ochi7</Name>
+        <Height>10</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>39</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>0</X>
+                <Y>67</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>jaune_vide_ochi7</Name>
+        <Height>10</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>39</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>0</X>
+                <Y>78</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>jaune_plein_ochi_7</Name>
+        <ForegroundHResizeTemplate>jaune_plein_ochi7</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>jaune_vide_ochi7</BackgroundHResizeTemplate>
+        <Height>10</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <!-- Endurance status bar (green) -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>vert_plein_ochi7</Name>
+        <Height>10</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>39</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>41</X>
+                <Y>67</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>vert_vide_ochi7</Name>
+        <Height>10</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>39</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>41</X>
+                <Y>78</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>vert_plein_ochi_7</Name>
+        <ForegroundHResizeTemplate>vert_plein_ochi7</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>vert_vide_ochi7</BackgroundHResizeTemplate>
+        <Height>10</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <!-- Health status bar (red) -->
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>rouge_plein_ochi7</Name>
+        <Height>32</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>80</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>0</X>
+                <Y>0</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <HorizontalResizeImageTemplate>
+        <Name>rouge_vide_ochi7</Name>
+        <Height>32</Height>
+        <LeftWidth>0</LeftWidth>
+        <RepeatWidth>80</RepeatWidth>
+        <RightWidth>0</RightWidth>
+        <Texture>
+            <TextureName>groupetext7</TextureName>
+            <Left>
+                <X>0</X>
+                <Y>0</Y>
+            </Left>
+            <Repeat>
+                <X>0</X>
+                <Y>33</Y>
+            </Repeat>
+            <Right>
+                <X>0</X>
+                <Y>0</Y>
+            </Right>
+        </Texture>
+    </HorizontalResizeImageTemplate>
+
+
+    <StatusBarTemplate>
+        <Name>rouge_plein_ochi_7</Name>
+        <ForegroundHResizeTemplate>rouge_plein_ochi7</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate>rouge_vide_ochi7</BackgroundHResizeTemplate>
+        <Height>32</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+</Root_Element>
