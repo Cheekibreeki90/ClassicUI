@@ -63,7 +63,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Str: </Data>
             <ColorAdapter>stats_strength_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -113,7 +112,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Con: </Data>
             <ColorAdapter>stats_constitution_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -163,7 +161,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Dex: </Data>
             <ColorAdapter>stats_dexterity_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -213,7 +210,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Qui:</Data>
             <ColorAdapter>stats_quickness_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -263,7 +259,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Int: </Data>
             <ColorAdapter>stats_intelligence_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -313,7 +308,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Emp: </Data>
             <ColorAdapter>stats_empathy_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -363,7 +357,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Pie: </Data>
             <ColorAdapter>stats_piety_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -413,7 +406,6 @@
             <MaxCharacters>999</MaxCharacters>
             <Data>Cha: </Data>
             <ColorAdapter>stats_charisma_color</ColorAdapter>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -462,7 +454,6 @@
             <Height>14</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Hp:</Data>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -509,7 +500,6 @@
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Ws:</Data>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
@@ -556,7 +546,6 @@
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Af:</Data>
-            <EndAligned>true</EndAligned>
         </LabelDef>
 
 

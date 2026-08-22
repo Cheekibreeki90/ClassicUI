@@ -150,7 +150,7 @@
             <Width>86</Width>
             <Height>20</Height>
             <MaxCharacters>16</MaxCharacters>
-            <Data>Gadgets</Data>
+            <Data>UI Panels</Data>
         </LabelDef>
 
 
@@ -194,29 +194,7 @@
             <Width>86</Width>
             <Height>20</Height>
             <MaxCharacters>16</MaxCharacters>
-            <Data>Gadgets</Data>
-        </LabelDef>
-
-
-        <LabelDef>
-            <Position>
-                <X>276</X>
-                <Y>112</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>102</R>
-                <G>255</G>
-                <B>102</B>
-                <A>255</A>
-            </Color>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>86</Width>
-            <Height>20</Height>
-            <MaxCharacters>16</MaxCharacters>
-            <Data>Maps</Data>
+            <Data>Info Panels</Data>
         </LabelDef>
 
 
@@ -258,19 +236,21 @@
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
             <Label>BYSAN</Label>
-            <OnClickEvent>ToggleCustom1</OnClickEvent>
+            <OnClickEvent>ToggleCustom0</OnClickEvent>
         </ButtonDef>
 
 
         <ButtonDef>
             <Position>
                 <X>66</X>
-                <Y>54</Y>
+                <Y>72</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
+            <Label>OCH</Label>
+            <OnClickEvent>ToggleCustom1</OnClickEvent>
         </ButtonDef>
 
 
@@ -318,21 +298,8 @@
 
         <ButtonDef>
             <Position>
-                <X>338</X>
-                <Y>54</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <OnClickEvent>ToggleCustom10</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
                 <X>275</X>
-                <Y>72</Y>
+                <Y>148</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -360,21 +327,7 @@
         <ButtonDef>
             <Position>
                 <X>338</X>
-                <Y>90</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>NECRO</Label>
-            <OnClickEvent>ToggleCustom15</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>139</X>
-                <Y>54</Y>
+                <Y>72</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -387,8 +340,8 @@
 
         <ButtonDef>
             <Position>
-                <X>202</X>
-                <Y>54</Y>
+                <X>275</X>
+                <Y>72</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -401,8 +354,8 @@
 
         <ButtonDef>
             <Position>
-                <X>139</X>
-                <Y>72</Y>
+                <X>202</X>
+                <Y>55</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -416,21 +369,7 @@
         <ButtonDef>
             <Position>
                 <X>139</X>
-                <Y>90</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>PULSE</Label>
-            <OnClickEvent>ToggleCustom5</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>66</X>
-                <Y>90</Y>
+                <Y>55</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -444,7 +383,7 @@
         <ButtonDef>
             <Position>
                 <X>338</X>
-                <Y>72</Y>
+                <Y>90</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -457,8 +396,8 @@
 
         <ButtonDef>
             <Position>
-                <X>275</X>
-                <Y>130</Y>
+                <X>274</X>
+                <Y>184</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -471,14 +410,14 @@
 
         <ButtonDef>
             <Position>
-                <X>338</X>
-                <Y>130</Y>
+                <X>274</X>
+                <Y>166</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>REALM</Label>
+            <TemplateName>_c_button_small</TemplateName>
+            <Label>REALM WAR</Label>
             <OnClickEvent>ShowWarMap</OnClickEvent>
         </ButtonDef>
 
@@ -528,13 +467,13 @@
         <ButtonDef>
             <Position>
                 <X>66</X>
-                <Y>72</Y>
+                <Y>54</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>HHELPER</Label>
+            <Label>BYSAN</Label>
             <OnClickEvent>ToggleCustom7</OnClickEvent>
         </ButtonDef>
 
@@ -561,55 +500,15 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>BUFFS</Label>
+            <TemplateName>_c_button_small</TemplateName>
+            <Label>GRP BUFFS</Label>
             <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
         </ButtonDef>
 
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>90</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_small</TemplateName>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>139</X>
-                <Y>148</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>ML</Label>
-            <OnClickEvent>ToggleMasterLevel</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>3</X>
-                <Y>184</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_small</TemplateName>
-            <Label>BLKTHORN</Label>
-            <OnClickEvent>ToggleCustom12</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>67</X>
+                <X>66</X>
                 <Y>184</Y>
             </Position>
             <Alignment>
@@ -623,13 +522,13 @@
 
         <ButtonDef>
             <Position>
-                <X>202</X>
-                <Y>72</Y>
+                <X>338</X>
+                <Y>54</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
+            <TemplateName>_c_button_small</TemplateName>
             <Label>TBL.RESIST</Label>
             <OnClickEvent>ToggleCustom14</OnClickEvent>
         </ButtonDef>
@@ -637,8 +536,8 @@
 
         <ButtonDef>
             <Position>
-                <X>202</X>
-                <Y>90</Y>
+                <X>275</X>
+                <Y>130</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -646,20 +545,6 @@
             <TemplateName>_c_button_large</TemplateName>
             <Label>CASH</Label>
             <OnClickEvent>ToggleCustom13</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>3</X>
-                <Y>148</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>FRIENDS</Label>
-            <OnClickEvent>Friends</OnClickEvent>
         </ButtonDef>
 
 
@@ -688,18 +573,6 @@
             <TemplateName>_c_button_large</TemplateName>
             <Label>CONFIG</Label>
             <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>3</X>
-                <Y>72</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
         </ButtonDef>
 
 

@@ -326,9 +326,9 @@
         <ScalarLabelDef>
             <Position>
                 <X>7</X>
-                <Y>7</Y>
+                <Y>5</Y>
             </Position>
-            <FontName>kr</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>25</Width>
             <Height>16</Height>
             <MaxCharacters>4</MaxCharacters>
@@ -347,8 +347,8 @@
 
         <LabelDef>
             <Position>
-                <X>36</X>
-                <Y>7</Y>
+                <X>37</X>
+                <Y>5</Y>
             </Position>
             <Color>
                 <R>255</R>
@@ -356,7 +356,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>kr</FontName>
+            <FontName>verdanaboldgg11px</FontName>
             <Width>145</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>
