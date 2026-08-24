@@ -46,7 +46,7 @@
                 <X>3</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/say</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -63,7 +63,7 @@
                 <X>3</X>
                 <Y>19</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/emote</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -80,7 +80,7 @@
                 <X>3</X>
                 <Y>35</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/broadcast</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -97,7 +97,7 @@
                 <X>3</X>
                 <Y>51</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/group</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -114,7 +114,7 @@
                 <X>3</X>
                 <Y>67</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/guild</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -132,7 +132,7 @@
                 <Y>83</Y>
             </Position>
             <ToolTipID>158</ToolTipID>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/osend</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -150,7 +150,7 @@
                 <Y>99</Y>
             </Position>
             <ToolTipID>159</ToolTipID>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/asend</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -168,7 +168,7 @@
                 <Y>115</Y>
             </Position>
             <ToolTipID>160</ToolTipID>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/chat</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -186,7 +186,7 @@
                 <Y>131</Y>
             </Position>
             <ToolTipID>161</ToolTipID>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/bchat</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -204,7 +204,7 @@
                 <Y>147</Y>
             </Position>
             <ToolTipID>162</ToolTipID>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/send</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>
@@ -222,7 +222,7 @@
                 <Y>163</Y>
             </Position>
             <ToolTipID>163</ToolTipID>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/advice</Label>
             <Width>80</Width>
             <OnClickEvent></OnClickEvent>

@@ -37,7 +37,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>142</Width>
             <Height>122</Height>
         </FullResizeImageDef>

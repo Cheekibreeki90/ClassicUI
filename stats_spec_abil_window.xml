@@ -54,7 +54,7 @@
             </Alignment>
             <Width>186</Width>
             <Height>126</Height>
-            <TemplateName>_c_listbox_thick_bg</TemplateName>
+            <TemplateName>_c_listbox_stats</TemplateName>
             <AdapterName>stats_specs</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -79,7 +79,7 @@
             </Alignment>
             <Width>186</Width>
             <Height>135</Height>
-            <TemplateName>_c_listbox_thick_bg</TemplateName>
+            <TemplateName>_c_listbox_stats</TemplateName>
             <AdapterName>stats_abil</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -102,7 +102,7 @@
             </Alignment>
             <Width>186</Width>
             <Height>135</Height>
-            <TemplateName>_c_listbox_thick_bg</TemplateName>
+            <TemplateName>_c_listbox_stats</TemplateName>
             <AdapterName>stats_trades</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -145,7 +145,7 @@
         <HorizontalResizeImageDef>
             <ControlId>ability_inset</ControlId>
             <Position>
-                <X>9</X>
+                <X>7</X>
                 <Y>137</Y>
             </Position>
             <Alignment>
@@ -173,7 +173,7 @@
         <LabelDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>100</X>
+                <X>101</X>
                 <Y>6</Y>
             </Position>
             <Alignment>
@@ -185,7 +185,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>button_large</FontName>
+            <FontName>button_small</FontName>
             <Width>96</Width>
             <Height>16</Height>
             <MaxCharacters>64</MaxCharacters>

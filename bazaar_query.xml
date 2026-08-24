@@ -108,7 +108,7 @@
                 <X>158</X>
                 <Y>275</Y>
             </Position>
-            <TemplateName>.classic_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>ACCEPT</Label>
             <Width>75</Width>
             <OnClickEvent></OnClickEvent>
@@ -124,7 +124,7 @@
                 <X>96</X>
                 <Y>275</Y>
             </Position>
-            <TemplateName>.classic_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>RESET</Label>
             <Width>60</Width>
             <OnClickEvent></OnClickEvent>
@@ -140,7 +140,7 @@
                 <X>19</X>
                 <Y>275</Y>
             </Position>
-            <TemplateName>.classic_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>CANCEL</Label>
             <Width>75</Width>
             <OnClickEvent></OnClickEvent>
@@ -161,7 +161,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial11</FontName>
             <Width>80</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -175,7 +175,7 @@
                 <X>71</X>
                 <Y>22</Y>
             </Position>
-            <TemplateName>.classic_editbox</TemplateName>
+            <TemplateName>_c_editbox</TemplateName>
             <Width>165</Width>
             <Height>24</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -467,7 +467,7 @@
                 <X>14</X>
                 <Y>256</Y>
             </Position>
-            <TemplateName>.classic_checkbox</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Player crafted only</Data>
@@ -485,7 +485,7 @@
                 <X>145</X>
                 <Y>256</Y>
             </Position>
-            <TemplateName>.classic_checkbox</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Visual Effects</Data>
@@ -519,7 +519,7 @@
                 <X>173</X>
                 <Y>125</Y>
             </Position>
-            <TemplateName>.classic_combo_small</TemplateName>
+            <TemplateName>_c_combo_bazaar_small</TemplateName>
         </ComboBoxDef>
 
 
@@ -529,7 +529,7 @@
                 <X>173</X>
                 <Y>142</Y>
             </Position>
-            <TemplateName>.classic_combo_small</TemplateName>
+            <TemplateName>_c_combo_bazaar_small</TemplateName>
         </ComboBoxDef>
 
 
@@ -558,7 +558,7 @@
                 <X>90</X>
                 <Y>125</Y>
             </Position>
-            <TemplateName>.classic_combo_small</TemplateName>
+            <TemplateName>_c_combo_bazaar_small</TemplateName>
         </ComboBoxDef>
 
 
@@ -568,7 +568,7 @@
                 <X>90</X>
                 <Y>142</Y>
             </Position>
-            <TemplateName>.classic_combo_small</TemplateName>
+            <TemplateName>_c_combo_bazaar_small</TemplateName>
         </ComboBoxDef>
 
 
@@ -597,7 +597,7 @@
                 <X>6</X>
                 <Y>125</Y>
             </Position>
-            <TemplateName>.classic_combo_small</TemplateName>
+            <TemplateName>_c_combo_bazaar_small</TemplateName>
         </ComboBoxDef>
 
 
@@ -607,7 +607,7 @@
                 <X>6</X>
                 <Y>142</Y>
             </Position>
-            <TemplateName>.classic_combo_small</TemplateName>
+            <TemplateName>_c_combo_bazaar_small</TemplateName>
         </ComboBoxDef>
 
 
@@ -636,7 +636,7 @@
                 <X>131</X>
                 <Y>94</Y>
             </Position>
-            <TemplateName>.classic_combo_large</TemplateName>
+            <TemplateName>_c_combo_bazaar</TemplateName>
         </ComboBoxDef>
 
 
@@ -665,7 +665,7 @@
                 <X>6</X>
                 <Y>94</Y>
             </Position>
-            <TemplateName>.classic_combo_large</TemplateName>
+            <TemplateName>_c_combo_bazaar</TemplateName>
         </ComboBoxDef>
 
 
@@ -694,7 +694,7 @@
                 <X>131</X>
                 <Y>61</Y>
             </Position>
-            <TemplateName>.classic_combo_large</TemplateName>
+            <TemplateName>_c_combo_bazaar</TemplateName>
         </ComboBoxDef>
 
 
@@ -723,7 +723,7 @@
                 <X>6</X>
                 <Y>62</Y>
             </Position>
-            <TemplateName>.classic_combo_large</TemplateName>
+            <TemplateName>_c_combo_bazaar</TemplateName>
         </ComboBoxDef>
 
 

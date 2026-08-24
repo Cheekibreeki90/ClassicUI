@@ -267,10 +267,10 @@
         <HorizontalResizeImageDef>
             <Position>
                 <X>5</X>
-                <Y>263</Y>
+                <Y>20</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
@@ -279,11 +279,12 @@
 
         <HorizontalResizeImageDef>
             <Position>
-                <X>52</X>
-                <Y>262</Y>
+                <X>50</X>
+                <Y>20</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
@@ -292,11 +293,12 @@
 
         <HorizontalResizeImageDef>
             <Position>
-                <X>96</X>
-                <Y>262</Y>
+                <X>95</X>
+                <Y>20</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
@@ -305,11 +307,12 @@
 
         <HorizontalResizeImageDef>
             <Position>
-                <X>141</X>
-                <Y>263</Y>
+                <X>140</X>
+                <Y>20</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
@@ -318,11 +321,12 @@
 
         <HorizontalResizeImageDef>
             <Position>
-                <X>187</X>
-                <Y>263</Y>
+                <X>185</X>
+                <Y>20</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>

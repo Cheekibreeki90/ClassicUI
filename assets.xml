@@ -92,8 +92,6 @@
     <Include>styles_ochui.xml</Include>
 
 
-
-
     <!--fonts-->
 
 
@@ -416,6 +414,12 @@
 
 
     <Font>
+        <Name>kr</Name>
+        <File>custom/krfont.tga</File>
+    </Font>
+
+
+    <Font>
         <Name>verdana16boldpx</Name>
         <File>custom/Assets/Fonts/verdana16boldpx.tga</File>
     </Font>
@@ -473,110 +477,14 @@
 
 
     <Texture>
-        <Name>btui_dialogimages_01</Name>
-        <File>custom/Assets/Textures/btui_dialog_bg.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_title_bar_tex</Name>
-        <File>custom/Assets/Textures/btui_title_bar.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_footer_bar_tex</Name>
-        <File>custom/Assets/Textures/btui_footer_bar.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_buttons_tex</Name>
-        <File>custom/Assets/Textures/btui_buttons.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_button_action_tex</Name>
-        <File>custom/Assets/Textures/btui_button_action.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_combo_bg_tex</Name>
-        <File>custom/Assets/Textures/btui_combo_bg.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_listbox_bg_tex</Name>
-        <File>custom/Assets/Textures/btui_listbox_bg.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_textarea_bg_tex</Name>
-        <File>custom/Assets/Textures/btui_textarea_bg.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_chat_input_tex</Name>
-        <File>custom/Assets/Textures/btui_chat_input.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_hr_sep_tex</Name>
-        <File>custom/Assets/Textures/btui_hr_sep.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_divider_ornament_tex</Name>
-        <File>custom/Assets/Textures/btui_divider_ornament.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_vscroll_tex</Name>
-        <File>custom/Assets/Textures/btui_vscroll.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_checkbox_tex</Name>
-        <File>custom/Assets/Textures/btui_checkbox.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_slider_tex</Name>
-        <File>custom/Assets/Textures/btui_slider.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_button_resize_bl_tex</Name>
-        <File>custom/Assets/Textures/btui_button_resize_bl.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_panel_bg2_tex</Name>
-        <File>custom/Assets/Textures/btui_panel_bg2_fill.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_panel_bg2_dark_tex</Name>
-        <File>custom/Assets/Textures/btui_panel_bg2_dark_fill.tga</File>
+        <Name>stone_texture_atlas</Name>
+        <File>custom/Assets/Textures/stone/stone_texture_atlas.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>btui_atlas_tex</Name>
-        <File>custom/Assets/Textures/btui_texture_atlas.tga</File>
+        <File>custom/Assets/Textures/Blackthorn/btui_texture_atlas.tga</File>
     </Texture>
 
 
@@ -721,6 +629,12 @@
     <Texture>
         <Name>map_gitter</Name>
         <File>custom/Maps/map_gitter.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>map_icons</Name>
+        <File>custom/map_icons.dds</File>
     </Texture>
 
 
@@ -1021,132 +935,6 @@
     <Texture>
         <Name>_whatisthisrealmranks</Name>
         <File>custom/Assets/Textures/whatisthisrealmranks.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicBgBorder</Name>
-        <File>custom/Assets/Textures/ClassicBgBorder.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicButtonImages_01</Name>
-        <File>custom/Assets/Textures/ClassicButtonImages_01.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicChatBg</Name>
-        <File>custom/Assets/Textures/ClassicChatBg.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicComboBg</Name>
-        <File>custom/Assets/Textures/ClassicComboBg.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicDialogImages_03</Name>
-        <File>custom/Assets/Textures/ClassicDialogImages_03.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicHeaderBorder</Name>
-        <File>custom/Assets/Textures/ClassicHeaderBorder.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicHrSep1</Name>
-        <File>custom/Assets/Textures/ClassicHrSep1.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicHrSep2</Name>
-        <File>custom/Assets/Textures/ClassicHrSep2.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicHrSep3</Name>
-        <File>custom/Assets/Textures/ClassicHrSep3.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicListboxBg1</Name>
-        <File>custom/Assets/Textures/ClassicListboxBg1.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicListboxBg2</Name>
-        <File>custom/Assets/Textures/ClassicListboxBg2.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicListboxBg3</Name>
-        <File>custom/Assets/Textures/ClassicListboxBg3.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>ClassicTextareaBG</Name>
-        <File>custom/Assets/Textures/ClassicTextareaBG.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>BT_SlimWindowBG</Name>
-        <File>custom/Assets/Textures/BT_SlimWindowBG.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_panel_bg2</Name>
-        <File>custom/Assets/Textures/btui_panel_bg2.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_panel_bg2_dark</Name>
-        <File>custom/Assets/Textures/btui_panel_bg2_dark.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_button_resize_bl</Name>
-        <File>custom/Assets/Textures/btui_button_resize_bl.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_hr_button_tex</Name>
-        <File>custom/Assets/Textures/btui_hr_button.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_header_tex</Name>
-        <File>custom/Assets/Textures/btui_header.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>btui_pagearrow_tex</Name>
-        <File>custom/Assets/Textures/btui_pagearrow.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>classicui_texture_atlas</Name>
-        <File>custom/Assets/Textures/classicui_texture_atlas.tga</File>
     </Texture>
 
 

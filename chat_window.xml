@@ -49,8 +49,8 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>350</TitleWidth>
-        <TitleHeight>18</TitleHeight>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
         <Width>350</Width>
         <Height>200</Height>
         <ResizeableWidth>0</ResizeableWidth>
@@ -67,27 +67,11 @@
         <TabName>Chat</TabName>
 
 
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>15</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>none</TemplateName>
-            <Width>350</Width>
-            <Height>185</Height>
-        </FullResizeImageDef>
-
-
         <ChatControlDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>0</X>
-                <Y>12</Y>
+                <Y>14</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
@@ -114,7 +98,7 @@
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <TemplateName>_c_chat_bg</TemplateName>
-            <Width>346</Width>
+            <Width>350</Width>
             <Height>16</Height>
         </FullResizeImageDef>
 
@@ -134,7 +118,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>elvbold12</FontName>
             <Width>337</Width>
             <Height>16</Height>
             <MaxCharacters>1024</MaxCharacters>
@@ -164,7 +148,7 @@
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
                 <X>0</X>
-                <Y>11</Y>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
@@ -177,15 +161,15 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>2</Y>
             </Position>
             <ToolTipID>156</ToolTipID>
             <ImageAreaTemplateName>emote_button</ImageAreaTemplateName>
-            <HRButtonTemplateName>generic_hr_button_barb10</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr_chat</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>-2</Y>
             </ImageOffset>
             <Label></Label>
             <Onclickevent></Onclickevent>
@@ -200,7 +184,7 @@
             </Position>
             <ToolTipID>157</ToolTipID>
             <ImageAreaTemplateName>channel_button</ImageAreaTemplateName>
-            <HRButtonTemplateName>generic_hr_button_barb10</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr_chat</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
                 <X>0</X>

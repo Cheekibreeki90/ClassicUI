@@ -1318,7 +1318,7 @@
                 <X>518</X>
                 <Y>49</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>REFRESH</Label>
             <Width>70</Width>
             <OnClickEvent>ComTabRefresh</OnClickEvent>

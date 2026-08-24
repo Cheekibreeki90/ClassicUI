@@ -587,6 +587,7 @@
                 <X>9</X>
                 <Y>126</Y>
             </Position>
+            <ToolTipID>1</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -607,6 +608,7 @@
                 <X>32</X>
                 <Y>125</Y>
             </Position>
+            <ToolTipID>24</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>
@@ -636,6 +638,7 @@
                 <X>9</X>
                 <Y>144</Y>
             </Position>
+            <ToolTipID>3</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -656,6 +659,7 @@
                 <X>32</X>
                 <Y>143</Y>
             </Position>
+            <ToolTipID>25</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>
@@ -685,6 +689,7 @@
                 <X>9</X>
                 <Y>162</Y>
             </Position>
+            <ToolTipID>2</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -705,6 +710,7 @@
                 <X>32</X>
                 <Y>161</Y>
             </Position>
+            <ToolTipID>26</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>
@@ -734,6 +740,7 @@
                 <X>9</X>
                 <Y>180</Y>
             </Position>
+            <ToolTipID>4</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -754,6 +761,7 @@
                 <X>32</X>
                 <Y>179</Y>
             </Position>
+            <ToolTipID>27</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>
@@ -783,6 +791,7 @@
                 <X>99</X>
                 <Y>126</Y>
             </Position>
+            <ToolTipID>5</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -803,6 +812,7 @@
                 <X>122</X>
                 <Y>125</Y>
             </Position>
+            <ToolTipID>28</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>
@@ -832,6 +842,7 @@
                 <X>99</X>
                 <Y>144</Y>
             </Position>
+            <ToolTipID>7</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -852,6 +863,7 @@
                 <X>122</X>
                 <Y>143</Y>
             </Position>
+            <ToolTipID>29</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>
@@ -881,6 +893,7 @@
                 <X>99</X>
                 <Y>162</Y>
             </Position>
+            <ToolTipID>6</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -901,6 +914,7 @@
                 <X>122</X>
                 <Y>161</Y>
             </Position>
+            <ToolTipID>30</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>
@@ -930,6 +944,7 @@
                 <X>99</X>
                 <Y>180</Y>
             </Position>
+            <ToolTipID>8</ToolTipID>
             <FontName>button_small</FontName>
             <Width>64</Width>
             <Height>16</Height>
@@ -950,6 +965,7 @@
                 <X>122</X>
                 <Y>179</Y>
             </Position>
+            <ToolTipID>31</ToolTipID>
             <Color>
                 <R>200</R>
                 <G>200</G>

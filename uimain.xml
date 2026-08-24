@@ -63,7 +63,7 @@
 	<Include>context_window.xml</Include>
 	<Include>ChatRename.xml</Include>
 	<Include>siegetower_status_window.xml</Include>
-  <Include>bazaar_query.xml</Include>
+  	<Include>bazaar_query.xml</Include>
 	<Include>main_menu_window.xml</Include>	
 	<Include>menu_bar_window.xml</Include>
 	<Include>interface_elements_window.xml</Include>

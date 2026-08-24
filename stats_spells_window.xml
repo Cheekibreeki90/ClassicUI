@@ -100,9 +100,6 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_c_window_small</TemplateName>
             <Width>192</Width>
             <Height>380</Height>
@@ -113,24 +110,24 @@
             <ControlId>1000</ControlId>
             <Position>
                 <X>6</X>
-                <Y>5</Y>
+                <Y>3</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_tree_control</TemplateName>
             <AdapterName>stats_spells</AdapterName>
-            <Width>178</Width>
+            <Width>182</Width>
             <Height>350</Height>
-            <Column1Width>100</Column1Width>
+            <Column1Width>110</Column1Width>
             <Column1Offset>10</Column1Offset>
             <Column2Width>100</Column2Width>
-            <Column2Offset>125</Column2Offset>
+            <Column2Offset>135</Column2Offset>
         </TreeControlDef>
 
 
         <HorizontalResizeImageDef>
-            <ControlId>magic_inset</ControlId>
+            <ControlId>cmbt_inset</ControlId>
             <Position>
                 <X>10</X>
                 <Y>8</Y>
@@ -141,6 +138,20 @@
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>156</Width>
         </HorizontalResizeImageDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>32</X>
+                <Y>358</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>CONC</Label>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
+        </ButtonDef>
 
 
         <LabelDef>
@@ -158,25 +169,11 @@
                 <A>255</A>
             </Color>
             <FontName>button_large</FontName>
-            <Width>50</Width>
-            <Height>30</Height>
+            <Width>80</Width>
+            <Height>50</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Magic</Data>
         </LabelDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>32</X>
-                <Y>358</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>CONC</Label>
-            <OnClickEvent>ToggleConcentration</OnClickEvent>
-        </ButtonDef>
 
 
         <ButtonDef>

@@ -132,7 +132,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>114</Width>
             <Height>141</Height>
         </FullResizeImageDef>
@@ -144,7 +144,7 @@
                 <X>3</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Message/Channel</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
@@ -162,7 +162,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -184,7 +184,7 @@
                 <Y>37</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -206,7 +206,7 @@
                 <Y>54</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -227,7 +227,7 @@
                 <X>3</X>
                 <Y>88</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>New Window</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnAddChatWindow</OnClickEvent>
@@ -244,7 +244,7 @@
                 <X>3</X>
                 <Y>105</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Delete Window</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnDeleteChatWindow</OnClickEvent>
@@ -261,7 +261,7 @@
                 <X>3</X>
                 <Y>122</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Rename Window</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnRenameChatWindow</OnClickEvent>
@@ -279,7 +279,7 @@
                 <Y>71</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -328,7 +328,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>114</Width>
             <Height>124</Height>
         </FullResizeImageDef>
@@ -340,7 +340,7 @@
                 <X>3</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Message/Channel</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
@@ -358,7 +358,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -380,7 +380,7 @@
                 <Y>37</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -402,7 +402,7 @@
                 <Y>54</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -424,7 +424,7 @@
                 <Y>71</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -445,7 +445,7 @@
                 <X>3</X>
                 <Y>88</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Delete Window</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnDeleteChatWindow</OnClickEvent>
@@ -462,7 +462,7 @@
                 <X>3</X>
                 <Y>105</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Rename Window</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnRenameChatWindow</OnClickEvent>
@@ -1374,7 +1374,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>114</Width>
             <Height>141</Height>
         </FullResizeImageDef>
@@ -1612,7 +1612,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>114</Width>
             <Height>141</Height>
         </FullResizeImageDef>

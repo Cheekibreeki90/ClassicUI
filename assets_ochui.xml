@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- Resource declarations for the ochui-derived group window assets -->
-<!-- Source files: ui/custom/Assets/OchUI/ -->
-<!-- Referenced by name (FontName/TextureName) from styles_ochui.xml / custom4_window.xml -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!-- Resource declarations for the ochui-derived group window assets -->
+
+
+    <!-- Source files: ui/custom/Assets/OchUI/ -->
+
+
+    <!-- Referenced by name (FontName/TextureName) from styles_ochui.xml / custom4_window.xml -->
 
 
     <!--Polices-->
 
+
     <!-- arial9 intentionally NOT redefined here - it already exists in assets.xml -->
+
+
     <!-- (pointing at custom/Assets/Fonts/arial09_cl.tga); redefining it here would -->
-    <!-- silently repoint every use of "arial9" across the whole custom UI. -->
+
+
+    <!-- silently repoint every use of &amp;amp;amp;quot;arial9&amp;amp;amp;quot; across the whole custom UI. -->
 
 
     <Font>

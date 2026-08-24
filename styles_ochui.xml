@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
 
     <!-- Fonts (arial9, arial11, verd11, Ochui_negatif_groupe) and the groupetext7 -->
+
+
     <!-- Texture used below are now declared once in assets_ochui.xml. Make sure -->
-    <!-- assets_ochui.xml is <Include>d before this file. -->
+
+
+    <!-- assets_ochui.xml is &amp;amp;amp;lt;Include&amp;amp;amp;gt;d before this file. -->
 
 
     <!-- Group member portrait/status border -->
@@ -134,7 +141,7 @@
         <NormalHighlit>groupe_bouton_select_32_normalhighlight</NormalHighlit>
         <PressedHighlit>groupe_bouton_select_32_pressed</PressedHighlit>
         <Disabled>groupe_bouton_select_32_normal</Disabled>
-    </HorizontalResizeButtonTemplate>
+</HorizontalResizeButtonTemplate>
 
 
     <!-- Mana status bar (yellow) -->
