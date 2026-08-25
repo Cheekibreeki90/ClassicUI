@@ -1891,49 +1891,49 @@
 
     <FullResizeImageTemplate>
         <Name>tool_tip_background</Name>
-        <TopHeight>8</TopHeight>
-        <MiddleHeight>20</MiddleHeight>
-        <BottomHeight>8</BottomHeight>
-        <LeftWidth>8</LeftWidth>
-        <MiddleWidth>20</MiddleWidth>
-        <RightWidth>8</RightWidth>
+        <TopHeight>2</TopHeight>
+        <MiddleHeight>9</MiddleHeight>
+        <BottomHeight>2</BottomHeight>
+        <LeftWidth>2</LeftWidth>
+        <MiddleWidth>18</MiddleWidth>
+        <RightWidth>2</RightWidth>
         <Texture>
-            <TextureName>page3</TextureName>
+            <TextureName>whatisthistexture</TextureName>
             <TopLeft>
-                <X>0</X>
-                <Y>89</Y>
+                <X>992</X>
+                <Y>64</Y>
             </TopLeft>
             <TopMiddle>
-                <X>9</X>
-                <Y>89</Y>
+                <X>1001</X>
+                <Y>64</Y>
             </TopMiddle>
             <TopRight>
-                <X>30</X>
-                <Y>89</Y>
+                <X>1022</X>
+                <Y>64</Y>
             </TopRight>
             <MiddleLeft>
-                <X>0</X>
-                <Y>98</Y>
+                <X>992</X>
+                <Y>76</Y>
             </MiddleLeft>
             <MiddleMiddle>
-                <X>9</X>
-                <Y>98</Y>
+                <X>1001</X>
+                <Y>75</Y>
             </MiddleMiddle>
             <MiddleRight>
-                <X>30</X>
-                <Y>98</Y>
+                <X>1022</X>
+                <Y>75</Y>
             </MiddleRight>
             <BottomLeft>
-                <X>0</X>
-                <Y>119</Y>
+                <X>992</X>
+                <Y>94</Y>
             </BottomLeft>
             <BottomMiddle>
-                <X>9</X>
-                <Y>119</Y>
+                <X>1000</X>
+                <Y>94</Y>
             </BottomMiddle>
             <BottomRight>
-                <X>30</X>
-                <Y>119</Y>
+                <X>1022</X>
+                <Y>94</Y>
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
@@ -20099,6 +20099,79 @@
             <Disabled>
                 <X>559</X>
                 <Y>482</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>_c_summary_combat</Name>
+        <TextureName>page4_classic</TextureName>
+        <TextureStart>
+            <X>258</X>
+            <Y>667</Y>
+        </TextureStart>
+        <Width>128</Width>
+        <Height>96</Height>
+        <MaxLevels>2</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_c_summary_exp</Name>
+        <Size>
+            <X>120</X>
+            <Y>18</Y>
+        </Size>
+        <Font>
+            <Name>button_small</Name>
+            <ColorNormal>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>0</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName></TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>0</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>0</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>0</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>0</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>

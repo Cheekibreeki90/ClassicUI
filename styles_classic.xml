@@ -2079,7 +2079,7 @@
 
     <ChatControlTemplate>
         <Name>_c_chat</Name>
-        <FontName>elv</FontName>
+        <FontName>font_chat</FontName>
         <BackgroundTemplate>_c_chat_bg</BackgroundTemplate>
         <ScrollbarTemplate>_c_vscroll_chat</ScrollbarTemplate>
     </ChatControlTemplate>

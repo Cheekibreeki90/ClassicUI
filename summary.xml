@@ -182,7 +182,7 @@
                 <Y>48</Y>
             </Position>
             <ToolTipID>32</ToolTipID>
-            <TemplateName>.classic_summary_xp</TemplateName>
+            <TemplateName>_c_summary_exp</TemplateName>
             <Label>Exp</Label>
             <OnClickEvent>SummaryToggleExp</OnClickEvent>
             <LabelAlignment>
@@ -270,6 +270,17 @@
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
             <EndAligned>true</EndAligned>
         </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_c_summary_combat</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
 
 
     </WindowTemplate>
