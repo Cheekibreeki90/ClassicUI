@@ -8,8 +8,8 @@
     <ButtonTemplate>
         <Name>window_move</Name>
         <Size>
-            <X>11</X>
-            <Y>11</Y>
+            <X>12</X>
+            <Y>12</Y>
         </Size>
         <Font>
             <Name>none</Name>
@@ -39,26 +39,26 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>uielements</TextureName>
+            <TextureName>page3_classic</TextureName>
             <Normal>
-                <X>45</X>
-                <Y>157</Y>
+                <X>211</X>
+                <Y>1</Y>
             </Normal>
             <Pressed>
-                <X>64</X>
-                <Y>157</Y>
+                <X>211</X>
+                <Y>14</Y>
             </Pressed>
             <NormalHighlit>
-                <X>64</X>
-                <Y>157</Y>
+                <X>211</X>
+                <Y>1</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>45</X>
-                <Y>157</Y>
+                <X>211</X>
+                <Y>14</Y>
             </PressedHighlit>
             <Disabled>
-                <X>100</X>
-                <Y>118</Y>
+                <X>211</X>
+                <Y>14</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>
@@ -67,8 +67,8 @@
     <ButtonTemplate>
         <Name>window_close</Name>
         <Size>
-            <X>11</X>
-            <Y>11</Y>
+            <X>12</X>
+            <Y>12</Y>
         </Size>
         <Font>
             <Name>none</Name>
@@ -98,26 +98,26 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>uielements</TextureName>
+            <TextureName>page3_classic</TextureName>
             <Normal>
-                <X>2</X>
-                <Y>157</Y>
+                <X>198</X>
+                <Y>1</Y>
             </Normal>
             <Pressed>
-                <X>21</X>
-                <Y>157</Y>
+                <X>198</X>
+                <Y>14</Y>
             </Pressed>
             <NormalHighlit>
-                <X>21</X>
-                <Y>157</Y>
+                <X>198</X>
+                <Y>1</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>2</X>
-                <Y>157</Y>
+                <X>198</X>
+                <Y>14</Y>
             </PressedHighlit>
             <Disabled>
-                <X>97</X>
-                <Y>119</Y>
+                <X>198</X>
+                <Y>14</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>

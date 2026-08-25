@@ -557,8 +557,8 @@
         <ButtonDef>
             <ControlId>CLOSE</ControlId>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -572,14 +572,30 @@
         <ButtonDef>
             <ControlId>MOVE</ControlId>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_window_move</TemplateName>
             <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>TwoWayResizeBottomRight</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_resize_bottom_right</TemplateName>
+            <OnClickEvent>TwoWayResizeBottomRight</OnClickEvent>
         </ButtonDef>
 
 

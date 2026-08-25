@@ -41,7 +41,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <TemplateName>_c_window_small</TemplateName>
             <Width>261</Width>
             <Height>296</Height>
         </FullResizeImageDef>
@@ -331,9 +331,6 @@
                 <X>5</X>
                 <Y>229</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -344,9 +341,6 @@
                 <X>57</X>
                 <Y>229</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -357,9 +351,6 @@
                 <X>163</X>
                 <Y>229</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -370,9 +361,6 @@
                 <X>110</X>
                 <Y>229</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -383,9 +371,6 @@
                 <X>216</X>
                 <Y>229</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>_c_dialog_inset</TemplateName>
             <Width>40</Width>
         </HorizontalResizeImageDef>
@@ -571,8 +556,8 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -585,9 +570,10 @@
 
 
         <ButtonDef>
+            <ControlId>MOVE</ControlId>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

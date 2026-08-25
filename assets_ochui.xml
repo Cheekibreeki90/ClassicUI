@@ -23,7 +23,7 @@
     <!-- (pointing at custom/Assets/Fonts/arial09_cl.tga); redefining it here would -->
 
 
-    <!-- silently repoint every use of &amp;amp;amp;quot;arial9&amp;amp;amp;quot; across the whole custom UI. -->
+    <!-- silently repoint every use of &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;arial9&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; across the whole custom UI. -->
 
 
     <Font>

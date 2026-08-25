@@ -1835,8 +1835,8 @@
         <ScrollbarTemplate>_c_generic_vscroll</ScrollbarTemplate>
         <LinePadding>0</LinePadding>
         <TextOffset>
-            <X>5</X>
-            <Y>5</Y>
+            <X>13</X>
+            <Y>11</Y>
         </TextOffset>
         <ScrollbarOffset>
             <X>0</X>

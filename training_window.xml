@@ -1847,7 +1847,7 @@
                 <B>94</B>
                 <A>255</A>
             </Color>
-            <FontName>mini7</FontName>
+            <FontName>arial11</FontName>
             <Width>300</Width>
             <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
@@ -3034,7 +3034,7 @@
                 <X>91</X>
                 <Y>342</Y>
             </Position>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>PREV</Label>
         </ButtonDef>
 
@@ -3045,7 +3045,7 @@
                 <X>233</X>
                 <Y>342</Y>
             </Position>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>NEXT</Label>
         </ButtonDef>
 
@@ -3325,7 +3325,7 @@
                 <X>91</X>
                 <Y>422</Y>
             </Position>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>PREV</Label>
         </ButtonDef>
 
@@ -3336,7 +3336,7 @@
                 <X>233</X>
                 <Y>422</Y>
             </Position>
-            <TemplateName>.classic_button_normal</TemplateName>
+            <TemplateName>_c_button_large</TemplateName>
             <Label>NEXT</Label>
         </ButtonDef>
 
@@ -4733,7 +4733,7 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>TRAIN</Label>
             <Width>75</Width>
             <OnClickEvent>NewTrain</OnClickEvent>
@@ -4749,7 +4749,7 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>RESET</Label>
             <Width>100</Width>
             <OnClickEvent></OnClickEvent>
@@ -4765,7 +4765,7 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>CANCEL</Label>
             <Width>75</Width>
             <OnClickEvent></OnClickEvent>
@@ -4781,7 +4781,7 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/RESPEC ALL</Label>
             <Width>115</Width>
             <OnClickEvent>RespecAll</OnClickEvent>
@@ -4797,7 +4797,7 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/RESPEC BUY</Label>
             <Width>115</Width>
             <OnClickEvent>RespecBuy</OnClickEvent>
@@ -4813,7 +4813,7 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/RESPEC REALM</Label>
             <Width>115</Width>
             <OnClickEvent>RespecRealm</OnClickEvent>

@@ -66,7 +66,7 @@
                 <X>3</X>
                 <Y>21</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Help Window</Label>
             <Width>160</Width>
             <OnClickEvent>ToggleHelp</OnClickEvent>
@@ -79,7 +79,7 @@
                 <X>3</X>
                 <Y>39</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Interface Elements</Label>
             <Width>160</Width>
             <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
@@ -92,7 +92,7 @@
                 <X>3</X>
                 <Y>57</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>In-Game Options</Label>
             <Width>160</Width>
             <OnClickEvent>ToggleOptions</OnClickEvent>
@@ -105,7 +105,7 @@
                 <X>3</X>
                 <Y>75</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Configure Keyboard</Label>
             <Width>160</Width>
             <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
@@ -118,7 +118,7 @@
                 <X>3</X>
                 <Y>99</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Quit</Label>
             <Width>160</Width>
             <OnClickEvent>Quit</OnClickEvent>

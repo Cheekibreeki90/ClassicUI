@@ -96,7 +96,7 @@
 
         <LabelDef>
             <Position>
-                <X>28</X>
+                <X>29</X>
                 <Y>225</Y>
             </Position>
             <Color>
@@ -280,8 +280,8 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -295,8 +295,8 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -305,6 +305,21 @@
             <Label>MOVE</Label>
             <OnClickEvent>ButtonMove</OnClickEvent>
         </ButtonDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_c_dlg_interior_dark</TemplateName>
+            <Width>190</Width>
+            <Height>182</Height>
+        </FullResizeImageDef>
 
 
     </WindowTemplate>

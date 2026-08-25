@@ -818,7 +818,7 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>.classic_bg</TemplateName>
+            <TemplateName>_c_dlg_sm_notitle</TemplateName>
             <Width>166</Width>
             <Height>146</Height>
         </FullResizeImageDef>

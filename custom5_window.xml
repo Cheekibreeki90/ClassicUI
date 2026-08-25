@@ -31,6 +31,17 @@
         <ContextTemplateName></ContextTemplateName>
 
 
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_witt_bg_100</TemplateName>
+            <Width>32</Width>
+            <Height>32</Height>
+        </FullResizeImageDef>
+
+
         <ListBoxDef>
             <ControlId>PulseIcon</ControlId>
             <Position>
@@ -49,17 +60,6 @@
             <OnHeaderClickEvent></OnHeaderClickEvent>
             <OnClickEvent></OnClickEvent>
         </ListBoxDef>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>32</Width>
-            <Height>32</Height>
-        </FullResizeImageDef>
 
 
     </WindowTemplate>

@@ -15,10 +15,10 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>63</TitleWidth>
+        <TitleWidth>125</TitleWidth>
         <TitleHeight>3</TitleHeight>
-        <Width>63</Width>
-        <Height>84</Height>
+        <Width>125</Width>
+        <Height>197</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -29,14 +29,16 @@
 
 
         <FullResizeImageDef>
-            <ControlId>bg</ControlId>
             <Position>
-                <X>-3</X>
-                <Y>-3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
-            <TemplateName>_c_window_small</TemplateName>
-            <Width>64</Width>
-            <Height>90</Height>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_dlg_sm_notitle</TemplateName>
+            <Width>129</Width>
+            <Height>207</Height>
         </FullResizeImageDef>
 
 
@@ -46,8 +48,8 @@
         <ButtonDef>
             <ControlId>0</ControlId>
             <Position>
-                <X>0</X>
-                <Y>0</Y>
+                <X>4</X>
+                <Y>6</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -59,25 +61,10 @@
 
 
         <ButtonDef>
-            <ControlId>6</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>17</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_button_large</TemplateName>
-            <Label>Face</Label>
-            <OnClickEvent>Face</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
             <ControlId>1</ControlId>
             <Position>
-                <X>0</X>
-                <Y>34</Y>
+                <X>4</X>
+                <Y>24</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -89,10 +76,40 @@
 
 
         <ButtonDef>
+            <ControlId>2</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Sit</Label>
+            <OnClickEvent>ToggleSitting</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>3</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Follow</Label>
+            <OnClickEvent>Follow</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
             <ControlId>4</ControlId>
             <Position>
-                <X>0</X>
-                <Y>51</Y>
+                <X>4</X>
+                <Y>78</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -104,17 +121,258 @@
 
 
         <ButtonDef>
-            <ControlId>2</ControlId>
+            <ControlId>6</ControlId>
             <Position>
-                <X>0</X>
-                <Y>68</Y>
+                <X>4</X>
+                <Y>96</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>Sit</Label>
-            <OnClickEvent>ToggleSitting</OnClickEvent>
+            <Label>Face</Label>
+            <OnClickEvent>Face</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>7</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Pray</Label>
+            <OnClickEvent>Pray</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>8</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>132</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Release</Label>
+            <OnClickEvent>Release</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>9</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>150</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Bonuses</Label>
+            <OnClickEvent>Bonuses</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>10</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Bind</Label>
+            <OnClickEvent>Bind</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>4</X>
+                <Y>186</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Clock</Label>
+            <OnClickEvent>ToggleClock</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Right Column Buttons-->
+
+
+        <ButtonDef>
+            <ControlId>11</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Keeps</Label>
+            <OnClickEvent>Realm</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>12</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Relics</Label>
+            <OnClickEvent>Relic</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>13</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Task</Label>
+            <OnClickEvent>Task</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>14</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Friends</Label>
+            <OnClickEvent>Friends</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>15</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>AFK</Label>
+            <OnClickEvent>Afk</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>16</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>96</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Compass</Label>
+            <OnClickEvent>ToggleCompass</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>17</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Help</Label>
+            <OnClickEvent>Help</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>18</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>132</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Journal</Label>
+            <OnClickEvent>Journal</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>19</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>150</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Quit</Label>
+            <OnClickEvent>Quit</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Keyboard</Label>
+            <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>67</X>
+                <Y>186</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Map</Label>
+            <OnClickEvent>ToggleMap</OnClickEvent>
         </ButtonDef>
 
 

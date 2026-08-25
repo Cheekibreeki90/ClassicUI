@@ -519,7 +519,7 @@
                 <X>3</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Message/Channel</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
@@ -537,7 +537,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -559,7 +559,7 @@
                 <Y>37</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -581,7 +581,7 @@
                 <Y>54</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -603,7 +603,7 @@
                 <Y>71</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -624,7 +624,7 @@
                 <X>3</X>
                 <Y>88</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>New Window</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnAddChatWindow</OnClickEvent>
@@ -681,7 +681,7 @@
                 <X>3</X>
                 <Y>3</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Message/Channel</Label>
             <Width>108</Width>
             <OnClickEvent>ContextOnMessageAndChannel</OnClickEvent>
@@ -699,7 +699,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -721,7 +721,7 @@
                 <Y>37</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -743,7 +743,7 @@
                 <Y>54</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -765,7 +765,7 @@
                 <Y>71</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -816,7 +816,7 @@
                 <Y>0</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -879,7 +879,7 @@
                 <Y>3</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -901,7 +901,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>arrow</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1099,7 +1099,7 @@
                 <Y>3</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1124,7 +1124,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1149,7 +1149,7 @@
                 <Y>37</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1174,7 +1174,7 @@
                 <Y>54</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1199,7 +1199,7 @@
                 <Y>71</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1224,7 +1224,7 @@
                 <Y>88</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1249,7 +1249,7 @@
                 <Y>105</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1274,7 +1274,7 @@
                 <Y>122</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1299,7 +1299,7 @@
                 <Y>139</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1324,7 +1324,7 @@
                 <Y>156</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>38</Width>
             <ImageOffset>
                 <X>19</X>
@@ -1390,7 +1390,7 @@
                 <Y>3</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1415,7 +1415,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1440,7 +1440,7 @@
                 <Y>37</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1465,7 +1465,7 @@
                 <Y>54</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1490,7 +1490,7 @@
                 <Y>71</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1515,7 +1515,7 @@
                 <Y>88</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1540,7 +1540,7 @@
                 <Y>105</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1565,7 +1565,7 @@
                 <Y>122</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1628,7 +1628,7 @@
                 <Y>3</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1653,7 +1653,7 @@
                 <Y>20</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1678,7 +1678,7 @@
                 <Y>37</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1703,7 +1703,7 @@
                 <Y>54</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1728,7 +1728,7 @@
                 <Y>71</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1753,7 +1753,7 @@
                 <Y>88</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1778,7 +1778,7 @@
                 <Y>105</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>
@@ -1803,7 +1803,7 @@
                 <Y>122</Y>
             </Position>
             <ImageAreaTemplateName>check_mark</ImageAreaTemplateName>
-            <HRButtonTemplateName>.classic_hr_button_white</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr</HRButtonTemplateName>
             <Width>108</Width>
             <ImageOffset>
                 <X>94</X>

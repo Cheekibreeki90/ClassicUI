@@ -194,6 +194,17 @@
         </ButtonDef>
 
 
+        <FullResizeImageDef>
+            <Position>
+                <X>-2</X>
+                <Y>18</Y>
+            </Position>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
+            <Width>260</Width>
+            <Height>260</Height>
+        </FullResizeImageDef>
+
+
         <DynamicImageDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -364,8 +375,8 @@
         <ComboBoxDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>121</X>
-                <Y>2</Y>
+                <X>119</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -377,8 +388,8 @@
         <ComboBoxDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>2</X>
-                <Y>2</Y>
+                <X>0</X>
+                <Y>1</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

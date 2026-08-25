@@ -415,7 +415,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>btui_checkbox</TemplateName>
+            <TemplateName>_c_small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>class0</Data>

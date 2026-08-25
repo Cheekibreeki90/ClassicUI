@@ -39,7 +39,7 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <TemplateName>_c_dlg_sm_notitle</TemplateName>
             <Width>200</Width>
             <Height>125</Height>
         </FullResizeImageDef>
@@ -211,8 +211,8 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -226,8 +226,8 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

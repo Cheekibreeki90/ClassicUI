@@ -89,7 +89,7 @@
         <LabelDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>113</X>
+                <X>118</X>
                 <Y>22</Y>
             </Position>
             <Alignment>
@@ -102,7 +102,7 @@
                 <A>255</A>
             </Color>
             <FontName>arial11</FontName>
-            <Width>69</Width>
+            <Width>90</Width>
             <Height>15</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>&lt;TYPE HERE&gt;</Data>
@@ -280,7 +280,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_generic_combobox</TemplateName>
+            <TemplateName>_c_combo_large</TemplateName>
         </ComboBoxDef>
 
 

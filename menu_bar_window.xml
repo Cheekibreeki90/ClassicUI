@@ -286,7 +286,7 @@
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>UI Options</Label>
             <Width>70</Width>
             <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
@@ -301,7 +301,7 @@
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Realm War</Label>
             <Width>70</Width>
             <OnClickEvent>ShowWarMap</OnClickEvent>
@@ -316,7 +316,7 @@
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>Map</Label>
             <Width>70</Width>
             <OnClickEvent>ToggleMap</OnClickEvent>

@@ -9,7 +9,7 @@
         <Name>value_chooser</Name>
         <WindowId>ValueChooser</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>false</MoveButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>

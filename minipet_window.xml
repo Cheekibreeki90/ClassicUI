@@ -130,7 +130,7 @@
             <AdapterName>mini_pet_combat0</AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Aggro</Data>
-            <LabelWidth>35</LabelWidth>
+            <LabelWidth>80</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -148,7 +148,7 @@
             <AdapterName>mini_pet_combat1</AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Defense</Data>
-            <LabelWidth>37</LabelWidth>
+            <LabelWidth>80</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -166,7 +166,7 @@
             <AdapterName>mini_pet_combat2</AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Passive</Data>
-            <LabelWidth>37</LabelWidth>
+            <LabelWidth>80</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -184,7 +184,7 @@
             <AdapterName>mini_pet_movement0</AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Follow</Data>
-            <LabelWidth>23</LabelWidth>
+            <LabelWidth>80</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -202,7 +202,7 @@
             <AdapterName>mini_pet_movement1</AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Stay</Data>
-            <LabelWidth>24</LabelWidth>
+            <LabelWidth>80</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -220,7 +220,7 @@
             <AdapterName>mini_pet_movement2</AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Go To</Data>
-            <LabelWidth>24</LabelWidth>
+            <LabelWidth>80</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -238,7 +238,7 @@
             <AdapterName>mini_pet_movement3</AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Here</Data>
-            <LabelWidth>24</LabelWidth>
+            <LabelWidth>80</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
@@ -275,8 +275,8 @@
 
         <IconDef>
             <Position>
-                <X>5</X>
-                <Y>91</Y>
+                <X>6</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -290,8 +290,8 @@
 
         <IconDef>
             <Position>
-                <X>22</X>
-                <Y>91</Y>
+                <X>26</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -305,8 +305,8 @@
 
         <IconDef>
             <Position>
-                <X>39</X>
-                <Y>91</Y>
+                <X>46</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -320,8 +320,8 @@
 
         <IconDef>
             <Position>
-                <X>56</X>
-                <Y>91</Y>
+                <X>66</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -335,8 +335,8 @@
 
         <IconDef>
             <Position>
-                <X>73</X>
-                <Y>91</Y>
+                <X>86</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -350,8 +350,8 @@
 
         <IconDef>
             <Position>
-                <X>90</X>
-                <Y>91</Y>
+                <X>106</X>
+                <Y>88</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -363,34 +363,10 @@
         </IconDef>
 
 
-        <IconDef>
-            <Position>
-                <X>107</X>
-                <Y>91</Y>
-            </Position>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>mini_pet_effect6</AdapterName>
-            <IconId>0</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <Position>
-                <X>5</X>
-                <Y>74</Y>
-            </Position>
-            <TemplateName>plain_icon_small</TemplateName>
-            <AdapterName>mini_pet_effect7</AdapterName>
-            <IconId>0</IconId>
-            <Data></Data>
-        </IconDef>
-
-
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -404,8 +380,8 @@
 
         <ButtonDef>
             <Position>
-                <X>3</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

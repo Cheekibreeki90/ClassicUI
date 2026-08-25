@@ -85,7 +85,7 @@
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>192</Width>
-        <Height>380</Height>
+        <Height>415</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -95,55 +95,42 @@
         <ContextTemplateName></ContextTemplateName>
 
 
-        <FullResizeImageDef>
+        <ImageAreaDef>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_c_window_small</TemplateName>
-            <Width>192</Width>
-            <Height>380</Height>
-        </FullResizeImageDef>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_stats_spells_bg</TemplateName>
+        </ImageAreaDef>
 
 
         <TreeControlDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>6</X>
-                <Y>3</Y>
+                <X>12</X>
+                <Y>27</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_c_tree_control</TemplateName>
+            <TemplateName>_c_tree_skills</TemplateName>
             <AdapterName>stats_spells</AdapterName>
-            <Width>182</Width>
+            <Width>170</Width>
             <Height>350</Height>
             <Column1Width>110</Column1Width>
             <Column1Offset>10</Column1Offset>
             <Column2Width>100</Column2Width>
-            <Column2Offset>135</Column2Offset>
+            <Column2Offset>127</Column2Offset>
         </TreeControlDef>
-
-
-        <HorizontalResizeImageDef>
-            <ControlId>cmbt_inset</ControlId>
-            <Position>
-                <X>10</X>
-                <Y>8</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_dialog_inset</TemplateName>
-            <Width>156</Width>
-        </HorizontalResizeImageDef>
 
 
         <ButtonDef>
             <Position>
                 <X>32</X>
-                <Y>358</Y>
+                <Y>396</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -154,32 +141,10 @@
         </ButtonDef>
 
 
-        <LabelDef>
-            <Position>
-                <X>14</X>
-                <Y>8</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>button_large</FontName>
-            <Width>80</Width>
-            <Height>50</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Data>Magic</Data>
-        </LabelDef>
-
-
         <ButtonDef>
             <Position>
                 <X>95</X>
-                <Y>358</Y>
+                <Y>396</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

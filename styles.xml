@@ -98,22 +98,22 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>page3_classic</TextureName>
             <Normal>
-                <X>177</X>
-                <Y>165</Y>
+                <X>150</X>
+                <Y>34</Y>
             </Normal>
             <Pressed>
-                <X>177</X>
-                <Y>177</Y>
+                <X>150</X>
+                <Y>34</Y>
             </Pressed>
             <NormalHighlit>
-                <X>177</X>
-                <Y>153</Y>
+                <X>150</X>
+                <Y>34</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>177</X>
-                <Y>153</Y>
+                <X>150</X>
+                <Y>34</Y>
             </PressedHighlit>
             <Disabled>
                 <X>177</X>
@@ -126,8 +126,8 @@
     <ButtonTemplate>
         <Name>resize_bottom_left</Name>
         <Size>
-            <X>11</X>
-            <Y>11</Y>
+            <X>16</X>
+            <Y>16</Y>
         </Size>
         <Font>
             <Name>none</Name>
@@ -157,26 +157,26 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>uielements</TextureName>
+            <TextureName>page3_classic</TextureName>
             <Normal>
-                <X>78</X>
-                <Y>157</Y>
+                <X>222</X>
+                <Y>99</Y>
             </Normal>
             <Pressed>
-                <X>97</X>
-                <Y>157</Y>
+                <X>222</X>
+                <Y>99</Y>
             </Pressed>
             <NormalHighlit>
-                <X>97</X>
-                <Y>157</Y>
+                <X>222</X>
+                <Y>99</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>78</X>
-                <Y>157</Y>
+                <X>222</X>
+                <Y>99</Y>
             </PressedHighlit>
             <Disabled>
-                <X>98</X>
-                <Y>118</Y>
+                <X>222</X>
+                <Y>99</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>
@@ -185,8 +185,8 @@
     <ButtonTemplate>
         <Name>resize_bottom_right</Name>
         <Size>
-            <X>11</X>
-            <Y>11</Y>
+            <X>16</X>
+            <Y>16</Y>
         </Size>
         <Font>
             <Name>none</Name>
@@ -216,26 +216,26 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>uielements</TextureName>
+            <TextureName>page3_classic</TextureName>
             <Normal>
-                <X>121</X>
-                <Y>157</Y>
+                <X>239</X>
+                <Y>99</Y>
             </Normal>
             <Pressed>
-                <X>140</X>
-                <Y>157</Y>
+                <X>239</X>
+                <Y>99</Y>
             </Pressed>
             <NormalHighlit>
-                <X>140</X>
-                <Y>157</Y>
+                <X>239</X>
+                <Y>99</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>121</X>
-                <Y>157</Y>
+                <X>239</X>
+                <Y>99</Y>
             </PressedHighlit>
             <Disabled>
-                <X>102</X>
-                <Y>118</Y>
+                <X>239</X>
+                <Y>99</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>
@@ -3731,7 +3731,7 @@
                 <A>255</A>
             </ColorDisabled>
         </Font>
-        <Normal></Normal>
+        <Normal>simple_hr_image_highlit</Normal>
         <Pressed></Pressed>
         <NormalHighlit>simple_hr_image_highlit</NormalHighlit>
         <PressedHighlit></PressedHighlit>
@@ -4066,23 +4066,23 @@
 
     <HorizontalResizeImageTemplate>
         <Name>tab_button_highlit</Name>
-        <Height>18</Height>
-        <LeftWidth>10</LeftWidth>
+        <Height>16</Height>
+        <LeftWidth>3</LeftWidth>
         <RepeatWidth>4</RepeatWidth>
-        <RightWidth>10</RightWidth>
+        <RightWidth>3</RightWidth>
         <Texture>
-            <TextureName>navigation</TextureName>
+            <TextureName>page4_classic</TextureName>
             <Left>
-                <X>176</X>
-                <Y>25</Y>
+                <X>2</X>
+                <Y>638</Y>
             </Left>
             <Repeat>
-                <X>187</X>
-                <Y>25</Y>
+                <X>27</X>
+                <Y>638</Y>
             </Repeat>
             <Right>
-                <X>192</X>
-                <Y>25</Y>
+                <X>59</X>
+                <Y>638</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -4090,23 +4090,23 @@
 
     <HorizontalResizeImageTemplate>
         <Name>tab_button_normal</Name>
-        <Height>17</Height>
-        <LeftWidth>10</LeftWidth>
+        <Height>16</Height>
+        <LeftWidth>3</LeftWidth>
         <RepeatWidth>4</RepeatWidth>
-        <RightWidth>10</RightWidth>
+        <RightWidth>3</RightWidth>
         <Texture>
-            <TextureName>navigation</TextureName>
+            <TextureName>page4_classic</TextureName>
             <Left>
-                <X>202</X>
-                <Y>25</Y>
+                <X>2</X>
+                <Y>619</Y>
             </Left>
             <Repeat>
-                <X>213</X>
-                <Y>25</Y>
+                <X>30</X>
+                <Y>619</Y>
             </Repeat>
             <Right>
-                <X>218</X>
-                <Y>25</Y>
+                <X>59</X>
+                <Y>619</Y>
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
@@ -4130,9 +4130,9 @@
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
-                <R>255</R>
-                <G>192</G>
-                <B>0</B>
+                <R>0</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorDisabled>
@@ -19135,26 +19135,26 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>classicui_texture_atlas</TextureName>
+            <TextureName>page4_classic</TextureName>
             <Normal>
-                <X>770</X>
-                <Y>173</Y>
+                <X>2</X>
+                <Y>601</Y>
             </Normal>
             <Pressed>
-                <X>770</X>
-                <Y>173</Y>
+                <X>2</X>
+                <Y>584</Y>
             </Pressed>
             <NormalHighlit>
-                <X>770</X>
-                <Y>173</Y>
+                <X>2</X>
+                <Y>601</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>770</X>
-                <Y>173</Y>
+                <X>2</X>
+                <Y>601</Y>
             </PressedHighlit>
             <Disabled>
-                <X>770</X>
-                <Y>173</Y>
+                <X>2</X>
+                <Y>584</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>
@@ -19163,7 +19163,7 @@
     <ButtonTemplate>
         <Name>_c_button_tab_normal</Name>
         <Size>
-            <X>80</X>
+            <X>58</X>
             <Y>16</Y>
         </Size>
         <Font>
@@ -19194,26 +19194,26 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>classicui_texture_atlas</TextureName>
+            <TextureName>page3_classic</TextureName>
             <Normal>
-                <X>770</X>
-                <Y>156</Y>
+                <X>131</X>
+                <Y>116</Y>
             </Normal>
             <Pressed>
-                <X>770</X>
-                <Y>156</Y>
+                <X>189</X>
+                <Y>116</Y>
             </Pressed>
             <NormalHighlit>
-                <X>770</X>
-                <Y>156</Y>
+                <X>131</X>
+                <Y>116</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>770</X>
-                <Y>156</Y>
+                <X>131</X>
+                <Y>116</Y>
             </PressedHighlit>
             <Disabled>
-                <X>770</X>
-                <Y>156</Y>
+                <X>189</X>
+                <Y>116</Y>
             </Disabled>
         </Texture>
     </ButtonTemplate>
@@ -19768,14 +19768,14 @@
 
     <ListBoxTemplate>
         <Name>_c_listbox_stats</Name>
-        <LinePadding>6</LinePadding>
-        <CellPadding>8</CellPadding>
+        <LinePadding>8</LinePadding>
+        <CellPadding>4</CellPadding>
         <LabelLength>100</LabelLength>
-        <ScrollbarTemplate>_c_vscroll_stats</ScrollbarTemplate>
+        <ScrollbarTemplate>_c_vscroll_slim_thumb_only</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>0</ScrollbarTopOffset>
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
-        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <ScrollbarRightOffset>4</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_c_dlg_interior_thick</BackgroundTemplate>
         <IconTemplate>_c_plain_icon_small</IconTemplate>
@@ -19800,10 +19800,10 @@
                 <A>255</A>
             </ColorGreyed>
             <TextTopOffset>16</TextTopOffset>
-            <TextBottomOffset>14</TextBottomOffset>
-            <TextLeftOffset>0</TextLeftOffset>
+            <TextBottomOffset>10</TextBottomOffset>
+            <TextLeftOffset>8</TextLeftOffset>
             <TextRightOffset>0</TextRightOffset>
-            <LineOffset>3</LineOffset>
+            <LineOffset>0</LineOffset>
         </TextFont>
             <IconSize>
                 <X>16</X>
@@ -19872,6 +19872,236 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>_c_reward_32</Name>
+        <TextureName>page4_classic</TextureName>
+        <Size>
+            <X>32</X>
+            <Y>32</Y>
+        </Size>
+        <TopLeft>
+            <X>214</X>
+            <Y>584</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>_c_reward_16</Name>
+        <TextureName>page4_classic</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>214</X>
+            <Y>619</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <TreeControlTemplate>
+        <Name>_c_tree_skills</Name>
+        <BackgroundTemplate>none</BackgroundTemplate>
+        <ScrollbarTemplate>_c_vscroll_slim_thumb_only</ScrollbarTemplate>
+        <CheckBoxTemplate>_c_generic_check</CheckBoxTemplate>
+        <IconTemplate>_c_plain_icon_small</IconTemplate>
+        <FontName>arial9</FontName>
+        <FontColor>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+            <A>255</A>
+        </FontColor>
+        <LinePadding>2</LinePadding>
+        <OffsetX>0</OffsetX>
+        <OffsetY>0</OffsetY>
+        <TextOffset>4</TextOffset>
+    </TreeControlTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>_c_stats_combat_bg</Name>
+        <TextureName>page4_classic</TextureName>
+        <Size>
+            <X>192</X>
+            <Y>415</Y>
+        </Size>
+        <TopLeft>
+            <X>392</X>
+            <Y>34</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <VerticalScrollbarTemplate>
+        <Name>_c_vscroll_slim_thumb_only</Name>
+        <UpButtonTemplate>none</UpButtonTemplate>
+        <DownButtonTemplate>none</DownButtonTemplate>
+        <ThumbVResizeTemplate>_c_scroll_thumb_slim</ThumbVResizeTemplate>
+        <GutterVResizeTemplate>none</GutterVResizeTemplate>
+        <Width>8</Width>
+        <UpButtonOffset>
+            <X>-4</X>
+            <Y>0</Y>
+        </UpButtonOffset>
+        <DownButtonOffset>
+            <X>-4</X>
+            <Y>0</Y>
+        </DownButtonOffset>
+        <ThumbOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ThumbOffset>
+        <ActiveZoneOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ActiveZoneOffset>
+    </VerticalScrollbarTemplate>
+
+
+    <VerticalResizeImageTemplate>
+        <Name>_c_scroll_thumb_slim</Name>
+        <Width>8</Width>
+        <TopHeight>4</TopHeight>
+        <RepeatHeight>6</RepeatHeight>
+        <BottomHeight>4</BottomHeight>
+        <Texture>
+            <TextureName>page4_classic</TextureName>
+            <Top>
+                <X>547</X>
+                <Y>465</Y>
+            </Top>
+            <Repeat>
+                <X>547</X>
+                <Y>470</Y>
+            </Repeat>
+            <Bottom>
+                <X>547</X>
+                <Y>477</Y>
+            </Bottom>
+        </Texture>
+    </VerticalResizeImageTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_c_scroll_up_slim</Name>
+        <Size>
+            <X>8</X>
+            <Y>11</Y>
+        </Size>
+        <Font>
+            <Name></Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>page4_classic</TextureName>
+            <Normal>
+                <X>547</X>
+                <Y>453</Y>
+            </Normal>
+            <Pressed>
+                <X>559</X>
+                <Y>453</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>547</X>
+                <Y>453</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>559</X>
+                <Y>453</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>559</X>
+                <Y>453</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <ButtonTemplate>
+        <Name>_c_scroll_down_slim</Name>
+        <Size>
+            <X>8</X>
+            <Y>11</Y>
+        </Size>
+        <Font>
+            <Name></Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>page4_classic</TextureName>
+            <Normal>
+                <X>547</X>
+                <Y>482</Y>
+            </Normal>
+            <Pressed>
+                <X>559</X>
+                <Y>482</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>547</X>
+                <Y>482</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>559</X>
+                <Y>482</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>559</X>
+                <Y>482</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
 
 
 </Root_Element>

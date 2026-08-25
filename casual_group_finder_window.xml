@@ -8,7 +8,7 @@
     <WindowTemplate>
         <Name>casual_group_finder_window</Name>
         <WindowId></WindowId>
-        <CloseButton>false</CloseButton>
+        <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>

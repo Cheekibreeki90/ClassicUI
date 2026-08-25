@@ -45,7 +45,7 @@
                 <X>13</X>
                 <Y>17</Y>
             </Position>
-            <TemplateName>_c_dlg_interior_turquoise</TemplateName>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
             <Width>120</Width>
             <Height>275</Height>
         </FullResizeImageDef>
@@ -56,7 +56,7 @@
                 <X>147</X>
                 <Y>17</Y>
             </Position>
-            <TemplateName>_c_dlg_interior_turquoise</TemplateName>
+            <TemplateName>_c_dlg_interior_thin</TemplateName>
             <Width>124</Width>
             <Height>275</Height>
         </FullResizeImageDef>
@@ -77,7 +77,7 @@
             <Width>141</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
-            <Data>MESSAGE TYPES</Data>
+            <Data>MESSAGE TYPE</Data>
         </LabelDef>
 
 

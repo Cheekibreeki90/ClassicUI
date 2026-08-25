@@ -263,7 +263,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
-            <Label>MINI GRP</Label>
+            <Label>CLASSIC</Label>
             <OnClickEvent>ToggleMiniGroup</OnClickEvent>
         </ButtonDef>
 
@@ -621,8 +621,8 @@
         <ButtonDef>
             <ControlId>CLOSE</ControlId>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>
@@ -635,8 +635,8 @@
         <ButtonDef>
             <ControlId>MOVE</ControlId>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

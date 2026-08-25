@@ -292,8 +292,8 @@
         <ButtonDef>
             <ControlId>CLOSE</ControlId>
             <Position>
-                <X>1</X>
-                <Y>2</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -305,9 +305,10 @@
 
 
         <ButtonDef>
+            <ControlId>MOVE</ControlId>
             <Position>
-                <X>1</X>
-                <Y>1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

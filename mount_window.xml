@@ -9,7 +9,7 @@
         <Name>mount</Name>
         <WindowId>Mount</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>false</MoveButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
@@ -94,7 +94,7 @@
                 <X>17</X>
                 <Y>187</Y>
             </Position>
-            <TemplateName>.classic_reward_large</TemplateName>
+            <TemplateName>_c_reward_32</TemplateName>
         </ImageAreaDef>
 
 
@@ -104,7 +104,7 @@
                 <X>17</X>
                 <Y>187</Y>
             </Position>
-            <Icontemplatename>plain_icon_large</Icontemplatename>
+            <Icontemplatename>_c_plain_icon_large</Icontemplatename>
         </DockableIconDef>
 
 
@@ -136,7 +136,7 @@
                 <X>87</X>
                 <Y>187</Y>
             </Position>
-            <TemplateName>.classic_reward_large</TemplateName>
+            <TemplateName>_c_reward_32</TemplateName>
         </ImageAreaDef>
 
 
@@ -178,7 +178,7 @@
                 <X>157</X>
                 <Y>187</Y>
             </Position>
-            <TemplateName>.classic_reward_large</TemplateName>
+            <TemplateName>_c_reward_32</TemplateName>
         </ImageAreaDef>
 
 
@@ -237,7 +237,7 @@
                 <X>4</X>
                 <Y>240</Y>
             </Position>
-            <TemplateName>.classic_reward_small</TemplateName>
+            <TemplateName>_c_reward_16</TemplateName>
         </ImageAreaDef>
 
 
@@ -282,7 +282,7 @@
                 <X>4</X>
                 <Y>258</Y>
             </Position>
-            <TemplateName>.classic_reward_small</TemplateName>
+            <TemplateName>_c_reward_16</TemplateName>
         </ImageAreaDef>
 
 
@@ -327,7 +327,7 @@
                 <X>4</X>
                 <Y>278</Y>
             </Position>
-            <TemplateName>.classic_reward_small</TemplateName>
+            <TemplateName>_c_reward_16</TemplateName>
         </ImageAreaDef>
 
 
@@ -372,7 +372,7 @@
                 <X>4</X>
                 <Y>298</Y>
             </Position>
-            <TemplateName>.classic_reward_small</TemplateName>
+            <TemplateName>_c_reward_16</TemplateName>
         </ImageAreaDef>
 
 

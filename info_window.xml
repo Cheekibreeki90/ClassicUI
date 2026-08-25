@@ -90,8 +90,8 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -105,8 +105,8 @@
 
         <ButtonDef>
             <Position>
-                <X>2</X>
-                <Y>3</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -119,8 +119,8 @@
 
         <ButtonDef>
             <Position>
-                <X>1</X>
-                <Y>1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -134,8 +134,8 @@
 
         <ButtonDef>
             <Position>
-                <X>1</X>
-                <Y>1</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>

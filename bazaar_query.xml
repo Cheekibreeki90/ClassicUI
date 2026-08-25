@@ -42,8 +42,8 @@
     <WindowTemplate>
         <Name>bazaar_query</Name>
         <WindowId>BazaarQuery</WindowId>
-        <CloseButton>false</CloseButton>
-        <MoveButton>false</MoveButton>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
@@ -196,7 +196,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -216,7 +216,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -238,7 +238,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -258,7 +258,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>72</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -280,7 +280,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>90</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -300,7 +300,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>16</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -343,7 +343,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>60</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -363,7 +363,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>30</Width>
             <Height>16</Height>
             <MaxCharacters>80</MaxCharacters>
@@ -406,7 +406,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>72</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -426,7 +426,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>16</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -505,7 +505,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>78</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -544,7 +544,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>78</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -583,7 +583,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>78</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -622,7 +622,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>78</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -651,7 +651,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>78</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -680,7 +680,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>78</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -709,7 +709,7 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>tahoma11</FontName>
+            <FontName>arial11</FontName>
             <Width>78</Width>
             <Height>16</Height>
             <MaxCharacters>32</MaxCharacters>

@@ -74,12 +74,6 @@
     <Include>uistyles.xml</Include>
 
 
-    <Include>btui_styles.xml</Include>
-
-
-    <Include>btui_styles_new.xml</Include>
-
-
     <Include>styles_classic.xml</Include>
 
 
@@ -634,7 +628,7 @@
 
     <Texture>
         <Name>map_icons</Name>
-        <File>custom/map_icons.dds</File>
+        <File>custom/map_icons.tga</File>
     </Texture>
 
 
@@ -731,12 +725,6 @@
     <Texture>
         <Name>g_hh_reverse</Name>
         <File>custom/Assets/Textures/ghost_hh_reverse.tga</File>
-    </Texture>
-
-
-    <Texture>
-        <Name>neca_uPet</Name>
-        <File>custom/Assets/Textures/neca_uPet.tga</File>
     </Texture>
 
 
@@ -888,12 +876,6 @@
         <Name>overpass</Name>
         <File>custom/Assets/Fonts/overp_shadow.tga</File>
     </Font>
-
-
-    <Texture>
-        <Name>warmap_alb2</Name>
-        <File>custom/albmap3.tga</File>
-    </Texture>
 
 
     <Texture>
