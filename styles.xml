@@ -20177,4 +20177,639 @@
     </ButtonTemplate>
 
 
+    <Texture>
+        <Name>map_icons</Name>
+        <File>custom/map_icons.tga</File>
+    </Texture>
+
+
+    <CheckBoxTemplate>
+        <Name>realmwar_tab</Name>
+        <Size>
+            <X>57</X>
+            <Y>17</Y>
+        </Size>
+        <Font>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>128</A>
+            </ColorDisabled>
+            <TextOffset>
+                <X>0</X>
+                <Y>4</Y>
+            </TextOffset>
+            <TextAlignment>
+                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </TextAlignment>
+            <ChangeFontColor>true</ChangeFontColor>
+        </Font>
+        <Texture>
+            <TextureName>none</TextureName>
+            <Normal>
+                <X>163</X>
+                <Y>65</Y>
+            </Normal>
+            <Pressed>
+                <X>163</X>
+                <Y>47</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>163</X>
+                <Y>65</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>163</X>
+                <Y>47</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>163</X>
+                <Y>65</Y>
+            </Disabled>
+        </Texture>
+    </CheckBoxTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_tower</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>5</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_keep</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>16</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>5</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_milegate</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>80</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>2</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_battle_large</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>32</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_battle_medium</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>48</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_battle_small</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>64</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_scouting_small</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>64</X>
+            <Y>32</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_scouting_medium</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>64</X>
+            <Y>48</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_scouting_large</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>64</X>
+            <Y>64</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>bridge_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>32</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>keep_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>tower_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>relic_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>96</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>dungeon_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>80</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>mgopen_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>96</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>mgclosed_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>80</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>battle_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>48</X>
+            <Y>48</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>impasse_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>siege_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>destination_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>48</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>selection_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>64</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>dock_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>80</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>realmwar_selection</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>48</X>
+            <Y>48</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>80</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>realmwar_destination</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>48</X>
+            <Y>48</Y>
+        </Size>
+        <TopLeft>
+            <X>48</X>
+            <Y>80</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>realmwar_siege</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>32</X>
+            <Y>32</Y>
+        </Size>
+        <TopLeft>
+            <X>96</X>
+            <Y>96</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>player_location</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>11</X>
+            <Y>11</Y>
+        </Size>
+        <TopLeft>
+            <X>99</X>
+            <Y>82</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>128</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location1</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>128</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location2</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>144</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location3</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>160</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location4</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>176</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location5</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>192</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location6</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>208</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location7</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>224</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location8</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>240</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_waypoint</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>144</X>
+            <Y>48</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_giver</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>144</X>
+            <Y>32</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>mino_relic_1</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>128</X>
+            <Y>32</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>mino_relic_2</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>128</X>
+            <Y>48</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>mino_relic_3</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>128</X>
+            <Y>64</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
 </Root_Element>

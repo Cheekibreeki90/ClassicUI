@@ -11,7 +11,7 @@
     <WindowTemplate>
         <Name>custom6_window</Name>
         <WindowId>custom6_window</WindowId>
-        <CloseButton>true</CloseButton>
+        <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>

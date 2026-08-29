@@ -35,12 +35,12 @@ zone_height=38
 zone0_number=0
 zone0_left=176
 zone0_top=84
-zone0_desc=Nestled by the majestic City of Camelot, the Village of Cotswold offers adventurers between levels 10 and 14 both training and leveling opportunities. Those of 15th to 19th seasons would find Prydwen Keep to the south more suited to their abilities. The dungeons of Darkness Falls, an RvR dungeon, and Mithraï¿½s Tomb, a low-level dungeon, can both be found in Camelot Hills as well. Far to the north, Castle Sauvage guards the gateway into Forest Sauvage and the Albion Frontier.
+zone0_desc=Nestled by the majestic City of Camelot, the Village of Cotswold offers adventurers between levels 10 and 14 both training and leveling opportunities. Those of 15th to 19th seasons would find Prydwen Keep to the south more suited to their abilities. The dungeons of Darkness Falls, an RvR dungeon, and Mithra’s Tomb, a low-level dungeon, can both be found in Camelot Hills as well. Far to the north, Castle Sauvage guards the gateway into Forest Sauvage and the Albion Frontier.
 ; salisbury plains
 zone1_number=1
 zone1_left=176
 zone1_top=122
-zone1_desc=The wide expanse of Salisbury Plains is home to the legendary Stonehenge. Rolling hills spread over the plains where different creatures dwell. Adventurersï¿½ level 12 through 25 will find excellent hunting here. Within the circles of Stonehenge lies the entrance to the Stonehenge Barrows, a tomb haunted by the undead that only the most skilled warriors should dare to enter.
+zone1_desc=The wide expanse of Salisbury Plains is home to the legendary Stonehenge. Rolling hills spread over the plains where different creatures dwell. Adventurers’ level 12 through 25 will find excellent hunting here. Within the circles of Stonehenge lies the entrance to the Stonehenge Barrows, a tomb haunted by the undead that only the most skilled warriors should dare to enter.
 ; black mountains south
 zone2_number=2
 zone2_left=138
@@ -75,7 +75,7 @@ zone7_desc=This dense and sprawling forest lying south of Salisbury Plains holds
 zone8_number=9
 zone8_left=100
 zone8_top=159
-zone8_desc=Located in the southern region of Albion, the festering marsh is infested with vile creatures which lurk in the shadows. It is also home to Adribardï¿½s Retreat, appropriate for adventurers between their 30th and 35th seasons to learn, train, and adventure.
+zone8_desc=Located in the southern region of Albion, the festering marsh is infested with vile creatures which lurk in the shadows. It is also home to Adribard’s Retreat, appropriate for adventurers between their 30th and 35th seasons to learn, train, and adventure.
 ; lyonesse
 zone9_number=10
 zone9_left=24
@@ -313,7 +313,7 @@ zone2_desc=In the Dales of Devwy, towering trees give the forest an aura of heav
 zone3_number=54
 zone3_left=77
 zone3_top=68
-zone3_desc=This land is filled with many dangers and over shadowing it all upon a high mountain is the dungeon of Caer Sidi. Once a proud and glorious hall where men and women from the realm gathered, it now lays in ruin, inhabited by the most powerful of Morganaï¿½s undead horde.  Only the strongest or the foolish fight to reclaim this stronghold.
+zone3_desc=This land is filled with many dangers and over shadowing it all upon a high mountain is the dungeon of Caer Sidi. Once a proud and glorious hall where men and women from the realm gathered, it now lays in ruin, inhabited by the most powerful of Morgana’s undead horde.  Only the strongest or the foolish fight to reclaim this stronghold.
 ; Gwyddneau
 zone4_number=55
 zone4_left=66
@@ -422,7 +422,7 @@ zone0_desc=Within the shadow of the City of Jordheim, the town of Mularn offers 
 zone1_number=101
 zone1_left=122
 zone1_top=73
-zone1_desc=East Svealand has two major towns: Vasudheim, which lies just outside the gates to the capital city of Jordheim, and Audliten, which offers opportunities to adventurers between their 20th and 24th seasons. This area is also home to the dungeon Nisseï¿½s Lair, which will provide challenges to adventurers between levels 8 and 20.
+zone1_desc=East Svealand has two major towns: Vasudheim, which lies just outside the gates to the capital city of Jordheim, and Audliten, which offers opportunities to adventurers between their 20th and 24th seasons. This area is also home to the dungeon Nisse’s Lair, which will provide challenges to adventurers between levels 8 and 20.
 ; West Svealand
 zone2_number=102
 zone2_left=84
@@ -442,7 +442,7 @@ zone4_desc=Home of the fire giants, Muspelheim is a charred land with pits of bu
 zone5_number=105
 zone5_left=142
 zone5_top=149
-zone5_desc=Dark and foreboding, Myrkwood Forest is home to two towns and the most challenging dungeon in old world Midgard, Spindelhalla.  The area around the city of Galplen has monsters appropriate to adventurersï¿½ levels 25 to 30.  Across the lake, the town of Gna Faste is home to a number of trainers not found in Galplen, but beware the creature Njessi who calls the lake its home.
+zone5_desc=Dark and foreboding, Myrkwood Forest is home to two towns and the most challenging dungeon in old world Midgard, Spindelhalla.  The area around the city of Galplen has monsters appropriate to adventurers’ levels 25 to 30.  Across the lake, the town of Gna Faste is home to a number of trainers not found in Galplen, but beware the creature Njessi who calls the lake its home.
 ; Skona Ravine
 zone6_number=106
 zone6_left=104
@@ -721,11 +721,11 @@ zone_count=14
 zone_width=42
 zone_height=42
 region_desc=Land of legendary battles and defeat, the Frontiers are home to the unstable outposts of the realms.  Hibernia, Albion, and Midgard wage constant war here, in effort to push borders to their own advantage, and gain keeps and relics to empower their own countrymen.  Laden with unknown creatures and miles of wild and untamed lands, the Frontiers offer great challenge and opportunity for fame and glory.
-; The Isle of Agramon
+; Ellan Vannin
 zone0_number=163
 zone0_top=86 
 zone0_left=97
-zone0_desc=The Isle of Agramon appeared overnight heralded by earthquakes, tidal waves and demonic hordes. The strange new land mass filled up the entirety of the once vast North Sea and almost appeared to reach towards the Frontiers. Through great bravery and conflict, the Realms pushed back the armies of Darkness Falls and cast back down the creature that lead them, the Demon Lord Agramon. 
+zone0_desc=Ellan Vannin is an ancient island originally controlled by the Manx people and their ruler, Manannan mac Lir. The island was once a bastion of Arthur’s reign where all three realms lived in harmony. After his death its war-torn shores were abandoned and lost to time… until now. The rulers of the Otherworlds remembered this ancient place. Each have returned with the aim of controlling this once great land and the formidable underground keep, Knoc Meayll, for their realm!
 ; Irish Sea
 zone1_number=164
 zone1_top=128
@@ -735,62 +735,62 @@ zone1_desc=The calm, clear waters of the Irish sea stretch out in all directions
 zone2_number=167
 zone2_top=44
 zone2_left=118
-zone2_desc=Odinï¿½s Gate is Midgardï¿½s front line for repelling foreign invaders.  Bledmeer Faste protects both the coast and the realmï¿½s river access.  Nottmoor Faste protects the north western coast.  To the east, a series of rope bridges suspended high over canyon walls provides excellent defense for attacking armies marching deep into Midgardï¿½s frontier.
+zone2_desc=Odin’s Gate is Midgard’s front line for repelling foreign invaders.  Bledmeer Faste protects both the coast and the realm’s river access.  Nottmoor Faste protects the north western coast.  To the east, a series of rope bridges suspended high over canyon walls provides excellent defense for attacking armies marching deep into Midgard’s frontier.
 ; Jamtland Mountains
 zone3_number=168
 zone3_top=44
 zone3_left=160
-zone3_desc=Blendrake Faste protects the southern coast of these snow-covered mountains, while the marshy keep Hlidskialf Faste defends the southeastï¿½s watery borders.  The entrance to the Passage of Conflict opens here, to the south of Glenlock Faste. Ruins of an ancient city can be explored in the center of these lands, and further to the northwest the island keep Glenlock Faste protects river access into Midgard.
+zone3_desc=Blendrake Faste protects the southern coast of these snow-covered mountains, while the marshy keep Hlidskialf Faste defends the southeast’s watery borders.  The entrance to the Passage of Conflict opens here, to the south of Glenlock Faste. Ruins of an ancient city can be explored in the center of these lands, and further to the northwest the island keep Glenlock Faste protects river access into Midgard.
 ; Yggdra Forest
 zone4_number=169
 zone4_top=44
 zone4_left=202
-zone4_desc=The looming, dark trees of Yggdra Forest offer safe cover for Arvakr Faste in the southeast.  This mighty Keep is the resting place of the Horn of Valhalla, Midgardï¿½s power relic.  Deep in the northeast, the border keep Vindsaul Faste protects Midgardï¿½s homeland from invaders.  South of Arvakr Faste, a frontier village offers supplies and training to the weary defender.
+zone4_desc=The looming, dark trees of Yggdra Forest offer safe cover for Arvakr Faste in the southeast.  This mighty Keep is the resting place of the Horn of Valhalla, Midgard’s power relic.  Deep in the northeast, the border keep Vindsaul Faste protects Midgard’s homeland from invaders.  South of Arvakr Faste, a frontier village offers supplies and training to the weary defender.
 ; Uppland
 zone5_number=170
 zone5_top=2
 zone5_left=160
-zone5_desc=Located in the northernmost section of Midgardï¿½s frontier, Uppland is home to Thorï¿½s Hammer. This strength relic is housed by Fensalir Faste deep in the north.  In the east, the border keep Svasud Faste is the gateway to Midgardï¿½s inner realm. A frontier village stands ready with supplies for restocking and trainers to aid in learning new skills, just across the river from Mjollner Faste.
+zone5_desc=Located in the northernmost section of Midgard’s frontier, Uppland is home to Thor’s Hammer. This strength relic is housed by Fensalir Faste deep in the north.  In the east, the border keep Svasud Faste is the gateway to Midgard’s inner realm. A frontier village stands ready with supplies for restocking and trainers to aid in learning new skills, just across the river from Mjollner Faste.
 ; Emain Macha
 zone6_number=171
 zone6_top=128
 zone6_left=55
-zone6_desc=Emain Macha is Hiberniaï¿½s front line for repelling invaders from the foreign lands of Albion and Midgard.  Dun Crauchon not only protects the North Seaï¿½s coast, but also acts as a sentinel for river access. Dun Crimthainn keeps vigil over the northern border, while Dun Bolg safeguards the swampy waters in the southeast.  The ruins of an ancient city offer mysterious adventure in the south west.
+zone6_desc=Emain Macha is Hibernia’s front line for repelling invaders from the foreign lands of Albion and Midgard.  Dun Crauchon not only protects the North Sea’s coast, but also acts as a sentinel for river access. Dun Crimthainn keeps vigil over the northern border, while Dun Bolg safeguards the swampy waters in the southeast.  The ruins of an ancient city offer mysterious adventure in the south west.
 ; Breifine
 zone7_number=172
 zone7_top=170
 zone7_left=55
-zone7_desc=In the depths of Hiberniaï¿½s frontier, the island keep of Dun na Ged keeps careful watch over nearby river traffic, while Dun da Behnn protects the Irish Seaï¿½s coast.  Suspended rope bridges stretch high across valleys in the southeast, providing excellent defense against invading armies attempting to flank  the outlaying outposts and keeps.  The Passage of Conflictï¿½s entrance can be found deep in the woods, to the  south of nGed.
+zone7_desc=In the depths of Hibernia’s frontier, the island keep of Dun na Ged keeps careful watch over nearby river traffic, while Dun da Behnn protects the Irish Sea’s coast.  Suspended rope bridges stretch high across valleys in the southeast, providing excellent defense against invading armies attempting to flank  the outlaying outposts and keeps.  The Passage of Conflict’s entrance can be found deep in the woods, to the  south of nGed.
 ; Cruachon Gorge
 zone8_number=173
 zone8_top=170
 zone8_left=13
-zone8_desc=Hidden amidst a thick forest of lush trees, Dun Ailinne guards the very heart of the Hibernian frontier.   In the south of the Gorge, Druim Ligen keeps vigil over Hibernia with its massive,  stout walls.  Further north, Dun Ailinne shelters Lugï¿½s Spear,  Hiberniaï¿½s  strength relic.  Weary defenders can find solace in the frontier village deep in the northwest, where training and supplies are readily available.
+zone8_desc=Hidden amidst a thick forest of lush trees, Dun Ailinne guards the very heart of the Hibernian frontier.   In the south of the Gorge, Druim Ligen keeps vigil over Hibernia with its massive,  stout walls.  Further north, Dun Ailinne shelters Lug’s Spear,  Hibernia’s  strength relic.  Weary defenders can find solace in the frontier village deep in the northwest, where training and supplies are readily available.
 ; Mount Collory
 zone9_number=174
 zone9_top=212
 zone9_left=55
-zone9_desc=Home to Hiberniaï¿½s power relic, the Cauldron of Dagda, Dun Scathaig towers over the south. In the southwest, the border keep Druim Cain protects the mainland.  A frontier village in the southeast offers supplies and training to brave defenders not wishing make the long trip home.
+zone9_desc=Home to Hibernia’s power relic, the Cauldron of Dagda, Dun Scathaig towers over the south. In the southwest, the border keep Druim Cain protects the mainland.  A frontier village in the southeast offers supplies and training to brave defenders not wishing make the long trip home.
 ; Snowdonia
 zone10_number=175
 zone10_top=212
 zone10_left=139
-zone10_desc=Snowdonia is the southern most region of Albionï¿½s frontier.  Here, the relic Keep Caer Hurbury is home to Merlinï¿½s Staff, Albionï¿½s famed power relic. To the southwest, the frontier village allows for restocking supplies and training.  The inner realm is heavily guarded by Snowdonia Fortress, Albionï¿½s border keep.
+zone10_desc=Snowdonia is the southern most region of Albion’s frontier.  Here, the relic Keep Caer Hurbury is home to Merlin’s Staff, Albion’s famed power relic. To the southwest, the frontier village allows for restocking supplies and training.  The inner realm is heavily guarded by Snowdonia Fortress, Albion’s border keep.
 ; Forest Sauvage
 zone11_number=176
 zone11_top=170
 zone11_left=181
-zone11_desc=Forest Sauvage is home to Albionï¿½s strength relic Keep, Caer Renaris wherein lies the resting place of the Scabbard of Excalibur. Deep in the south, Castle Sauvage is the final defense between attackers in the frontier and Albionï¿½s heartlands. 
+zone11_desc=Forest Sauvage is home to Albion’s strength relic Keep, Caer Renaris wherein lies the resting place of the Scabbard of Excalibur. Deep in the south, Castle Sauvage is the final defense between attackers in the frontier and Albion’s heartlands. 
 ; Pennine Mountains
 zone12_number=177
 zone12_top=170
 zone12_left=139
-zone12_desc=The island keep of Caer Boldiam protects the realmï¿½s inner river access.  To the northwest lie the ruins of an ancient monastery.  Along the river to the east, the entrance to the Passage of Conflict can be found.    Rope bridges closing the steep valley gaps offer easy passage to Caer Sursbrooke from the south.
+zone12_desc=The island keep of Caer Boldiam protects the realm’s inner river access.  To the northwest lie the ruins of an ancient monastery.  Along the river to the east, the entrance to the Passage of Conflict can be found.    Rope bridges closing the steep valley gaps offer easy passage to Caer Sursbrooke from the south.
 ; Hadrian's Wall
 zone13_number=178
 zone13_top=128
 zone13_left=139
-zone13_desc=The northernmost frontier of Albion, Hadrianï¿½s Wall is flanked in the west by both the North Sea and the Irish Sea.  Twin sentinels on the westerly seaï¿½s borders, the island keep, Caer Benowyc, and the marshy keep, Caer Erasleigh, stand vigil together against enemy invaders.   Caer Berkstead stands a constant vigil against likely Midgard invasions from the north.
+zone13_desc=The northernmost frontier of Albion, Hadrian’s Wall is flanked in the west by both the North Sea and the Irish Sea.  Twin sentinels on the westerly sea’s borders, the island keep, Caer Benowyc, and the marshy keep, Caer Erasleigh, stand vigil together against enemy invaders.   Caer Berkstead stands a constant vigil against likely Midgard invasions from the north.
 
 ;
 ; New battlegrounds
@@ -802,7 +802,7 @@ zone_count=1
 zone0_number=234
 zone0_left=0
 zone0_top=0
-zone0_desc=Defend your realmï¿½s honor!  This region is for levels 1-4 only.  The center keep can be claimed once per level for experience
+zone0_desc=Defend your realm’s honor!  This region is for levels 1-4 only.  The center keep can be claimed once per level for experience
 
 ; lions den
 [region235]
@@ -810,7 +810,7 @@ zone_count=1
 zone0_number=235
 zone0_left=0
 zone0_top=0
-zone0_desc=Defend your realmï¿½s honor!  This region is for levels 5-9 only.  The center keep can be claimed once per level for experience
+zone0_desc=Defend your realm’s honor!  This region is for levels 5-9 only.  The center keep can be claimed once per level for experience
 
 ; hills of claret
 [region236]
@@ -818,7 +818,7 @@ zone_count=1
 zone0_number=236
 zone0_left=0
 zone0_top=0
-zone0_desc=Defend your realmï¿½s honor!  This region is for levels 10-14 only.  The center keep can be claimed once per level for experience
+zone0_desc=Defend your realm’s honor!  This region is for levels 10-14 only.  The center keep can be claimed once per level for experience
 
 ; killaloe
 [region237]
@@ -826,7 +826,7 @@ zone_count=1
 zone0_number=237
 zone0_left=0
 zone0_top=0
-zone0_desc=Defend your realmï¿½s honor!  This region is for levels 15-19 only.  The center keep can be claimed once per level for experience
+zone0_desc=Defend your realm’s honor!  This region is for levels 15-19 only.  The center keep can be claimed once per level for experience
 
 ; thidranki
 [region238]
@@ -834,7 +834,7 @@ zone_count=1
 zone0_number=238
 zone0_top=0
 zone0_left=0
-zone0_desc=Defend your realmï¿½s honor!  This region is for levels 20-24 only.  The center keep can be claimed once per level for experience
+zone0_desc=Defend your realm’s honor!  This region is for levels 20-24 only.  The center keep can be claimed once per level for experience
 
 ; braemar
 ;[region239]
@@ -842,7 +842,7 @@ zone0_desc=Defend your realmï¿½s honor!  This region is for levels 20-24 only.  
 ;zone0_number=239
 ;zone0_top=0
 ;zone0_left=0
-;zone0_desc=Defend your realmï¿½s honor!  This region is for levels 25-29 only.  The center keep can be claimed once per level for experience
+;zone0_desc=Defend your realm’s honor!  This region is for levels 25-29 only.  The center keep can be claimed once per level for experience
 
 ; wilton
 ;[region240]
@@ -850,7 +850,7 @@ zone0_desc=Defend your realmï¿½s honor!  This region is for levels 20-24 only.  
 ;zone0_number=240
 ;zone0_top=0
 ;zone0_left=0
-;zone0_desc=Defend your realmï¿½s honor!  This region is for levels 30-34 only.  The center keep can be claimed once per level for experience
+;zone0_desc=Defend your realm’s honor!  This region is for levels 30-34 only.  The center keep can be claimed once per level for experience
 
 ; molvik
 ;[region241]
@@ -858,7 +858,7 @@ zone0_desc=Defend your realmï¿½s honor!  This region is for levels 20-24 only.  
 ;zone0_number=241
 ;zone0_top=0
 ;zone0_left=0
-;zone0_desc=Defend your realmï¿½s honor!  This region is for levels 35-39 only.  The center keep can be claimed once per level for experience
+;zone0_desc=Defend your realm’s honor!  This region is for levels 35-39 only.  The center keep can be claimed once per level for experience
 
 ; leirvik
 [region242]
@@ -866,7 +866,7 @@ zone_count=1
 zone0_number=254
 zone0_top=0
 zone0_left=0
-zone0_desc=Defend your realmï¿½s honor!  This region is for levels 40-44 only.  The center keep can be claimed once per level for experience
+zone0_desc=Defend your realm’s honor!  This region is for levels 40-44 only.  The center keep can be claimed once per level for experience
 
 ; Cathal Valley
 [region165]
@@ -874,7 +874,7 @@ zone_count=1
 zone0_number=165
 zone0_top=0
 zone0_left=0
-zone0_desc=Defend your realmï¿½s honor! This region is for levels 45-49 only. 
+zone0_desc=Defend your realm’s honor! This region is for levels 45-49 only. 
 
 ; Caledonia
 [region166]
@@ -897,7 +897,7 @@ region_desc=The island of HyBrasil was generally considered to be a long-lost my
 zone0_number=181
 zone0_left=152
 zone0_top=191
-zone0_desc=Domnann, a thick, hilly forest, is home to the sylvan capital and the gateway to all of Hy Brasil. Young adventurers will find plenty of hunting here. The Grove of Domnann in the south is an enchanting city of massive trees.  The portal to the Hiberniaï¿½s mainlands lies just outside of the Grove.
+zone0_desc=Domnann, a thick, hilly forest, is home to the sylvan capital and the gateway to all of Hy Brasil. Young adventurers will find plenty of hunting here. The Grove of Domnann in the south is an enchanting city of massive trees.  The portal to the Hibernia’s mainlands lies just outside of the Grove.
 ; Caillte Garran
 zone1_number=182
 zone1_left=106
@@ -927,7 +927,7 @@ zone5_desc=The most skilled Hibernian will find the lands of Vigilant Rock a wel
 zone6_number=187
 zone6_left=118
 zone6_top=20
-zone6_desc=Located off of the northern coast of Worldï¿½s End is the long forgotten island Allta Fearann.  Recently discovered, this islandï¿½s occupants and encounters remain mysterious to all but the most inquisitive explorer.
+zone6_desc=Located off of the northern coast of World’s End is the long forgotten island Allta Fearann.  Recently discovered, this island’s occupants and encounters remain mysterious to all but the most inquisitive explorer.
 
 ;
 ; Hibernia
@@ -941,7 +941,7 @@ region_desc=From the capital city of Tir na Nog, located in the heart of the Rea
 zone0_number=200
 zone0_left=99
 zone0_top=53
-zone0_desc=A sparkling lake divides the rolling hills of Lough Derg. Here adventures may find Mag Mell settled in the shadow of Hiberniaï¿½s enchanted capital city of Tir na Nog. Mag Mell offers adventures and training to those between their 10th and 14th seasons. On the road south can be found the ancient city of Tir na mBeo where adventurers of seasons 15 to 19 may seek their training. Other notable locations are the Parthanan Farm across the lake and a secluded island, home to the Siabra known as the Dergans.
+zone0_desc=A sparkling lake divides the rolling hills of Lough Derg. Here adventures may find Mag Mell settled in the shadow of Hibernia’s enchanted capital city of Tir na Nog. Mag Mell offers adventures and training to those between their 10th and 14th seasons. On the road south can be found the ancient city of Tir na mBeo where adventurers of seasons 15 to 19 may seek their training. Other notable locations are the Parthanan Farm across the lake and a secluded island, home to the Siabra known as the Dergans.
 ; Silvermine Mountains
 zone1_number=201
 zone1_left=99
@@ -956,7 +956,7 @@ zone2_desc=Shannon Estuary boasts the charming coastal village of Connla, which 
 zone3_number=203
 zone3_left=35
 zone3_top=10
-zone3_desc=A cliff face stretches the expanse of the westernmost part of these lands and plunges to the sea.  The Cliff Dwellers residing on the shore there pose more of a threat than the cliffsï¿½ steep drop.  A cluster of forest in the south hides Koalinth Caverns, a much safer choice for the mid-skilled adventurer.
+zone3_desc=A cliff face stretches the expanse of the westernmost part of these lands and plunges to the sea.  The Cliff Dwellers residing on the shore there pose more of a threat than the cliffs’ steep drop.  A cluster of forest in the south hides Koalinth Caverns, a much safer choice for the mid-skilled adventurer.
 ; Lough Gur
 zone4_number=204
 zone4_left=78
@@ -966,7 +966,7 @@ zone4_desc=The mid-range dungeon known as Treibh Caillte is tucked in a valley o
 zone5_number=205
 zone5_left=121
 zone5_top=202
-zone5_desc=The Bog of Cullen is home to the Siabran Queen, Cliodna and is prime hunting for those between the levels 30 through 50.  Venture not alone here unless youï¿½re skilled, for the Gemstone Tower is heavily guarded by the queenï¿½s loyal subjects. Friends can be found in the southeast corner in the settlement known as Alainn Bin.
+zone5_desc=The Bog of Cullen is home to the Siabran Queen, Cliodna and is prime hunting for those between the levels 30 through 50.  Venture not alone here unless you’re skilled, for the Gemstone Tower is heavily guarded by the queen’s loyal subjects. Friends can be found in the southeast corner in the settlement known as Alainn Bin.
 ; Valley of Bri Leith
 zone6_number=206
 zone6_left=142
@@ -986,7 +986,7 @@ zone8_desc=This grand thicket of trees and brush is home to monsters far beyond 
 zone9_number=216
 zone9_left=121
 zone9_top=159
-zone9_desc=Shrouded in eternal twilight, Sheeroe Hills is infested with the magical Glimmerlings.  Should you and your experienced companions manage to get through their defenses, your journey has only just begun.  These lands are a maze of winding valleys heavily guarded by Glimmers and Azures.  A wrong turn could find you in the lair of Cuuldurach the Glimmer King, Hiberniaï¿½s mighty dragon.
+zone9_desc=Shrouded in eternal twilight, Sheeroe Hills is infested with the magical Glimmerlings.  Should you and your experienced companions manage to get through their defenses, your journey has only just begun.  These lands are a maze of winding valleys heavily guarded by Glimmers and Azures.  A wrong turn could find you in the lair of Cuuldurach the Glimmer King, Hibernia’s mighty dragon.
 
 ;
 ; Hibernia Housing
@@ -1070,7 +1070,7 @@ zone0_offsetx=17913
 zone0_offsety=17347
 zone0_width=12154
 zone0_height=12154
-zone0_desc=Located in the Silvermine Mountains, the Spraggonï¿½s Den is the underground home of the wily Spraggon. Many a careless adventurer has met his end in these tunnels, dismissing the Spraggon as merely mischievous fae. The Denï¿½s inhabitants do not take kindly to intruders and will call upon their skill at arms and magic to defend their territory.
+zone0_desc=Located in the Silvermine Mountains, the Spraggon’s Den is the underground home of the wily Spraggon. Many a careless adventurer has met his end in these tunnels, dismissing the Spraggon as merely mischievous fae. The Den’s inhabitants do not take kindly to intruders and will call upon their skill at arms and magic to defend their territory.
 
 ;undead halls
 [region221]
@@ -1245,7 +1245,7 @@ zone0_offsetx=13706
 zone0_offsety=5391
 zone0_width=39019
 zone0_height=39019
-zone0_desc=The Rift is a magical barrier that separates the magical world from the natural one.  ï¿½Createdï¿½ by the elves, it now serves as the entry point to the mysterious Shar homeworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+zone0_desc=The Rift is a magical barrier that separates the magical world from the natural one.  “Created” by the elves, it now serves as the entry point to the mysterious Shar homeworld.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
 
 ; Shar Labyrinth
 [region093]
@@ -1301,7 +1301,7 @@ zone0_offsetx=3126
 zone0_offsety=3529
 zone0_width=39732
 zone0_height=39732
-zone0_desc=Discovered around the Queenï¿½s Labyrinth, it led to the great deception that has haunted the Shar for years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+zone0_desc=Discovered around the Queen’s Labyrinth, it led to the great deception that has haunted the Shar for years.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
 
 ; Hib Deadlands
 [region097]
@@ -1386,7 +1386,7 @@ zone0_offsetx=9665
 zone0_offsety=7094
 zone0_width=27919
 zone0_height=27919
-zone0_desc=Originally a settlement of Kobolds unwilling to welcome others to their city, Nyttheim is now a nightmare ï¿½ a land filled with possessed Kobolds serving an unknown lord.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+zone0_desc=Originally a settlement of Kobolds unwilling to welcome others to their city, Nyttheim is now a nightmare – a land filled with possessed Kobolds serving an unknown lord.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
 
 ; Mid Deadlands
 [region162]
@@ -1400,7 +1400,7 @@ zone0_offsetx=4385
 zone0_offsety=-1104
 zone0_width=28769
 zone0_height=28769
-zone0_desc=A land intended for the souls of the Midgard fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Midgardï¿½s enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
+zone0_desc=A land intended for the souls of the Midgard fallen, the Deadlands are now full of those unfortunate souls who have been enthralled by Midgard’s enemies.  Blue Gem = Obelisk   Red Gem = Adventure Wing Entrance   Yellow Gem = Zone Line
 
 ; Mid Dark Spire
 [region188]
@@ -3138,7 +3138,7 @@ zone0_offsetx=17718
 zone0_offsety=21741
 zone0_width=11101
 zone0_height=11101
-zone0_desc=Cetusï¿½ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
+zone0_desc=Cetus’ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
 
 ; Trials of Atlantis Dungeons
 [region035]
@@ -3153,7 +3153,7 @@ zone0_offsetx=17718
 zone0_offsety=21741
 zone0_width=11101
 zone0_height=11101
-zone0_desc=The Cetusï¿½ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
+zone0_desc=The Cetus’ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
 
 ; Trials of Atlantis Dungeons
 [region135]
@@ -3168,7 +3168,7 @@ zone0_offsetx=17718
 zone0_offsety=21741
 zone0_width=11101
 zone0_height=11101
-zone0_desc=The Cetusï¿½ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
+zone0_desc=The Cetus’ Pit stretches before you, waiting to claim its next victim. You can escape now through the southern chamber or venture into the pit, seeking your fortune or meeting your fate.
 
 ; Trials of Atlantis Dungeons
 [region080]
@@ -3183,7 +3183,7 @@ zone0_offsetx=17786
 zone0_offsety=392
 zone0_width=44265
 zone0_height=44265
-zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyesï¿½ forever.
+zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyes… forever.
 
 ; Trials of Atlantis Dungeons
 [region037]
@@ -3198,7 +3198,7 @@ zone0_offsetx=17786
 zone0_offsety=392
 zone0_width=44265
 zone0_height=44265
-zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyesï¿½ forever.
+zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyes… forever.
 
 ; Trials of Atlantis Dungeons
 [region137]
@@ -3213,7 +3213,7 @@ zone0_offsetx=17786
 zone0_offsety=392
 zone0_width=44265
 zone0_height=44265
-zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyesï¿½ forever.
+zone0_desc=Welcome to your watery grave in the Temple of Twilight. While separate chambers lie before you, reaching them may be your greatest test for the halls of this temple are filled with many fish willing to make you their food. The Medusa awaits those brave enough to stare into her beautiful eyes… forever.
 
 ; Trials of Atlantis Dungeons
 [region083]
@@ -3228,7 +3228,7 @@ zone0_offsetx=3680
 zone0_offsety=12244
 zone0_width=40247
 zone0_height=40247
-zone0_desc=You have entered the Halls of Maï¿½ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you donï¿½t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
+zone0_desc=You have entered the Halls of Ma’ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you don’t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
 
 ; Trials of Atlantis Dungeons
 [region040]
@@ -3243,7 +3243,7 @@ zone0_offsetx=3680
 zone0_offsety=12244
 zone0_width=40247
 zone0_height=40247
-zone0_desc=You have entered the Halls of Maï¿½ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you donï¿½t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
+zone0_desc=You have entered the Halls of Ma’ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you don’t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
 
 ; Trials of Atlantis Dungeons
 [region140]
@@ -3258,7 +3258,7 @@ zone0_offsetx=3680
 zone0_offsety=12244
 zone0_width=40247
 zone0_height=40247
-zone0_desc=You have entered the Halls of Maï¿½ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you donï¿½t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
+zone0_desc=You have entered the Halls of Ma’ati in the forgotten city of Necropolis where your life will slip away in the sands of time. Cross the river of death into the Land of Atum, but ensure you don’t go swimming or you may find that some things are named that way for a reason. Finally, stand before the Great Ammut and be judged.
 
 
 ; Trials of Atlantis Dungeons
@@ -5369,7 +5369,7 @@ zone0_offsetx=22788
 zone0_offsety=21546
 zone0_width=4717
 zone0_height=4717
-zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consulï¿½s newly carved private sanctum. If it wasnï¿½t for the importance of the task at hand, youï¿½d almost consider asking to stay awhile.
+zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
 zone0_realm=0
 
 ; Labyrinth Midgard Cave Instance
@@ -5385,7 +5385,7 @@ zone0_offsetx=22788
 zone0_offsety=21546
 zone0_width=4717
 zone0_height=4717
-zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consulï¿½s newly carved private sanctum. If it wasnï¿½t for the importance of the task at hand, youï¿½d almost consider asking to stay awhile.
+zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
 zone0_realm=0
 
 ; Labyrinth Hibernia Cave Instance
@@ -5401,9 +5401,50 @@ zone0_offsetx=22788
 zone0_offsety=21546
 zone0_width=4717
 zone0_height=4717
-zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consulï¿½s newly carved private sanctum. If it wasnï¿½t for the importance of the task at hand, youï¿½d almost consider asking to stay awhile.
+zone0_desc=Between the warm, inviting torchlight and the soft padding sounds of the High Guardians patrolling about, you almost feel at home within the High Consul’s newly carved private sanctum. If it wasn’t for the importance of the task at hand, you’d almost consider asking to stay awhile.
 zone0_realm=0
 
+;Thidranki
+[region000]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=252
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Thidranki - BG Level 20-24.
+
+;Murdaigean
+[region000]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=253
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Abermenai - BG Level 26-30.
+
+;Caledonia
+[region000]
+zone_count=1
+zone_width=256
+zone_height=256
+zone0_number=250
+zone0_left=1000
+zone0_top=1000
+zone0_offsetx=1000
+zone0_offsety=1000
+zone0_width=64268
+zone0_height=64268
+zone0_desc=Caledonia - BG Level 30-34.
 
 ; [BT] Custom
 ; Dodens Gruva

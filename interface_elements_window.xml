@@ -270,6 +270,20 @@
 
         <ButtonDef>
             <Position>
+                <X>139</X>
+                <Y>90</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_small</TemplateName>
+            <Label>FLOAT PWR</Label>
+            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
                 <X>275</X>
                 <Y>54</Y>
             </Position>
@@ -355,7 +369,7 @@
         <ButtonDef>
             <Position>
                 <X>202</X>
-                <Y>55</Y>
+                <Y>54</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -369,7 +383,7 @@
         <ButtonDef>
             <Position>
                 <X>139</X>
-                <Y>55</Y>
+                <Y>54</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -466,6 +480,20 @@
 
         <ButtonDef>
             <Position>
+                <X>202</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>STATUS</Label>
+            <OnClickEvent>ToggleCustom11</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
                 <X>66</X>
                 <Y>54</Y>
             </Position>
@@ -545,6 +573,20 @@
             <TemplateName>_c_button_large</TemplateName>
             <Label>CASH</Label>
             <OnClickEvent>ToggleCustom13</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>139</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>PULSE</Label>
+            <OnClickEvent>ToggleCustom5</OnClickEvent>
         </ButtonDef>
 
 
