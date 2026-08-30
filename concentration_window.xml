@@ -77,7 +77,6 @@
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
-                <GrowWidth>true</GrowWidth>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <TemplateName>_c_yellow_status</TemplateName>
@@ -107,36 +106,8 @@
             </Color>
             <Adapter>concentration</Adapter>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
         </ScalarLabelDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <OffsetRight>true</OffsetRight>
-            </Alignment>
-            <TemplateName>_c_window_close</TemplateName>
-            <Label>CLOSE</Label>
-            <OnClickEvent>ButtonClose</OnClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>_c_window_move</TemplateName>
-            <Label>MOVE</Label>
-            <OnClickEvent>ButtonMove</OnClickEvent>
-        </ButtonDef>
 
 
         <LabelDef>
@@ -155,7 +126,7 @@
                 <A>255</A>
             </Color>
             <FontName>button_small</FontName>
-            <Width>128</Width>
+            <Width>24</Width>
             <Height>16</Height>
             <MaxCharacters>128</MaxCharacters>
             <Data>Conc</Data>

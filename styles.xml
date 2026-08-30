@@ -19479,9 +19479,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
-                <R>0</R>
-                <G>204</G>
-                <B>204</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
@@ -19824,9 +19824,9 @@
                 <A>255</A>
             </ColorNormal>
             <ColorPressed>
-                <R>0</R>
-                <G>153</G>
-                <B>153</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </ColorPressed>
             <ColorHighlit>
@@ -20810,6 +20810,87 @@
             <Y>64</Y>
         </TopLeft>
     </ImageAreaTemplate>
+
+
+    <ListBoxTemplate>
+        <Name>_c_listbox_noscroll</Name>
+        <LinePadding>6</LinePadding>
+        <CellPadding>6</CellPadding>
+        <LabelLength>100</LabelLength>
+        <ScrollbarTemplate>none</ScrollbarTemplate>
+        <DrawScroll>false</DrawScroll>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>_c_dlg_interior_turquoise</BackgroundTemplate>
+        <IconTemplate>_c_plain_icon_small</IconTemplate>
+        <TextFont>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>0</TextTopOffset>
+            <TextBottomOffset>0</TextBottomOffset>
+            <TextLeftOffset>0</TextLeftOffset>
+            <TextRightOffset>0</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>16</X>
+                <Y>16</Y>
+            </IconSize>
+    </ListBoxTemplate>
+
+
+    <TextAreaTemplate>
+        <Name>_c_textarea_title</Name>
+        <BackgroundTemplate>_c_dlg_interior_thin</BackgroundTemplate>
+        <ScrollbarTemplate>_c_vscroll_slim_thumb_only</ScrollbarTemplate>
+        <LinePadding>0</LinePadding>
+        <TextOffset>
+            <X>6</X>
+            <Y>6</Y>
+        </TextOffset>
+        <ScrollbarOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarOffset>
+        <ScrollbarSizeOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ScrollbarSizeOffset>
+        <Font>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorActive>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorActive>
+        </Font>
+    </TextAreaTemplate>
 
 
 </Root_Element>

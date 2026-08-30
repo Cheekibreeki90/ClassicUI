@@ -165,7 +165,7 @@
             </Position>
             <ToolTipID>156</ToolTipID>
             <ImageAreaTemplateName>emote_button</ImageAreaTemplateName>
-            <HRButtonTemplateName>generic_hr_button_barb10</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr_chat</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
                 <X>0</X>
@@ -184,7 +184,7 @@
             </Position>
             <ToolTipID>157</ToolTipID>
             <ImageAreaTemplateName>channel_button</ImageAreaTemplateName>
-            <HRButtonTemplateName>generic_hr_button_barb10</HRButtonTemplateName>
+            <HRButtonTemplateName>_c_button_hr_chat</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
                 <X>0</X>

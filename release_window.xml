@@ -44,7 +44,7 @@
                 <X>3</X>
                 <Y>28</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/RELEASE</Label>
             <Width>99</Width>
             <OnClickEvent>Release</OnClickEvent>
@@ -56,7 +56,7 @@
                 <X>3</X>
                 <Y>45</Y>
             </Position>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/RELEASE HOUSE</Label>
             <Width>99</Width>
             <OnClickEvent>ReleaseToHouse</OnClickEvent>
@@ -71,7 +71,7 @@
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/RELEASE BIND</Label>
             <Width>99</Width>
             <OnClickEvent>ReleaseToBind</OnClickEvent>
@@ -86,7 +86,7 @@
             <Alignment>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>.classic_hr_button_white</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>/RELEASE CITY</Label>
             <Width>99</Width>
             <OnClickEvent>ReleaseToCity</OnClickEvent>

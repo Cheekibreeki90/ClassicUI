@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>summary</Name>
+        <WindowId>summary</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>128</Width>
+        <Height>96</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_summary_bg</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>29</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_red_status</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>29</X>
+                <Y>29</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_green_status</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>29</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_yellow_status</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>67</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>118</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Adapter>summary_target</Adapter>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>22</X>
+                <Y>84</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_red_status</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>99</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>15</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Merchant</Data>
+            <Adapter>summary_title</Adapter>
+        </LabelDef>
+
+
+        <!--EXP CONTROLS-->
+
+
+        <StatusBarDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>29</X>
+                <Y>50</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_exp_bubbles</TemplateName>
+            <AdapterName>summary_exp_coarse</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>29</X>
+                <Y>58</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_blue_status</TemplateName>
+            <AdapterName>summary_exp_fine</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>48</Y>
+            </Position>
+            <ToolTipID>32</ToolTipID>
+            <TemplateName>_c_summary_exp</TemplateName>
+            <Label>Exp</Label>
+            <OnClickEvent>SummaryToggleExp</OnClickEvent>
+            <LabelAlignment>
+                <TopLeft>true</TopLeft>
+            </LabelAlignment>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>6</X>
+                <Y>14</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>Button_small</FontName>
+            <Width>15</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>HP</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>25</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>20</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>End</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>36</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>24</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Pow</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>1</X>
+                <Y>79</Y>
+            </Position>
+            <FontName>button_small</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Adapter>summary_target_hits</Adapter>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <EndAligned>true</EndAligned>
+        </ScalarLabelDef>
+
+
+        <StatusIconDef>
+            <ControlId>attackmode</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_c_summary_combat</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

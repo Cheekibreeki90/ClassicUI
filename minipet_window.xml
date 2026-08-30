@@ -285,6 +285,10 @@
             <AdapterName>mini_pet_effect0</AdapterName>
             <IconId>0</IconId>
             <Data></Data>
+            <OnClickEvent></OnClickEvent>
+            <StateAdapterName></StateAdapterName>
+            <LabelAdapterName></LabelAdapterName>
+            <HideLabel>1</HideLabel>
         </IconDef>
 
 

@@ -54,7 +54,7 @@
         <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>512</TitleWidth>
@@ -132,7 +132,7 @@
         <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>5</X>
+                <X>7</X>
                 <Y>5</Y>
             </Position>
             <Alignment>
@@ -147,7 +147,7 @@
         <LabelDef>
             <ControlId>1005</ControlId>
             <Position>
-                <X>74</X>
+                <X>71</X>
                 <Y>3</Y>
             </Position>
             <Alignment>

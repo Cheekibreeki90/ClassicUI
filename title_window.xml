@@ -67,12 +67,11 @@
                 <Y>18</Y>
             </Position>
             <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
+                <TopLeft>true</TopLeft>
             </Alignment>
             <Width>148</Width>
             <Height>160</Height>
-            <TemplateName>_c_listbox_bg</TemplateName>
+            <TemplateName>_c_listbox_noscroll</TemplateName>
             <AdapterName>titles_available_titles</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -90,11 +89,7 @@
                 <X>149</X>
                 <Y>18</Y>
             </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>_c_generic_textarea</TemplateName>
+            <TemplateName>_c_textarea_title</TemplateName>
             <AdapterName>titles_stats</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>

@@ -198,7 +198,6 @@
                 <Y>63</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_button_left</TemplateName>
@@ -212,7 +211,6 @@
                 <Y>63</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_button_right</TemplateName>
@@ -223,10 +221,9 @@
             <ControlId>1002</ControlId>
             <Position>
                 <X>148</X>
-                <Y>0</Y>
+                <Y>1</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
@@ -238,10 +235,9 @@
             <ControlId>1003</ControlId>
             <Position>
                 <X>83</X>
-                <Y>0</Y>
+                <Y>1</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
@@ -253,10 +249,9 @@
             <ControlId>1004</ControlId>
             <Position>
                 <X>18</X>
-                <Y>0</Y>
+                <Y>1</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_button_large</TemplateName>
@@ -464,7 +459,6 @@
                 <Y>44</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <Color>
@@ -489,7 +483,6 @@
                 <Y>47</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_button_left</TemplateName>
@@ -503,7 +496,6 @@
                 <Y>47</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_button_right</TemplateName>
@@ -516,7 +508,6 @@
                 <Y>47</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <Color>
@@ -538,11 +529,10 @@
         <CheckBoxDef>
             <ControlId>1009</ControlId>
             <Position>
-                <X>148</X>
-                <Y>47</Y>
+                <X>142</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
             <TemplateName>_c_generic_check</TemplateName>

@@ -166,7 +166,7 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>_c_window_minimize</TemplateName>
-            <OnClickEvent>ButtonMinimize</OnClickEvent>
+            <OnClickEvent>ButtonMove</OnClickEvent>
         </ButtonDef>
 
 

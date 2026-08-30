@@ -1335,9 +1335,9 @@
                 <Y>48</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1375,9 +1375,9 @@
                 <Y>48</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1415,9 +1415,9 @@
                 <Y>48</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1455,9 +1455,9 @@
                 <Y>48</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1493,9 +1493,9 @@
                 <Y>48</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1533,9 +1533,9 @@
                 <Y>64</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1573,9 +1573,9 @@
                 <Y>64</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1614,9 +1614,9 @@
             </Position>
             <ToolTipID>135</ToolTipID>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1655,9 +1655,9 @@
                 <Y>64</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1697,7 +1697,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>COMMANDS</Label>
             <Width>90</Width>
             <OnClickEvent>ComGuildCommands</OnClickEvent>
@@ -1716,7 +1716,7 @@
             </Alignment>
             <Width>575</Width>
             <Height>202</Height>
-            <TemplateName>listbox_guild</TemplateName>
+            <TemplateName>_c_listbox_bg</TemplateName>
             <AdapterName>guild_members</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -1732,9 +1732,9 @@
             <ControlId>1220</ControlId>
             <Position>
                 <X>18</X>
-                <Y>282</Y>
+                <Y>284</Y>
             </Position>
-            <TemplateName>_witt_checkbox</TemplateName>
+            <TemplateName>_c_generic_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
             <Data>Show Offline</Data>
@@ -1752,7 +1752,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>PROMOTE</Label>
             <Width>70</Width>
             <OnClickEvent>ComGuildPromote</OnClickEvent>
@@ -1768,7 +1768,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>DEMOTE</Label>
             <Width>70</Width>
             <OnClickEvent>ComGuildDemote</OnClickEvent>
@@ -1784,7 +1784,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>NOTE</Label>
             <Width>70</Width>
             <OnClickEvent>ComGuildNote</OnClickEvent>
@@ -1800,7 +1800,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>SEND</Label>
             <Width>70</Width>
             <OnClickEvent>ComGuildSend</OnClickEvent>
@@ -1811,7 +1811,7 @@
             <ControlId>1225</ControlId>
             <Position>
                 <X>508</X>
-                <Y>282</Y>
+                <Y>284</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1827,7 +1827,7 @@
                 <X>513</X>
                 <Y>281</Y>
             </Position>
-            <FontName>ysabeau13</FontName>
+            <FontName>arial11</FontName>
             <Width>25</Width>
             <Height>18</Height>
             <MaxCharacters>6</MaxCharacters>
@@ -1849,12 +1849,12 @@
                 <Y>281</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ysabeau13</FontName>
+            <FontName>arial11</FontName>
             <Width>20</Width>
             <Height>18</Height>
             <MaxCharacters>5</MaxCharacters>
@@ -1868,7 +1868,7 @@
                 <X>548</X>
                 <Y>281</Y>
             </Position>
-            <FontName>ysabeau13</FontName>
+            <FontName>arial11</FontName>
             <Width>25</Width>
             <Height>18</Height>
             <MaxCharacters>6</MaxCharacters>
@@ -1887,7 +1887,7 @@
             <ControlId>1229</ControlId>
             <Position>
                 <X>570</X>
-                <Y>282</Y>
+                <Y>284</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -1903,7 +1903,7 @@
                 <X>17</X>
                 <Y>301</Y>
             </Position>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>DEPLOY</Label>
             <Width>70</Width>
             <OnClickEvent>ComGuildBannerDeploy</OnClickEvent>
@@ -1917,12 +1917,12 @@
                 <Y>302</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ysabeau13</FontName>
+            <FontName>arial11</FontName>
             <Width>100</Width>
             <Height>18</Height>
             <MaxCharacters>32</MaxCharacters>
@@ -1956,7 +1956,7 @@
                 <X>518</X>
                 <Y>301</Y>
             </Position>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>REFRESH</Label>
             <Width>70</Width>
             <OnClickEvent>ComTabRefresh</OnClickEvent>
@@ -1969,7 +1969,7 @@
                 <X>15</X>
                 <Y>320</Y>
             </Position>
-            <TemplateName>btui_textarea_bg2_dark</TemplateName>
+            <TemplateName>_c_generic_textarea</TemplateName>
             <AdapterName>guild_motd</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -1988,9 +1988,9 @@
                 <Y>56</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -2028,9 +2028,9 @@
                 <Y>56</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
             <FontName>arial9</FontName>
@@ -2073,7 +2073,7 @@
             </Alignment>
             <Width>575</Width>
             <Height>202</Height>
-            <TemplateName>listbox_alliance</TemplateName>
+            <TemplateName>_c_listbox_noscroll</TemplateName>
             <AdapterName>alliance_members</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -2091,7 +2091,7 @@
                 <X>17</X>
                 <Y>282</Y>
             </Position>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>REFRESH</Label>
             <Width>70</Width>
             <OnClickEvent>ComTabRefresh</OnClickEvent>
@@ -2122,7 +2122,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>SEND</Label>
             <Width>70</Width>
             <OnClickEvent>ComAllianceSend</OnClickEvent>
@@ -2149,7 +2149,7 @@
                 <X>514</X>
                 <Y>282</Y>
             </Position>
-            <FontName>ysabeau13</FontName>
+            <FontName>arial11</FontName>
             <Width>20</Width>
             <Height>18</Height>
             <MaxCharacters>5</MaxCharacters>
@@ -2171,12 +2171,12 @@
                 <Y>282</Y>
             </Position>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>ysabeau13</FontName>
+            <FontName>arial11</FontName>
             <Width>25</Width>
             <Height>18</Height>
             <MaxCharacters>5</MaxCharacters>
@@ -2190,7 +2190,7 @@
                 <X>548</X>
                 <Y>282</Y>
             </Position>
-            <FontName>ysabeau13</FontName>
+            <FontName>arial11</FontName>
             <Width>25</Width>
             <Height>18</Height>
             <MaxCharacters>10</MaxCharacters>
@@ -2225,7 +2225,7 @@
                 <X>15</X>
                 <Y>300</Y>
             </Position>
-            <TemplateName>btui_textarea_bg2_dark</TemplateName>
+            <TemplateName>_c_generic_textarea</TemplateName>
             <AdapterName>alliance_motd</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
@@ -2249,7 +2249,7 @@
             </Alignment>
             <Width>575</Width>
             <Height>323</Height>
-            <TemplateName>listbox_friends_lfguild</TemplateName>
+            <TemplateName>_c_listbox_bg</TemplateName>
             <AdapterName>friends_members</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -2267,7 +2267,7 @@
                 <X>17</X>
                 <Y>377</Y>
             </Position>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>REFRESH</Label>
             <Width>70</Width>
             <OnClickEvent>ComTabRefresh</OnClickEvent>
@@ -2283,7 +2283,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>SEND</Label>
             <Width>70</Width>
             <OnClickEvent>ComFriendsSend</OnClickEvent>
@@ -2305,7 +2305,7 @@
             </Alignment>
             <Width>575</Width>
             <Height>323</Height>
-            <TemplateName>listbox_friends_lfguild</TemplateName>
+            <TemplateName>_c_listbox_bg</TemplateName>
             <AdapterName>lfguild_members</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -2323,7 +2323,7 @@
                 <X>17</X>
                 <Y>377</Y>
             </Position>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>REFRESH</Label>
             <Width>70</Width>
             <OnClickEvent>ComTabRefresh</OnClickEvent>
@@ -2339,7 +2339,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>INVITE</Label>
             <Width>70</Width>
             <OnClickEvent>ComLFGuildInvite</OnClickEvent>
@@ -2355,7 +2355,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>_witt_hr_button</TemplateName>
+            <TemplateName>_c_button_hr</TemplateName>
             <Label>SEND</Label>
             <Width>70</Width>
             <OnClickEvent>ComLFGuildSend</OnClickEvent>

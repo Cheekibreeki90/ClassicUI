@@ -1303,7 +1303,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1375,7 +1375,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1447,7 +1447,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1519,7 +1519,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1591,7 +1591,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1663,7 +1663,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1735,7 +1735,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -1807,7 +1807,7 @@
             <Width>180</Width>
             <Numticks>51</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3449,7 +3449,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3542,7 +3542,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3635,7 +3635,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3728,7 +3728,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3821,7 +3821,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -3914,7 +3914,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4007,7 +4007,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4100,7 +4100,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4193,7 +4193,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4286,7 +4286,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4379,7 +4379,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4472,7 +4472,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4565,7 +4565,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
@@ -4658,7 +4658,7 @@
             <Width>110</Width>
             <Numticks>6</Numticks>
             <OnClickEvent></OnClickEvent>
-            <Templatename>generic_horizontal_slider</Templatename>
+            <Templatename>_witt_hslider_normal</Templatename>
         </HorizontalSliderDef>
 
 
