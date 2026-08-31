@@ -5,9 +5,6 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-    <!-- Mini Pet Window -->
-
-
     <WindowTemplate>
         <Name>custom15_window</Name>
         <WindowId>custom15_window</WindowId>

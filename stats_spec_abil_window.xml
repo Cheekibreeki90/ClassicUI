@@ -78,7 +78,7 @@
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <Width>186</Width>
-            <Height>135</Height>
+            <Height>134</Height>
             <TemplateName>_c_listbox_stats</TemplateName>
             <AdapterName>stats_abil</AdapterName>
             <Sorting>false</Sorting>
@@ -101,7 +101,7 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Width>186</Width>
-            <Height>135</Height>
+            <Height>134</Height>
             <TemplateName>_c_listbox_stats</TemplateName>
             <AdapterName>stats_trades</AdapterName>
             <Sorting>false</Sorting>
@@ -197,7 +197,7 @@
         <LabelDef>
             <Position>
                 <X>10</X>
-                <Y>7</Y>
+                <Y>6</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -212,7 +212,7 @@
             <Width>100</Width>
             <Height>30</Height>
             <MaxCharacters>999</MaxCharacters>
-            <Data>Specilization</Data>
+            <Data>Specialization</Data>
         </LabelDef>
 
 

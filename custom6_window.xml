@@ -5,13 +5,10 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-    <!--  Concentration Window -->
-
-
     <WindowTemplate>
         <Name>custom6_window</Name>
         <WindowId>custom6_window</WindowId>
-        <CloseButton>false</CloseButton>
+        <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>

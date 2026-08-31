@@ -333,8 +333,8 @@
     <WindowTemplate>
         <Name>custom1_window</Name>
         <WindowId>custom1_window</WindowId>
-        <CloseButton>true</CloseButton>
-        <MoveButton>true</MoveButton>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>

@@ -185,7 +185,7 @@
             </Alignment>
             <Width>184</Width>
             <Height>158</Height>
-            <TemplateName>_c_listbox_thick_bg</TemplateName>
+            <TemplateName>_c_listbox_info</TemplateName>
             <AdapterName>stats_additional_info</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
@@ -635,9 +635,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -694,9 +694,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -753,9 +753,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -812,9 +812,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -871,9 +871,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -930,9 +930,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -989,9 +989,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1048,9 +1048,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1107,9 +1107,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1166,9 +1166,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1225,9 +1225,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1284,9 +1284,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1343,9 +1343,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1402,9 +1402,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1461,9 +1461,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1520,9 +1520,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1579,9 +1579,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>208</R>
-                <G>228</G>
-                <B>229</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>200</A>
             </Color>
             <FontName>arial9</FontName>
@@ -1638,9 +1638,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
             <FontName>button_large</FontName>
@@ -1660,9 +1660,9 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </Color>
             <FontName>button_large</FontName>

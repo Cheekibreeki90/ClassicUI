@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 
 echo ----------------------------------------------------------
-echo Changing Summary (btui+XP)...
+echo Changing Summary (Classic)...
 echo ----------------------------------------------------------
 echo.
 
@@ -12,13 +12,13 @@ echo.
 
 rem Insert commands to change the option here
 
-copy btui_xp\*.xml ..\..\
+copy Classic*.xml ..\..\
 
 
 
 echo.
 echo ----------------------------------------------------------
-echo Summary (btui+XP) was installed!
+echo Summary (Classic) was installed!
 echo ----------------------------------------------------------
 
 

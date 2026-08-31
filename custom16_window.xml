@@ -5,9 +5,6 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-    <!-- Group Member 4 Window -->
-
-
     <WindowTemplate>
         <Name>custom16_window</Name>
         <WindowId>custom16_window</WindowId>

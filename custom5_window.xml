@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0"?>
 <Root_Element ID="DAOCUi">
 
 <!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
-    <!-- Mini Pulse Window -->
 
 
     <WindowTemplate>
@@ -18,42 +15,31 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>32</TitleWidth>
-        <TitleHeight>32</TitleHeight>
-        <Width>32</Width>
-        <Height>32</Height>
+        <TitleWidth>16</TitleWidth>
+        <TitleHeight>16</TitleHeight>
+        <Width>16</Width>
+        <Height>16</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>32</MinWidth>
-        <MinHeight>32</MinHeight>
+        <MinWidth>16</MinWidth>
+        <MinHeight>16</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
-        <FullResizeImageDef>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <TemplateName>_witt_bg_100</TemplateName>
-            <Width>32</Width>
-            <Height>32</Height>
-        </FullResizeImageDef>
 
 
         <ListBoxDef>
             <ControlId>PulseIcon</ControlId>
             <Position>
                 <X>0</X>
-                <Y>0</Y>
+                <Y>-6</Y>
             </Position>
             <Width>32</Width>
             <Height>32</Height>
-            <TemplateName>listbox_pulse</TemplateName>
+            <TemplateName>listbox_pulse_s</TemplateName>
             <AdapterName>conc_list</AdapterName>
-            <Sorting>true</Sorting>
-            <Columns>1</Columns>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
             <IconTemplate></IconTemplate>
             <ShowIndicator>false</ShowIndicator>
             <ShowDefaultToolTips>false</ShowDefaultToolTips>

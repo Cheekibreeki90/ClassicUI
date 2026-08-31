@@ -5,9 +5,6 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-    <!-- Healer Helper Window -->
-
-
     <WindowTemplate>
         <Name>custom7_window</Name>
         <WindowId>custom7_window</WindowId>

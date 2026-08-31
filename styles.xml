@@ -19769,39 +19769,39 @@
     <ListBoxTemplate>
         <Name>_c_listbox_stats</Name>
         <LinePadding>8</LinePadding>
-        <CellPadding>4</CellPadding>
+        <CellPadding>2</CellPadding>
         <LabelLength>100</LabelLength>
         <ScrollbarTemplate>_c_vscroll_slim_thumb_only</ScrollbarTemplate>
         <DrawScroll>true</DrawScroll>
         <ScrollbarTopOffset>0</ScrollbarTopOffset>
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
-        <ScrollbarRightOffset>4</ScrollbarRightOffset>
+        <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
         <BackgroundTemplate>_c_dlg_interior_thick</BackgroundTemplate>
         <IconTemplate>_c_plain_icon_small</IconTemplate>
         <TextFont>
             <Name>arial9</Name>
             <ColorNormal>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
                 <A>255</A>
             </ColorNormal>
             <ColorHighlit>
                 <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <G>204</G>
+                <B>0</B>
                 <A>255</A>
             </ColorHighlit>
             <ColorGreyed>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
                 <A>255</A>
             </ColorGreyed>
             <TextTopOffset>16</TextTopOffset>
             <TextBottomOffset>10</TextBottomOffset>
-            <TextLeftOffset>8</TextLeftOffset>
+            <TextLeftOffset>6</TextLeftOffset>
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
@@ -19905,7 +19905,7 @@
     <TreeControlTemplate>
         <Name>_c_tree_skills</Name>
         <BackgroundTemplate>none</BackgroundTemplate>
-        <ScrollbarTemplate>_c_vscroll_slim_thumb_only</ScrollbarTemplate>
+        <ScrollbarTemplate>_c_vscroll_skills</ScrollbarTemplate>
         <CheckBoxTemplate>_c_generic_check</CheckBoxTemplate>
         <IconTemplate>_c_plain_icon_small</IconTemplate>
         <FontName>arial9</FontName>
@@ -19942,7 +19942,7 @@
         <DownButtonTemplate>none</DownButtonTemplate>
         <ThumbVResizeTemplate>_c_scroll_thumb_slim</ThumbVResizeTemplate>
         <GutterVResizeTemplate>none</GutterVResizeTemplate>
-        <Width>8</Width>
+        <Width>12</Width>
         <UpButtonOffset>
             <X>-4</X>
             <Y>0</Y>
@@ -19953,7 +19953,7 @@
         </DownButtonOffset>
         <ThumbOffset>
             <X>0</X>
-            <Y>0</Y>
+            <Y>2</Y>
         </ThumbOffset>
         <ActiveZoneOffset>
             <X>0</X>
@@ -20891,6 +20891,78 @@
             </ColorActive>
         </Font>
     </TextAreaTemplate>
+
+
+    <VerticalScrollbarTemplate>
+        <Name>_c_vscroll_skills</Name>
+        <UpButtonTemplate></UpButtonTemplate>
+        <DownButtonTemplate></DownButtonTemplate>
+        <ThumbVResizeTemplate>_c_scroll_thumb_slim</ThumbVResizeTemplate>
+        <GutterVResizeTemplate></GutterVResizeTemplate>
+        <Width>20</Width>
+        <UpButtonOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </UpButtonOffset>
+        <DownButtonOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </DownButtonOffset>
+        <ThumbOffset>
+            <X>12</X>
+            <Y>0</Y>
+        </ThumbOffset>
+        <ActiveZoneOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ActiveZoneOffset>
+    </VerticalScrollbarTemplate>
+
+
+    <ListBoxTemplate>
+        <Name>_c_listbox_info</Name>
+        <LinePadding>4</LinePadding>
+        <CellPadding>8</CellPadding>
+        <LabelLength>100</LabelLength>
+        <ScrollbarTemplate>_c_vscroll_slim_thumb_only</ScrollbarTemplate>
+        <DrawScroll>true</DrawScroll>
+        <ScrollbarTopOffset>0</ScrollbarTopOffset>
+        <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
+        <ScrollbarRightOffset>0</ScrollbarRightOffset>
+        <Sorting>false</Sorting>
+        <BackgroundTemplate>_c_dlg_interior_thick</BackgroundTemplate>
+        <IconTemplate>_c_plain_icon_small</IconTemplate>
+        <TextFont>
+            <Name>arial9</Name>
+            <ColorNormal>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorHighlit>
+                <R>255</R>
+                <G>204</G>
+                <B>0</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorGreyed>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </ColorGreyed>
+            <TextTopOffset>4</TextTopOffset>
+            <TextBottomOffset>0</TextBottomOffset>
+            <TextLeftOffset>0</TextLeftOffset>
+            <TextRightOffset>0</TextRightOffset>
+            <LineOffset>0</LineOffset>
+        </TextFont>
+            <IconSize>
+                <X>16</X>
+                <Y>16</Y>
+            </IconSize>
+    </ListBoxTemplate>
 
 
 </Root_Element>

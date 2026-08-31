@@ -5,9 +5,6 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-    <!-- Mini Resists Window-->
-
-
     <WindowTemplate>
         <Name>custom14_window</Name>
         <WindowId>custom14_window</WindowId>

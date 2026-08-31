@@ -17,8 +17,8 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>76</Width>
-        <Height>148</Height>
+        <Width>61</Width>
+        <Height>119</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -33,9 +33,9 @@
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <TemplateName>_c_window_small</TemplateName>
-            <Width>76</Width>
-            <Height>148</Height>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>61</Width>
+            <Height>119</Height>
         </FullResizeImageDef>
 
 
@@ -45,7 +45,7 @@
         <LabelDef>
             <ControlId>str</ControlId>
             <Position>
-                <X>4</X>
+                <X>2</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
@@ -57,26 +57,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Str: </Data>
             <ColorAdapter>stats_strength_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>str_data</ControlId>
             <Position>
-                <X>42</X>
+                <X>32</X>
                 <Y>1</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>1</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -94,8 +95,8 @@
         <LabelDef>
             <ControlId>con</ControlId>
             <Position>
-                <X>4</X>
-                <Y>12</Y>
+                <X>2</X>
+                <Y>11</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -106,26 +107,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Con: </Data>
             <ColorAdapter>stats_constitution_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>con_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>12</Y>
+                <X>32</X>
+                <Y>11</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>3</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -143,8 +145,8 @@
         <LabelDef>
             <ControlId>dex</ControlId>
             <Position>
-                <X>4</X>
-                <Y>24</Y>
+                <X>2</X>
+                <Y>21</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -155,26 +157,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Dex: </Data>
             <ColorAdapter>stats_dexterity_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>dex_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>25</Y>
+                <X>32</X>
+                <Y>21</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>2</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -192,8 +195,8 @@
         <LabelDef>
             <ControlId>qui</ControlId>
             <Position>
-                <X>4</X>
-                <Y>36</Y>
+                <X>2</X>
+                <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -204,26 +207,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Qui:</Data>
             <ColorAdapter>stats_quickness_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>qui_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>36</Y>
+                <X>32</X>
+                <Y>31</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>4</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -241,8 +245,8 @@
         <LabelDef>
             <ControlId>int</ControlId>
             <Position>
-                <X>4</X>
-                <Y>50</Y>
+                <X>2</X>
+                <Y>44</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -253,26 +257,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>36</Width>
+            <FontName>arial9b</FontName>
+            <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Int: </Data>
             <ColorAdapter>stats_intelligence_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>int_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>50</Y>
+                <X>32</X>
+                <Y>44</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>5</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -290,8 +295,8 @@
         <LabelDef>
             <ControlId>emp</ControlId>
             <Position>
-                <X>4</X>
-                <Y>62</Y>
+                <X>2</X>
+                <Y>54</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -302,26 +307,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
-            <Width>36</Width>
+            <FontName>arial9b</FontName>
+            <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Emp: </Data>
             <ColorAdapter>stats_empathy_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>emp_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>62</Y>
+                <X>32</X>
+                <Y>54</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>7</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -339,8 +345,8 @@
         <LabelDef>
             <ControlId>pie</ControlId>
             <Position>
-                <X>4</X>
-                <Y>74</Y>
+                <X>2</X>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -351,26 +357,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Pie: </Data>
             <ColorAdapter>stats_piety_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>pie_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>74</Y>
+                <X>32</X>
+                <Y>64</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>6</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -388,8 +395,8 @@
         <LabelDef>
             <ControlId>cha</ControlId>
             <Position>
-                <X>4</X>
-                <Y>87</Y>
+                <X>2</X>
+                <Y>74</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -400,26 +407,27 @@
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Cha: </Data>
             <ColorAdapter>stats_charisma_color</ColorAdapter>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>cha_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>87</Y>
+                <X>32</X>
+                <Y>74</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>8</ToolTipID>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -437,8 +445,8 @@
         <LabelDef>
             <ControlId>hp</ControlId>
             <Position>
-                <X>4</X>
-                <Y>103</Y>
+                <X>2</X>
+                <Y>87</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -449,24 +457,25 @@
                 <B>234</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
-            <Height>14</Height>
+            <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Hp:</Data>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>hp_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>103</Y>
+                <X>27</X>
+                <Y>87</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -483,8 +492,8 @@
         <LabelDef>
             <ControlId>ws</ControlId>
             <Position>
-                <X>4</X>
-                <Y>118</Y>
+                <X>2</X>
+                <Y>97</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -495,24 +504,25 @@
                 <B>234</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Ws:</Data>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>ws_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>118</Y>
+                <X>27</X>
+                <Y>97</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>
@@ -529,8 +539,8 @@
         <LabelDef>
             <ControlId>af</ControlId>
             <Position>
-                <X>4</X>
-                <Y>132</Y>
+                <X>2</X>
+                <Y>107</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -541,24 +551,25 @@
                 <B>234</B>
                 <A>255</A>
             </Color>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>30</Width>
             <Height>12</Height>
             <MaxCharacters>999</MaxCharacters>
             <Data>Af:</Data>
+            <EndAligned>true</EndAligned>
         </LabelDef>
 
 
         <ScalarLabelDef>
             <ControlId>af_data</ControlId>
             <Position>
-                <X>42</X>
-                <Y>132</Y>
+                <X>27</X>
+                <Y>107</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>verdanaboldgg11px</FontName>
+            <FontName>arial9b</FontName>
             <Width>100</Width>
             <Height>25</Height>
             <MaxCharacters>999</MaxCharacters>

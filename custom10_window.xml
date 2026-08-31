@@ -5,9 +5,6 @@
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
-    <!-- Status Window -->
-
-
     <WindowTemplate>
         <Name>custom10_window</Name>
         <WindowId>custom10_window</WindowId>
