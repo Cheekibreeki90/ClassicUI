@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>stats_index</Name>
+        <WindowId>StatsIndex</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>192</TitleWidth>
+        <TitleHeight>5</TitleHeight>
+        <Width>192</Width>
+        <Height>30</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!-- 1000 Attributes -->
+
+
+        <!-- 1001 Inventory -->
+
+
+        <!-- 1002 Abilities -->
+
+
+        <!-- 1003 Combat -->
+
+
+        <!-- 1004 Spells -->
+
+
+        <!-- 1005 Group -->
+
+
+        <CheckBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <ToolTipID>18</ToolTipID>
+            <TemplateName>generic_icon_checkbutton</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <ToolTipID>19</ToolTipID>
+            <TemplateName>generic_icon_checkbutton</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>84</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <ToolTipID>20</ToolTipID>
+            <TemplateName>generic_icon_checkbutton</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>56</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <ToolTipID>21</ToolTipID>
+            <TemplateName>generic_icon_checkbutton</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>28</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <ToolTipID>22</ToolTipID>
+            <TemplateName>generic_icon_checkbutton</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>140</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <ToolTipID>23</ToolTipID>
+            <TemplateName>generic_icon_checkbutton</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>168</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>generic_icon_checkbutton</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <ImageAreaDef>
+            <ControlId>manager</ControlId>
+            <Position>
+                <X>168</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>stats_manager</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>inventory</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>stats_inventory</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>spells</ControlId>
+            <Position>
+                <X>28</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>stats_spells</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>combat</ControlId>
+            <Position>
+                <X>56</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>stats_combat</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>abilities</ControlId>
+            <Position>
+                <X>84</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>stats_abilities</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>attributes</ControlId>
+            <Position>
+                <X>112</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>stats_attributes</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>group</ControlId>
+            <Position>
+                <X>140</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>stats_group</TemplateName>
+        </ImageAreaDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>168</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
+            <Width>28</Width>
+            <Height>28</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

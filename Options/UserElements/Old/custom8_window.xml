@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom8_window</Name>
+        <WindowId>custom8_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>447</TitleWidth>
+        <TitleHeight>5</TitleHeight>
+        <Width>447</Width>
+        <Height>349</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <!--tabs-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>447</Width>
+            <Height>21</Height>
+        </FullResizeImageDef>
+
+
+        <TabsDef>
+            <TemplateName>generic_tabs</TemplateName>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Width>447</Width>
+            <Height>347</Height>
+        <Tab>
+            <Id>1</Id>
+            <Name>RR List</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name>RR Title</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name>Resist</Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1101</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1102</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1103</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1104</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1105</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1106</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1107</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1108</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1109</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1110</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1111</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1112</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1113</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1114</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1115</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1116</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1117</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1118</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1119</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1120</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1121</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1122</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1123</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1124</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1125</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2003</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2004</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2005</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2006</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2007</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2008</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>2009</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3001</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3002</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3003</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3004</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3005</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3006</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3007</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3008</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3009</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>3010</ControlId>
+            </TabControl>
+        </TabsDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>OK</Label>
+            <OnClickEvent>ToggleCustom8</OnClickEvent>
+        </ButtonDef>
+
+
+        <!--Resist-->
+
+
+        <FullResizeImageDef>
+            <ControlId>3001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>46</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3002</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>97</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3003</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>119</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>148</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3005</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>170</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3006</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>24</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3007</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>76</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>445</Width>
+            <Height>10</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3008</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>138</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>445</Width>
+            <Height>10</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>3009</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>447</Width>
+            <Height>161</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>3010</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_resist</TemplateName>
+        </ImageAreaDef>
+
+
+        <!--RR Title-->
+
+
+        <FullResizeImageDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>46</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>68</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>90</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>112</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2005</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>134</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2006</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>156</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>22</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2007</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>24</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2008</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>445</Width>
+            <Height>191</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>2009</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_realmtitles</TemplateName>
+        </ImageAreaDef>
+
+
+        <!--Realm Ranks-->
+
+
+        <FullResizeImageDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>24</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>147</Y>
+            </Position>
+            <TemplateName>dlg_background_noborder</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>46</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>68</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1105</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>90</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1106</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>112</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1107</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>134</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>13</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1108</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>169</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1109</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>191</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1110</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>213</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1111</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>235</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1112</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>257</Y>
+            </Position>
+            <TemplateName>dlg_background_grey</TemplateName>
+            <Width>445</Width>
+            <Height>11</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1113</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>22</Y>
+            </Position>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>447</Width>
+            <Height>327</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1114</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>272</Y>
+            </Position>
+            <TemplateName>dlg_background_bcurve</TemplateName>
+            <Width>427</Width>
+            <Height>67</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1115</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>28</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_realmlist</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId>1116</ControlId>
+            <Position>
+                <X>75</X>
+                <Y>275</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>70</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Realm Title:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1117</ControlId>
+            <Position>
+                <X>190</X>
+                <Y>275</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>160</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>realm_title</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1118</ControlId>
+            <Position>
+                <X>75</X>
+                <Y>287</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Realm Rank:</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1119</ControlId>
+            <Position>
+                <X>190</X>
+                <Y>287</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Adapter>realm_rank</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1120</ControlId>
+            <Position>
+                <X>75</X>
+                <Y>299</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Realm Points:</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1121</ControlId>
+            <Position>
+                <X>190</X>
+                <Y>299</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>mini7</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <Adapter>stats_realm_points</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>1122</ControlId>
+            <Position>
+                <X>75</X>
+                <Y>311</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Bounty Points:</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1123</ControlId>
+            <Position>
+                <X>190</X>
+                <Y>311</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>mini7</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <Adapter>bounty_points</Adapter>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId>1124</ControlId>
+            <Position>
+                <X>75</X>
+                <Y>323</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Realm Skillpoints:</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId>1125</ControlId>
+            <Position>
+                <X>190</X>
+                <Y>323</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>mini7</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <Adapter>realm_skillpoints</Adapter>
+        </ScalarLabelDef>
+
+
+        <!--bla blub-->
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

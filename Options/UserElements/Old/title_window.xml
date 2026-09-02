@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>title</Name>
+        <WindowId>Title</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>311</TitleWidth>
+        <TitleHeight>1</TitleHeight>
+        <Width>305</Width>
+        <Height>178</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_transparent</TemplateName>
+            <Width>311</Width>
+            <Height>186</Height>
+        </FullResizeImageDef>
+
+
+        <ListBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>150</Width>
+            <Height>160</Height>
+            <TemplateName>listbox_bg</TemplateName>
+            <AdapterName>titles_available_titles</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>155</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>generic_textarea_sm</TemplateName>
+            <AdapterName>titles_stats</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>150</Width>
+            <Height>160</Height>
+        </TextAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>88</X>
+                <Y>161</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Set Title</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>243</X>
+                <Y>161</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>OK</Label>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

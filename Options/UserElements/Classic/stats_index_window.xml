@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>stats_index</Name>
+        <WindowId>StatsIndex</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>192</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>192</Width>
+        <Height>32</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_small</TemplateName>
+            <Width>192</Width>
+            <Height>32</Height>
+        </FullResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>41</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>19</ToolTipID>
+            <TemplateName>_c_inventory_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>13</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>18</ToolTipID>
+            <TemplateName>_c_stats_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>69</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>20</ToolTipID>
+            <TemplateName>_c_abilities_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>97</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>21</ToolTipID>
+            <TemplateName>_c_styles_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>125</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>22</ToolTipID>
+            <TemplateName>_c_spells_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>153</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>23</ToolTipID>
+            <TemplateName>_c_group_tab</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>0</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_minimize</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>MOVE</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_c_window_move</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

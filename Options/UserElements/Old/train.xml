@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>train</Name>
+        <WindowId>Train</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>393</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>100</MinWidth>
+        <MinHeight>450</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_5px</TemplateName>
+            <Width>300</Width>
+            <Height>390</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>6</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dlg_background_2px</TemplateName>
+            <Width>288</Width>
+            <Height>106</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>6</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dlg_background_2px</TemplateName>
+            <Width>288</Width>
+            <Height>250</Height>
+        </FullResizeImageDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>88</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Train</Label>
+            <OnClickEvent>Train</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>152</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Info</Label>
+            <OnClickEvent>TrainInfo</OnClickEvent>
+        </ButtonDef>
+
+
+        <ListBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Width>278</Width>
+            <Height>81</Height>
+            <TemplateName>listbox_nobg2</TemplateName>
+            <AdapterName>train_skills</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <ListBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>130</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>278</Width>
+            <Height>225</Height>
+            <TemplateName>listbox_nobg2</TemplateName>
+            <AdapterName>train_realm</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <LabelDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>14</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Specializations</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>228</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>kwijiboe</Data>
+            <Adapter>train_skill_points</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>14</X>
+                <Y>119</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Realm Skills</Data>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>228</X>
+                <Y>119</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>254</R>
+                <G>217</G>
+                <B>10</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>kwijiboe</Data>
+            <Adapter>train_realm_skill_points</Adapter>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

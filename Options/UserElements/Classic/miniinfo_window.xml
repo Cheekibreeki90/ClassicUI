@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mini_info</Name>
+        <WindowId>MiniInfo</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>209</TitleWidth>
+        <TitleHeight>4</TitleHeight>
+        <Width>209</Width>
+        <Height>146</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_c_window_small</TemplateName>
+            <Width>209</Width>
+            <Height>146</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>17</X>
+                <Y>2</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_large</FontName>
+            <Width>175</Width>
+            <Height>26</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo0</Data>
+            <Adapter>mini_info_string0</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>15</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo1</Data>
+            <Adapter>mini_info_string1</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>27</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo2</Data>
+            <Adapter>mini_info_string2</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>39</X>
+                <Y>39</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>102</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo3</Data>
+            <Adapter>mini_info_string3</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>51</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>MiniInfo4</Data>
+            <Adapter>mini_info_string4</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>63</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info 5</Data>
+            <Adapter>mini_info_string5</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>75</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info6</Data>
+            <Adapter>mini_info_string6</Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>87</Y>
+            </Position>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <FontName>button_small</FontName>
+            <Width>136</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Mini Info7</Data>
+            <Adapter>mini_info_string7</Adapter>
+        </LabelDef>
+
+
+        <IconDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>18</Y>
+            </Position>
+            <TemplateName>plain_icon_large</TemplateName>
+            <AdapterName></AdapterName>
+            <IconId>-1</IconId>
+            <Data></Data>
+        </IconDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>48</Y>
+            </Position>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Info</Label>
+            <OnClickEvent>Delve</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>30</Y>
+            </Position>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Repair</Label>
+            <OnClickEvent>Repair</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>66</Y>
+            </Position>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Craft</Label>
+            <OnClickEvent>Craft</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>84</Y>
+            </Position>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Salvage</Label>
+            <OnClickEvent>Salvage</OnClickEvent>
+        </ButtonDef>
+
+
+        <ListBoxDef>
+            <ControlId>1200</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>102</Y>
+            </Position>
+            <Width>209</Width>
+            <Height>44</Height>
+            <TemplateName>_c_listbox_dark_bg</TemplateName>
+            <AdapterName>mini_info_use_list</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>CLOSE</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>_c_window_close</TemplateName>
+            <OnClickEvent>ButtonClose</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>MOVE</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_window_move</TemplateName>
+            <OnClickEvent>ButtonMove</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

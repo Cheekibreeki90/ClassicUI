@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>timer</Name>
+        <WindowId>Timer</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>190</TitleWidth>
+        <TitleHeight>11</TitleHeight>
+        <Width>197</Width>
+        <Height>30</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>197</Width>
+            <Height>30</Height>
+        </FullResizeImageDef>
+
+
+        <StatusBarDef>
+            <ControlId>timer</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>b_bar_xp3_grey</TemplateName>
+            <AdapterName>timer_time</AdapterName>
+            <Width>190</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>0</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <FontName>arial9ds</FontName>
+            <Width>32</Width>
+            <Height>13</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <Adapter>timer_time</Adapter>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>3</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9ds</FontName>
+            <Width>156</Width>
+            <Height>13</Height>
+            <MaxCharacters>100</MaxCharacters>
+            <Data>Bizquit</Data>
+            <Adapter>timer_text</Adapter>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <Position>
+                <X>0</X>
+                <Y>1</Y>
+            </Position>
+            <Label></Label>
+            <OnClickEvent>Release</OnClickEvent>
+            <Width>197</Width>
+            <Height>14</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

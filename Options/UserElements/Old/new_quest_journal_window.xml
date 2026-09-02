@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title_right</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>128</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>36</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title_left</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>128</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>20</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title</Name>
+        <TextureName>page3</TextureName>
+        <Size>
+            <X>128</X>
+            <Y>20</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>new_quest_journal</Name>
+        <WindowId>Quest</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>390</TitleWidth>
+        <TitleHeight>2</TitleHeight>
+        <Width>390</Width>
+        <Height>202</Height>
+        <ResizeableWidth>6</ResizeableWidth>
+        <ResizeableHeight>6</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>370</MinWidth>
+        <MinHeight>180</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>390</Width>
+            <Height>176</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>390</Width>
+            <Height>25</Height>
+        </FullResizeImageDef>
+
+
+        <TreeControlDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>generic_tree_control</TemplateName>
+            <AdapterName>new_quest_journal_entries</AdapterName>
+            <Width>388</Width>
+            <Height>172</Height>
+            <Column1Width>350</Column1Width>
+            <Column1Offset>10</Column1Offset>
+            <Column2Width>350</Column2Width>
+            <Column2Offset>125</Column2Offset>
+        </TreeControlDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>4</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Remove</Label>
+            <OnClickEvent>RemoveQuest</OnClickEvent>
+        </ButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>72</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>314</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>77</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>192</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>280</Width>
+            <Height>18</Height>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>No Quest Selected</Data>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

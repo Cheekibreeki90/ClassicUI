@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>info</Name>
+        <WindowId>Info</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>280</Width>
+        <Height>320</Height>
+        <ResizeableWidth>2</ResizeableWidth>
+        <ResizeableHeight>4</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>80</MinWidth>
+        <MinHeight>80</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <HorizontalResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>dlg_background_0px_nohsize</TemplateName>
+            <Width>280</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>82</R>
+                <G>217</G>
+                <B>94</B>
+                <A>255</A>
+            </Color>
+            <FontName>mini7</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Adapter>info_title</Adapter>
+        </LabelDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>generic_textarea</TemplateName>
+            <AdapterName>info_text</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>280</Width>
+            <Height>300</Height>
+        </TextAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>main_menu_window</Name>
+        <WindowId>main_menu</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>176</TitleWidth>
+        <TitleHeight>16</TitleHeight>
+        <Width>176</Width>
+        <Height>118</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>ImageBackground</ControlId>
+            <Position>
+                <X>1</X>
+                <Y>1</Y>
+            </Position>
+            <TemplateName>dlg_background_5px</TemplateName>
+            <Width>176</Width>
+            <Height>118</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>48</Y>
+            </Position>
+            <TemplateName>generic_hr_button</TemplateName>
+            <Label>In-Game Options</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleOptions</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>68</Y>
+            </Position>
+            <TemplateName>generic_hr_button</TemplateName>
+            <Label>Configure Keyboard</Label>
+            <Width>160</Width>
+            <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>8</X>
+                <Y>95</Y>
+            </Position>
+            <TemplateName>generic_hr_button</TemplateName>
+            <Label>Quit</Label>
+            <Width>160</Width>
+            <OnClickEvent>Quit</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>8</Y>
+            </Position>
+            <TemplateName>generic_hr_button</TemplateName>
+            <Label>Help Window</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleHelp</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>20</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>28</Y>
+            </Position>
+            <TemplateName>generic_hr_button</TemplateName>
+            <Label>Interface Elements</Label>
+            <Width>160</Width>
+            <OnClickEvent>ToggleInterfaceElements</OnClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

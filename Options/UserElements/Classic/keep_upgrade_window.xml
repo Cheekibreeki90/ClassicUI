@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>keep_upgrade</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>216</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>256</Width>
+        <Height>148</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>_c_dlg_lg_notitle</TemplateName>
+            <Width>256</Width>
+            <Height>148</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>verdanaboldgg11px</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Adapter>keep_upgrade_title</Adapter>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>12</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>120</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Keep Lord Type</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>118</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>90</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>&lt;TYPE HERE&gt;</Data>
+        </LabelDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>216</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Keep Target Level</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>200</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <Adapter>keep_upgrade_target</Adapter>
+            <TextCentered>true</TextCentered>
+        </ScalarLabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>53</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_left</TemplateName>
+            <OnClickEvent>KeepUpgradeLevelDec</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>229</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_right</TemplateName>
+            <OnClickEvent>KeepUpgradeLevelInc</OnClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>13</X>
+                <Y>77</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>216</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Keep Current Level</Data>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <Position>
+                <X>201</X>
+                <Y>77</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>215</G>
+                <B>32</B>
+                <A>255</A>
+            </Color>
+            <Adapter>keep_upgrade_level</Adapter>
+            <TextCentered>true</TextCentered>
+        </ScalarLabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>126</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Release</Label>
+            <OnClickEvent>KeepUpgradeRelease</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>7</X>
+                <Y>126</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Cancel</Label>
+            <OnClickEvent>KeepUpgradeCancel</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>192</X>
+                <Y>126</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>Accept</Label>
+            <OnClickEvent>KeepUpgradeAccept</OnClickEvent>
+        </ButtonDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>109</X>
+                <Y>21</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_combo_large</TemplateName>
+        </ComboBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

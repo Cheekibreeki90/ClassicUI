@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>siege</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>209</TitleWidth>
+        <TitleHeight>8</TitleHeight>
+        <Width>209</Width>
+        <Height>160</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_5px</TemplateName>
+            <Width>209</Width>
+            <Height>160</Height>
+        </FullResizeImageDef>
+
+
+        <ButtonDef>
+            <ControlId>1102</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>63</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>Aim</Label>
+            <OnClickEvent>SiegeAim</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1101</ControlId>
+            <Position>
+                <X>145</X>
+                <Y>29</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>Fire</Label>
+            <OnClickEvent>SiegeFire</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1100</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>Move</Label>
+            <OnClickEvent>SiegeMove</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1104</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>101</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>Release</Label>
+            <OnClickEvent>SiegeRelease</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>3</X>
+                <Y>120</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>Repair</Label>
+            <OnClickEvent>SiegeRepair</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1103</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>139</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>Salvage</Label>
+            <OnClickEvent>SiegeSalvage</OnClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>100</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Siege Timer</Data>
+            <Adapter>siege_timer_label</Adapter>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_bar_target_smallblue</TemplateName>
+            <AdapterName>siege_timer</AdapterName>
+            <Width>200</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>5</X>
+                <Y>35</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>100</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Siege Condition</Data>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <Position>
+                <X>5</X>
+                <Y>47</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_bar_health_smallred</TemplateName>
+            <AdapterName>siege_hits</AdapterName>
+            <Width>200</Width>
+        </StatusBarDef>
+
+
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>67</X>
+                <Y>64</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Width>145</Width>
+            <Height>100</Height>
+            <TemplateName>listbox_nobg2</TemplateName>
+            <AdapterName>siege_ammo</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

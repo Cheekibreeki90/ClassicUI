@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>emblem_picker</Name>
+        <WindowId>EmblemPicker</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>230</Width>
+        <Height>280</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dlg_background_5px</TemplateName>
+            <Width>230</Width>
+            <Height>280</Height>
+        </FullResizeImageDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Accept</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>116</X>
+                <Y>256</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>Cancel</Label>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>43</X>
+                <Y>220</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>57</X>
+                <Y>223</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>36</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Emblem</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>91</X>
+                <Y>220</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>43</X>
+                <Y>235</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>57</X>
+                <Y>238</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>36</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Pattern</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>91</X>
+                <Y>235</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>108</X>
+                <Y>220</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>130</X>
+                <Y>223</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>36</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Primary</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>171</X>
+                <Y>220</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>108</X>
+                <Y>235</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <Position>
+                <X>122</X>
+                <Y>238</Y>
+            </Position>
+            <Color>
+                <R>208</R>
+                <G>228</G>
+                <B>229</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial9</FontName>
+            <Width>52</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Secondary</Data>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>171</X>
+                <Y>235</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

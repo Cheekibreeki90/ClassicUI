@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>help</Name>
+        <WindowId>Help</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>290</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>290</Width>
+        <Height>403</Height>
+        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableHeight>5</ResizeableHeight>
+        <ResizeableTwoWayWidth>8</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>8</ResizeableTwoWayHeight>
+        <MinWidth>250</MinWidth>
+        <MinHeight>150</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>dlg_background_1px</TemplateName>
+            <Width>290</Width>
+            <Height>23</Height>
+        </FullResizeImageDef>
+
+
+        <TextAreaDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>generic_textarea</TemplateName>
+            <AdapterName>help_text</AdapterName>
+            <HasHotspots>true</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>290</Width>
+            <Height>379</Height>
+        </TextAreaDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Show help on startup?</Data>
+            <LabelWidth>120</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>2</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>button_tab</TemplateName>
+            <Label>CANCEL</Label>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

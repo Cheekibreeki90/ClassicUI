@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>stats_combat</Name>
+        <WindowId>c_windowInvalid</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>192</Width>
+        <Height>415</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <TemplateName>_c_stats_combat_bg</TemplateName>
+        </ImageAreaDef>
+
+
+        <TreeControlDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>12</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_tree_skills</TemplateName>
+            <AdapterName>stats_combat</AdapterName>
+            <Width>170</Width>
+            <Height>350</Height>
+            <Column1Width>110</Column1Width>
+            <Column1Offset>10</Column1Offset>
+            <Column2Width>100</Column2Width>
+            <Column2Offset>127</Column2Offset>
+        </TreeControlDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>95</X>
+                <Y>396</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>QUIVER</Label>
+            <OnClickEvent>ToggleQuiver</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>32</X>
+                <Y>396</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>_c_button_large</TemplateName>
+            <Label>TARGET</Label>
+            <OnClickEvent>ToggleFloatTarget</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

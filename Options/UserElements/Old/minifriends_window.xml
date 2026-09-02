@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>mini_friends</Name>
+        <WindowId>MiniFriends</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>64</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>78</Width>
+        <Height>64</Height>
+        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableHeight>5</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>78</MinWidth>
+        <MinHeight>64</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_0px</TemplateName>
+            <Width>78</Width>
+            <Height>64</Height>
+        </FullResizeImageDef>
+
+
+        <TextAreaDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>-4</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>generic_textarea_nobg</TemplateName>
+            <AdapterName>mini_friends_text</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>82</Width>
+            <Height>65</Height>
+        </TextAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

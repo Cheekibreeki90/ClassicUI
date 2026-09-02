@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <!--fonts-->
+
+
+    <Font>
+        <Name>font13</Name>
+        <File>fonts/arial11b.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>button_small</Name>
+        <File>fonts/button_10.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>button_large</Name>
+        <File>fonts/button_12.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>arial11</Name>
+        <File>fonts/arial11b.tga</File>
+    </Font>
+
+
+    <Font>
+        <Name>arial9</Name>
+        <File>fonts/arial09.tga</File>
+    </Font>
+
+
+    <!--textures-->
+
+
+    <Texture>
+        <Name>page1_classic</Name>
+        <File>custom/assets/textures/classic/classic_pieces_1.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page2_classic</Name>
+        <File>custom/assets/textures/classic/classic_pieces_2.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page3_classic</Name>
+        <File>custom/assets/textures/classic/classic_pieces_3.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page4_classic</Name>
+        <File>custom/assets/textures/classic/classic_pieces_4.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>shared_pieces_classic</Name>
+        <File>custom/assets/textures/classic/shared_pieces.tga</File>
+    </Texture>
+
+
+</Root_Element>

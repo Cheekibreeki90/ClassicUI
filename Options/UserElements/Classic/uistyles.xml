@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <ButtonTemplate>
+        <Name>window_move</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>none</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>page3_classic</TextureName>
+            <Normal>
+                <X>211</X>
+                <Y>1</Y>
+            </Normal>
+            <Pressed>
+                <X>211</X>
+                <Y>14</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>211</X>
+                <Y>1</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>211</X>
+                <Y>14</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>211</X>
+                <Y>14</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <ButtonTemplate>
+        <Name>window_close</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>none</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>page3_classic</TextureName>
+            <Normal>
+                <X>198</X>
+                <Y>1</Y>
+            </Normal>
+            <Pressed>
+                <X>198</X>
+                <Y>14</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>198</X>
+                <Y>1</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>198</X>
+                <Y>14</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>198</X>
+                <Y>14</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+</Root_Element>

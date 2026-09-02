@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <CheckBoxTemplate>
+        <Name>tree_check</Name>
+        <Size>
+            <X>12</X>
+            <Y>12</Y>
+        </Size>
+        <Font>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>128</A>
+            </ColorDisabled>
+            <TextOffset>
+                <X>14</X>
+                <Y>0</Y>
+            </TextOffset>
+            <TextAlignment>
+                <TopLeft>true</TopLeft>
+            </TextAlignment>
+            <ChangeFontColor>true</ChangeFontColor>
+        </Font>
+        <Texture>
+            <TextureName>page1</TextureName>
+            <Normal>
+                <X>76</X>
+                <Y>241</Y>
+            </Normal>
+            <Pressed>
+                <X>63</X>
+                <Y>241</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>102</X>
+                <Y>241</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>89</X>
+                <Y>241</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>76</X>
+                <Y>241</Y>
+            </Disabled>
+        </Texture>
+    </CheckBoxTemplate>
+
+
+    <WindowTemplate>
+        <Name>stats_spells</Name>
+        <WindowId>c_windowInvalid</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>192</Width>
+        <Height>380</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>b_stats_spells</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>34</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>CONC</Label>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>96</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>PET</Label>
+            <OnClickEvent>ToggleMiniPet</OnClickEvent>
+        </ButtonDef>
+
+
+        <TreeControlDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>48</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>generic_tree_control</TemplateName>
+            <AdapterName>stats_spells</AdapterName>
+            <Width>178</Width>
+            <Height>320</Height>
+            <Column1Width>100</Column1Width>
+            <Column1Offset>10</Column1Offset>
+            <Column2Width>100</Column2Width>
+            <Column2Offset>125</Column2Offset>
+        </TreeControlDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>
